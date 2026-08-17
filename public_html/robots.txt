@@ -1,0 +1,11 @@
+# robots.txt for njmcmedicsupp.com
+# NJMC Medical Supplies Co., Ltd
+
+User-agent: *
+Allow: /
+
+# Block Hostinger's builder preview host from being crawled as duplicate content
+Disallow: /cgi-bin/
+Disallow: /.well-known/
+
+Sitemap: https://njmcmedicsupp.com/sitemap.xml

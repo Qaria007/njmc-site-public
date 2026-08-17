@@ -1,0 +1,90 @@
+# NJMC Insights automation
+
+This repository holds the full njmcmedicsupp.com site under `public_html/`, plus
+the tooling that writes and checks a new Insights article.
+
+## The pipeline
+
+```
+topic from .automation/topics.md
+        |
+        v
+draft JSON in .automation/drafts/<slug>.json      (the writer produces this)
+        |
+        v
+python3 .automation/new-article.py  <draft>       builds EN + AR pages
+python3 .automation/gates.py        <pages>       refuses to pass on a rule break
+python3 .automation/index-and-sitemap.py <draft>  cards + sitemap, idempotent
+        |
+        v
+git commit + push  ->  the site updates
+```
+
+Every step is idempotent, so a retried run cannot double-publish.
+
+## Why a scaffolder instead of writing HTML directly
+
+The page chrome (nav, footer, author box, head links, author and publisher
+schema) is copied verbatim from an existing live article every time. A writer
+that hand-writes HTML will eventually invent a CSS class the site does not have,
+and the page renders unstyled while still looking fine in the source. That has
+already happened once, in the August 2026 impurity-profiles handoff, which used
+`container`, `btn`, `related-pages` and `site-footer`, none of which exist in
+`assets/njmc-pages.css`. The scaffolder makes that failure impossible.
+
+## The gates
+
+`gates.py` is the publish decision. Exit code 0 means publish, anything else
+means stop. It enforces:
+
+- no em dashes, en dashes or horizontal bars
+- no AI-writing markers (moreover, leverage, seamless, landscape, not just, ...)
+- no claim that NJMC manufactures anything; it sources, trades and consults
+- no regulatory figure stated as fact (a number next to threshold or limit wording)
+- one `<title>`, one `<h1>`, a meta description, a correct canonical
+- all three hreflang links present, x-default matching the English page
+- every JSON-LD block parses, and FAQ schema questions match the on-page
+  `<summary>` text exactly
+- an answer box near the top of every article
+- every internal link resolving to a file that exists in `public_html/`
+
+Run it over the whole site at any time:
+
+```bash
+python3 .automation/gates.py
+```
+
+Nine pre-existing failures on pages this pipeline did not write are known and
+listed in `known-issues.md`. They are not regressions.
+
+## Content guardrails, in full
+
+1. **Invent nothing about NJMC.** No clients, numbers, years, certifications,
+   awards, team size or case studies that are not already live on the site.
+2. **NJMC does not manufacture.** CE, FDA, SFDA and GMP belong to products and
+   to the factories that make them, never to NJMC.
+3. **No em dashes**, English or Arabic, body or metadata.
+4. **No AI-writing markers.**
+5. **No regulatory figures.** Not thresholds, fees, timelines or classification
+   tiers. Where a figure would go, tell the reader to verify the current
+   guideline for their market, and leave a `TODO-OWNER: verify` HTML comment.
+6. **Both languages or neither.** Every article ships an English and an Arabic
+   page, cross-linked, with reciprocal hreflang.
+
+## Refilling the queue
+
+`topics.md` is the backlog. The writer takes the first topic whose slug has no
+matching file in `public_html/`, so publishing a topic retires it automatically.
+When fewer than four unused topics remain, add more. This is the only recurring
+human task in the pipeline.
+
+## Pausing
+
+Create a file named `PAUSED` in this directory. The writer checks for it first
+and stops without doing anything.
+
+## Undoing a publish
+
+```bash
+git revert HEAD && git push
+```
