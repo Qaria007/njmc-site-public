@@ -1,108 +1,108 @@
 # Connecting Hostinger to this repository
 
-Read this before touching the GIT page in hPanel. Two of the steps exist to
-stop a deploy from damaging the live site, so do them in order.
+Status as of 25 August 2026: **not connected yet.** Two blockers, both needing
+Majid. Everything else is done and pushed.
 
-## Before anything: what we know and what we do not
+## Blocker 0, and it outranks the rest: the hosting plan is expiring
 
-The repository is a faithful copy of the live site. On 18 August 2026 every one
-of the 39 files that this pipeline did not write was confirmed **byte for byte
-identical** to what the server was serving.
+hPanel shows, on the Websites page and on the njmcmedicsupp.com dashboard:
 
-But a crawl can only see files that are linked or served. Two gaps remain:
+> Hosting plan will expire on 2026-09-06 and your website(s) will go offline.
 
-1. **`.htaccess` is almost certainly present on the server and is not in this
-   repository.** Requesting a page that does not exist returns the site's own
-   `404.html` rather than the plain Apache error, which means an
-   `ErrorDocument` rule is active. That rule has to live somewhere, and
-   `public_html/.htaccess` is where. Requesting the file directly returns 403,
-   which is Apache's blanket rule for `.ht*` names, so its contents cannot be
-   read from outside.
-2. Any other file that nothing links to would also have been missed.
+njmcmedicsupp.com is still sitting on the **Cloud Professional** plan. That is
+worth checking against the account migration that was supposed to have moved
+every site onto the newer Business plan, because this one looks like it was
+left behind. Automating a weekly article onto a site that goes dark on 6
+September is not worth doing until this is settled.
 
-**Step 2 below closes gap 1. Do not skip it.**
+## What the GIT page actually looks like
 
-## Step 1. Take a backup
+hPanel, njmcmedicsupp.com, Advanced, GIT
+(`https://hpanel.hostinger.com/websites/njmcmedicsupp.com/advanced/git`).
 
-hPanel, Files, Backups, generate a new file backup for njmcmedicsupp.com, and
-wait for it to finish. Everything after this is reversible if that backup
-exists, and awkward if it does not.
+It is **not** the older "paste a repository URL and an install path" form that
+most guides describe. As of 25 August 2026 it shows a single empty state:
 
-## Step 2. Rescue the .htaccess file
+> **Deploy from GitHub**
+> Connect your GitHub account via OAuth to deploy from your repositories.
+> [ Connect with GitHub ]
 
-hPanel, Files, File Manager, open `public_html`. Turn on hidden files if you do
-not see it (the toggle is usually in the top right or the settings menu). Open
-`.htaccess`, copy everything in it, and paste it back to me.
+So the first step is an OAuth grant from Majid's GitHub account to Hostinger.
+It is reversible afterwards from GitHub, Settings, Applications.
 
-I will commit it to the repository so a deploy restores it rather than removing
-it. If the file genuinely does not exist, tell me that instead and we carry on.
+**What happens past that screen is unknown**, because nobody has clicked it.
+Specifically, whether Hostinger lets you choose the directory it deploys into.
+That one answer decides the repository layout, see the next section.
 
-Do the same for any other file in `public_html` that is not in this repository.
-The full list of what the repository has is in `public_html/`; anything on the
-server beyond that is worth mentioning.
+## The layout question that hangs on it
 
-## Step 3. Learn where Hostinger puts things, without risking the site
+This repository currently keeps the site inside a `public_html/` folder, with
+the `.automation/` tooling beside it:
 
-hPanel, Advanced, GIT.
+```
+njmc-site-public/
+  public_html/      <- the site
+  .automation/      <- tooling, not meant to be served
+  DEPLOY.md, README.md, STATUS.md
+```
 
-Create a repository with:
+That layout is right **if** Hostinger lets you deploy into the folder that
+contains `public_html`, which keeps the tooling out of the web root.
 
-- **Repository address:** `https://github.com/Qaria007/njmc-site-public.git`
-- **Branch:** `main`
-- **Directory / install path:** `gittest`
+If Hostinger instead deploys the repository root straight into `public_html`,
+this layout produces `public_html/public_html/index.html` and the site serves
+nothing. In that case the fix is to move the site files to the top level of the
+repository and add `Disallow: /.automation/` to `robots.txt`. It is a small
+change, but it has to be made **before** the first deploy, not after.
 
-`gittest` does not exist yet, which is the point. Hostinger will create it and
-clone into it, and the live site is untouched whatever happens.
+## The .htaccess that is not in this repository
 
-Then open File Manager and find where `gittest` landed. Tell me the full path,
-for example `/home/uXXXXXXX/gittest` or
-`/home/uXXXXXXX/domains/njmcmedicsupp.com/gittest`.
+Requesting a URL that does not exist returns the site's own `404.html` rather
+than a plain Apache error, which means an `ErrorDocument` rule is active
+somewhere, and `public_html/.htaccess` is where such a rule lives. A crawl
+cannot read it: Apache returns 403 for any `.ht*` name whether the file exists
+or not, and `.htpasswd` returns 403 too, which shows the 403 is a blanket rule
+rather than evidence.
 
-That one path answers the question this repository's layout depends on, which
-is where `public_html` sits relative to where Hostinger installs.
+So the repository is a faithful copy of the site **except possibly for this one
+file**, and if a deploy ever replaces `public_html`, the custom 404 page and
+anything else in that file go with it.
 
-## Step 4. Point it at the real location
+To close the gap: hPanel, Files, File Manager, `public_html`, enable hidden
+files, open `.htaccess`, copy the contents into the repository at
+`public_html/.htaccess`.
 
-This repository keeps the site inside a `public_html/` folder, alongside the
-`.automation/` tooling. So the install path must be **the folder that contains
-`public_html`**, not `public_html` itself.
+Note for whoever picks this up with browser automation: Hostinger's File
+Manager opens in a **separate popup window** that falls outside the Chrome
+extension's tab group, so it cannot be driven that way. Three routes were tried
+on 25 August 2026 and all reached the "Access files" chooser and stopped there.
+Either Majid copies the file out by hand, or use SSH or FTP instead.
 
-Using the path you report in step 3:
+## Safe order of work, once the plan is renewed
 
-- If `gittest` landed at `/home/uXXXXXXX/gittest`, then the install path is
-  the home directory, usually written as `.` or left empty.
-- If it landed at `/home/uXXXXXXX/domains/njmcmedicsupp.com/gittest`, then the
-  install path is `domains/njmcmedicsupp.com`.
+1. Renew or migrate the hosting so the site is not going offline.
+2. Take a file backup: hPanel, Files, Backups. Everything after this is
+   recoverable.
+3. Rescue `public_html/.htaccess` into the repository, as above.
+4. Click **Connect with GitHub** on the GIT page and read what the next screen
+   offers, in particular whether a target directory can be chosen.
+5. Decide the repository layout from that answer, and restructure **before**
+   deploying if the root is forced.
+6. If a target directory can be chosen, point the first attempt at a throwaway
+   folder such as `gittest` rather than the live web root, confirm where the
+   files land, then reconfigure. If no such choice exists, rely on the backup
+   from step 2.
+7. Turn on auto deployment, remove the test folder.
 
-Get this wrong in the obvious direction and you get
-`public_html/public_html/index.html`, and the site serves nothing. That is why
-step 3 exists.
-
-**Before you confirm this one, tell me the path and let me check it.** This is
-the only step in the list that writes into the live web root.
-
-One caveat worth knowing: some Hostinger setups refuse to clone into a folder
-that is not empty, and others clone over the top. If it refuses, say so rather
-than emptying anything, and we will switch to uploading over FTP from a GitHub
-Action instead, which only ever touches the files an article changes.
-
-## Step 5. Turn on auto deployment
-
-On the same GIT page there is an auto deployment toggle, which gives you a
-webhook URL. Turn it on. Hostinger then pulls every push to `main` by itself.
-
-## Step 6. Delete the test folder
-
-Remove `gittest` from File Manager, and remove its entry from the GIT page.
-
-## Step 7. Confirm it worked
+## Confirming it worked
 
 The impurity-profiles article is already committed, so the first successful
-deploy publishes it. Check:
+deploy publishes it:
 
 - https://njmcmedicsupp.com/insights-api-impurity-profiles.html
 - https://njmcmedicsupp.com/ar/insights-api-impurity-profiles.html
-- https://njmcmedicsupp.com/definitely-not-a-real-page still shows the NJMC
-  404 page, which proves `.htaccess` survived
+- https://njmcmedicsupp.com/definitely-not-a-real-page should still show the
+  NJMC 404 page, which proves `.htaccess` survived
 
-Tell me when it is done and I will verify all three from here.
+Re-run the mirror comparison in `STATUS.md` afterwards to confirm nothing else
+on the site changed.
