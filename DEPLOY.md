@@ -95,9 +95,28 @@ Concretely, in order:
 8. Delete the `gittest` test folder from the live server (see below, needs
    File Manager, which this session cannot reach).
 
-**This is the point of no return for the live site and needs a explicit
-go-ahead before step 6.** Everything through step 5 is repository work with no
-effect on what Hostinger is currently serving.
+**Steps 1 through 5 are done, as of 26 August 2026, and verified against a
+second test deploy to the same `gittest` path:**
+
+| URL | Result |
+|---|---|
+| `njmcmedicsupp.com/gittest/index.html` | 200, the real homepage, at the flat top level |
+| `njmcmedicsupp.com/gittest/public_html/index.html` | 404, the old nested duplicate is gone |
+| `njmcmedicsupp.com/gittest/ar/insights-api-impurity-profiles.html` | 200 |
+| `njmcmedicsupp.com/gittest/assets/njmc-home.css` | 200 |
+| `njmcmedicsupp.com/gittest/.automation/gates.py` | still 200, expected, the deny rules are not in yet |
+| `njmcmedicsupp.com/gittest/README.md` | still 200, same reason |
+
+So the layout is exactly right. **What is left is step 3, the `.htaccess`
+rescue and the deny rules, then step 6, the actual cutover.** Do the deny
+rules before the cutover, not after, or the live root will briefly serve
+`.automation/` and the project docs publicly, which is the exact problem this
+whole restructuring exists to avoid.
+
+**Step 6 is the point of no return for the live site and needs an explicit
+go-ahead.** Everything up to and including step 5 is repository work, proven
+safe against a throwaway path with no effect on what Hostinger currently
+serves at the real root.
 
 ## Still outstanding, independent of the restructuring
 
