@@ -13,7 +13,7 @@ The draft JSON needs, in addition to what new-article.py uses:
 """
 import json, os, re, sys, xml.dom.minidom
 
-ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public_html"))
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 BASE = "https://njmcmedicsupp.com"
 
 

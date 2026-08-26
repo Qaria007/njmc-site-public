@@ -1,7 +1,7 @@
 # Cloud routine prompt: weekly NJMC Insights article
 
 Paste this as the prompt of a Claude Code cloud routine pointed at the
-`Qaria007/njmc-site` repository. Suggested schedule: once a week.
+`Qaria007/njmc-site-public` repository. Suggested schedule: once a week.
 
 Two hard lessons from the LNJC routine are baked in below. Do not remove them.
 
@@ -31,7 +31,7 @@ If `.automation/PAUSED` exists, append `paused, nothing to do` and stop.
 ### Step 1, pick the topic
 
 Read `.automation/topics.md`. Take the **first** topic whose slug has no
-matching `public_html/<slug>.html`. If every topic is used, append
+matching `<slug>.html` at the repository root. If every topic is used, append
 `queue empty` to the run log, push, and stop without writing anything.
 
 ### Step 2, write the draft
@@ -42,8 +42,8 @@ Also include `card` and `card_title` as documented in
 `.automation/index-and-sitemap.py`.
 
 Aim for 900 to 1100 words of body prose in each language, matching the voice of
-the existing articles. Read `public_html/insights-api-impurity-profiles.html`
-and `public_html/insights-dmf-cep-api-documents.html` first and match them.
+the existing articles. Read `insights-api-impurity-profiles.html`
+and `insights-dmf-cep-api-documents.html` first and match them.
 
 **Absolute rules. A run that breaks one of these must publish nothing.**
 
@@ -67,7 +67,7 @@ and `public_html/insights-dmf-cep-api-documents.html` first and match them.
 Structure each language as: an `answer-box` div first, then `h2` sections with
 `h3` subsections where useful, a `callout` div for the single most important
 point, and a closing paragraph that links to two or three relevant site pages.
-Link only to pages that exist in `public_html/`.
+Link only to pages that exist in the repository.
 
 ### Step 3, build the pages
 
@@ -82,7 +82,7 @@ keeps a new page from drifting off the site's real CSS.
 ### Step 4, gate
 
 ```bash
-python3 .automation/gates.py public_html/<slug>.html public_html/ar/<slug>.html
+python3 .automation/gates.py <slug>.html ar/<slug>.html
 ```
 
 If this exits non-zero, fix the draft and rebuild. Do not edit the generated

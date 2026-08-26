@@ -33,7 +33,7 @@ Run .automation/gates.py on the output before publishing anything.
 """
 import json, os, re, sys
 
-ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public_html"))
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 DEFAULT_REF = "insights-dmf-cep-api-documents.html"
 BASE = "https://njmcmedicsupp.com"
 
@@ -207,7 +207,7 @@ def main():
         open(out, "w", encoding="utf-8").write(build(spec, lang))
         print("wrote", os.path.relpath(out, ROOT))
     print("\nNow run: python3 .automation/gates.py "
-          f"public_html/{spec['slug']}.html public_html/ar/{spec['slug']}.html")
+          f"{spec['slug']}.html ar/{spec['slug']}.html")
 
 
 if __name__ == "__main__":

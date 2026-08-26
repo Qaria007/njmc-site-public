@@ -1,7 +1,7 @@
 # Insights topic queue
 
-The writer takes the **first topic whose slug has no matching file** in
-`public_html/`. When a topic is used, its article exists, so it is skipped
+The writer takes the **first topic whose slug has no matching file** at the
+repository root. When a topic is used, its article exists, so it is skipped
 automatically on the next run. No editing is required to advance the queue.
 
 Refilling this list is the recurring human task. When fewer than four unused

@@ -2,7 +2,7 @@
 """Pre-publish gates for njmcmedicsupp.com pages.
 
 Usage:
-    python3 .automation/gates.py                 # check every page in public_html
+    python3 .automation/gates.py                 # check every page on the site
     python3 .automation/gates.py <file> [file..] # check specific pages
 
 Exit code 0 means every gate passed. Anything else means do not publish.
@@ -12,7 +12,7 @@ data, and every internal link resolving to a file that actually exists.
 """
 import json, os, re, sys
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "public_html")
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 ROOT = os.path.normpath(ROOT)
 
 # 1. Dashes. Em dash, en dash, and the horizontal bar.

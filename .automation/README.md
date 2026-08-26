@@ -1,7 +1,11 @@
 # NJMC Insights automation
 
-This repository holds the full njmcmedicsupp.com site under `public_html/`, plus
-the tooling that writes and checks a new Insights article.
+This repository's top level IS the njmcmedicsupp.com web root: Hostinger's git
+deploy copies the entire repository as-is into the server's `public_html/`, with
+no way to choose a source folder inside the repo, so site files must live at the
+repository root. `.automation/` holds the tooling that writes and checks a new
+Insights article; it is blocked from being served by `.htaccess` (see DEPLOY.md),
+not by being outside the deployed tree.
 
 ## The pipeline
 
@@ -46,7 +50,7 @@ means stop. It enforces:
 - every JSON-LD block parses, and FAQ schema questions match the on-page
   `<summary>` text exactly
 - an answer box near the top of every article
-- every internal link resolving to a file that exists in `public_html/`
+- every internal link resolving to a file that exists in the repository
 
 Run it over the whole site at any time:
 
@@ -54,7 +58,7 @@ Run it over the whole site at any time:
 python3 .automation/gates.py
 ```
 
-Nine pre-existing failures on pages this pipeline did not write are known and
+Six pre-existing failures on pages this pipeline did not write are known and
 listed in `known-issues.md`. They are not regressions.
 
 ## Content guardrails, in full
@@ -74,7 +78,7 @@ listed in `known-issues.md`. They are not regressions.
 ## Refilling the queue
 
 `topics.md` is the backlog. The writer takes the first topic whose slug has no
-matching file in `public_html/`, so publishing a topic retires it automatically.
+matching file at the repository root, so publishing a topic retires it automatically.
 When fewer than four unused topics remain, add more. This is the only recurring
 human task in the pipeline.
 
