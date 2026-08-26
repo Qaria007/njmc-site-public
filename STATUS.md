@@ -33,39 +33,50 @@ Remote: `https://github.com/Qaria007/njmc-site-public` (public, branch `main`).
 
 ## Not done
 
-`DEPLOY.md` is the checklist. Two blockers, both needing Majid:
+`DEPLOY.md` is the checklist, now much further along. As of 26 August 2026:
 
-1. **The GIT page needs a GitHub OAuth grant.** hPanel's GIT page is not the
-   old "repository URL plus install path" form; it is a single **Connect with
-   GitHub** button. Nobody has clicked it, so what the next screen offers is
-   unknown, including whether a target directory can be chosen. That answer
-   decides whether this repository's layout has to change, see `DEPLOY.md`.
-2. **`public_html/.htaccess` is probably on the server and is not in here.** A
-   bogus URL returns the site's own `404.html`, so an `ErrorDocument` rule is
-   active. It cannot be read over HTTP. It must be copied out of hPanel's File
-   Manager before any deploy that could replace `public_html`.
+- **The GitHub connection is done.** Hostinger's GitHub App is installed,
+  scoped to only `njmc-site-public` (not "all repositories"), and the GIT page
+  shows it connected with auto-deployment on.
+- **The deploy mechanism is now fully understood, by testing it against a
+  throwaway path.** Hostinger's git deploy copies the ENTIRE repository into
+  `public_html/<chosen directory>` — there is no way to pick a source folder
+  inside the repo, only the destination. Tested by deploying to
+  `public_html/gittest` and fetching the result: the real site landed one
+  level too deep at `gittest/public_html/index.html`, while `.automation/`,
+  `DEPLOY.md`, `README.md` and `STATUS.md` were all directly and publicly
+  fetchable at the top of that test path. Deploying to the real root as the
+  repository is laid out today would break the site and expose the tooling.
+- **The fix is understood and written up in `DEPLOY.md`, not yet executed.**
+  Flatten the repository so site files sit at the top level, move the
+  `.automation/*.py` path assumptions to match, add real `.htaccess` deny
+  rules for the docs and tooling (robots.txt is not enough, it does not stop
+  a direct fetch), then change the GIT page's root directory from
+  `public_html/gittest` to blank. That last step is the actual cutover, since
+  auto-deployment is already on. **It needs Majid's go-ahead before it
+  happens**, same as any other live-site change.
+- **`public_html/.htaccess` is still not rescued.** Still needed both to
+  preserve what it already does (it drives the site's custom 404 page) and as
+  the place the new deny rules get added.
+- **The `gittest` test deployment is still live** at
+  `njmcmedicsupp.com/gittest/...` and exposes `.automation/` and the project
+  docs at an unlinked but guessable path. Not secret, but should be deleted.
 
-Hostinger's File Manager opens in a **popup window outside the Chrome
-extension's tab group**, so browser automation cannot reach it. Three routes
-were tried and all stopped at the "Access files" chooser. Use SSH, FTP, or have
-Majid copy the file by hand.
+Hostinger's File Manager still cannot be reached by this session's browser
+automation — it opens in a popup outside the extension's tab group. The
+GitHub OAuth popup had the same problem but was worked around by capturing the
+`window.open` target URL and navigating a normal tab to it directly; that
+trick has not been tried against File Manager. Use SSH, FTP, or have Majid
+copy the file by hand.
 
-## One thing to check before acting
+## The hosting-plan question is resolved
 
-On 25 August 2026 at about 06:20 UTC, njmcmedicsupp.com's hPanel dashboard read
-**"Hosting plan: Cloud Professional Hosting"**, and the Websites page carried
-"Hosting plan will expire on 2026-09-06 and your website(s) will go offline."
-
-That **conflicts** with the account migration record, which says
-njmcmedicsupp.com was moved to the Business plan earlier the same day and that
-the Cloud Professional plan is being allowed to lapse on purpose, keeping only
-fallback copies. The site's DNS does not resolve to the old plan's direct IP,
-which is consistent with the migration having happened.
-
-So the expiry warning is **probably the expected lapse of the old plan and not
-a threat to this site** — but the dashboard reading was not explained. Confirm
-which plan njmcmedicsupp.com is actually on before treating either version as
-fact, and before assuming the site survives 6 September.
+The 25 August dashboard reading that worried about a 6 September expiry was
+the old Cloud Professional plan, not this site. Confirmed 26 August by
+searching for njmcmedicsupp.com directly in hPanel's Websites page: it now
+lists under a **Business** plan card, "Plan expires on 2030-08-23". The 6
+September warning belongs to the old plan's other, now-abandoned sites, exactly
+as the account migration record describes.
 
 ## How to verify the mirror again later
 
