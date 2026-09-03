@@ -129,14 +129,36 @@ over HTTP (`.htaccess`/`.htpasswd` both return 403, Apache's blanket rule for
 preserve whatever it already does and because the deny rules above should be
 **added to it**, not replace it.
 
-**hPanel's File Manager cannot be driven by this session's Chrome
-automation.** It opens in a popup window outside the extension's tab group.
-Confirmed again on 26 August: the popup a GitHub OAuth button opened was
-likewise unreachable, but that one could be worked around by capturing the
-target URL via a `window.open` hook and navigating a normal tab to it
-directly — File Manager's popup has not been tested with that same trick and
-may or may not respond the same way. Either way, for now: have Majid open it,
-or use SSH/FTP.
+**File Manager IS reachable at a plain URL — the "popup" conclusion was
+wrong.** Corrected 4 September 2026 from a screenshot of Majid's own browser:
+hPanel's File Manager lives on its own host and loads as an ordinary,
+navigable tab, not a popup-only context. The URL shape is:
+
+```
+https://srv<NNNN>-files.hstgr.io/<hex-account-id>/files/public_html
+```
+
+for example `srv1926-files.hstgr.io/85cc3631c3a6384b/files/public_html`. The
+server number and the hex id are account specific, so read them off a live
+session rather than guessing.
+
+What actually fails is only the *entry point*: hPanel's "Access files" cards
+launch it via `window.open`, and that popup lands outside the Chrome
+extension's tab group. The fix is the same trick that got the GitHub OAuth
+step working — hook `window.open` to capture the target URL, then navigate a
+normal tab straight to it:
+
+```js
+window.__captured = null;
+window.__origOpen = window.open;
+window.open = function (url, ...rest) {
+  window.__captured = url;
+  return window.__origOpen ? window.__origOpen.call(window, url, ...rest) : null;
+};
+```
+
+Click the card, read `window.__captured`, then navigate to that URL directly.
+Do not conclude File Manager is unreachable again without trying this.
 
 **The `gittest` test deployment is still live and still exposes
 `.automation/` and the project docs at guessable-but-unlinked URLs.** Nothing
