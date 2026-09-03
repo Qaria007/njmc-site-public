@@ -49,6 +49,39 @@ pages the site needs would land where they are served from. **This is not
 survivable as-is. Do not change the root directory to blank without fixing
 the layout first.**
 
+## STOP: the deploy DELETES anything not in the repository
+
+Established 4 September 2026, and it changes what a cutover means.
+
+Hostinger's git deploy is a **sync, not an overlay**. Files that exist in the
+target directory but not in the repository are **removed**.
+
+Proved on the throwaway path. The first test deploy, made while the repository
+still had a `public_html/` folder, created `gittest/public_html/`. After the
+repository was flattened and redeployed, that path returned **404**, while
+`gittest/assets/` (a directory the repository still has) returned 403, the
+"exists but will not list" response, and a path that never existed returned
+404. So the directory was genuinely deleted, not merely hidden.
+
+### What that puts at risk
+
+`public_html/` on the live server contains **`drqaria/`**, which is not in this
+repository. It is a real, live site: `drqaria.njmcmedicsupp.com` serves from
+it, the same content answers at `njmcmedicsupp.com/drqaria/`, and every page of
+the main site links to it from the footer. **A cutover today would delete it.**
+
+### What has to happen before any cutover
+
+1. **Get a complete listing of the live `public_html/`.** Not a crawl, an
+   actual directory listing from File Manager, SSH or FTP. A crawl only finds
+   what is linked, and the whole point here is to find what is not.
+2. **Bring every file that must survive into this repository**, `drqaria/`
+   first. Anything left out gets deleted on the first root deploy.
+3. Only then change the root directory to blank.
+
+Do not shortcut step 1 by assuming `drqaria/` is the only extra. It is simply
+the one that happened to be visible in a screenshot.
+
 ## The fix: flatten the repository
 
 Everything currently under `public_html/` needs to move to the repository's
