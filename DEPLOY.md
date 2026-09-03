@@ -1,8 +1,7 @@
 # Connecting Hostinger to this repository
 
-Status as of 26 August 2026: **connected, deploying to a throwaway test path,
-NOT yet cut over to the real site.** The mechanism is now fully understood.
-One restructuring decision remains before the real cutover.
+Status as of 4 September 2026: **LIVE.** Root directory `public_html`,
+auto-deployment on. Everything below is the record of how it got there.
 
 ## What is done
 
@@ -146,8 +145,7 @@ rules before the cutover, not after, or the live root will briefly serve
 `.automation/` and the project docs publicly, which is the exact problem this
 whole restructuring exists to avoid.
 
-**Step 6 is the point of no return for the live site and needs an explicit
-go-ahead.** Everything up to and including step 5 is repository work, proven
+**Step 6 was done on 4 September 2026, on Majid's explicit go-ahead.** Everything up to and including step 5 is repository work, proven
 safe against a throwaway path with no effect on what Hostinger currently
 serves at the real root.
 

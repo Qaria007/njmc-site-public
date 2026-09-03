@@ -1,4 +1,4 @@
-# Where this stands, 25 August 2026
+# Where this stands, 4 September 2026
 
 Written so this work can be picked up with no memory of the conversation that
 produced it.
@@ -31,7 +31,22 @@ Remote: `https://github.com/Qaria007/njmc-site-public` (public, branch `main`).
   index pages and `sitemap.xml`. **Not live yet**, because the deploy bridge is
   not connected. It publishes itself on the first successful deploy.
 
-## Not done
+## LIVE, as of 4 September 2026
+
+The cutover happened at 06:00 UTC on 4 September. Hostinger's root directory
+is `public_html` (blank subfolder), auto-deployment is on, and every push to
+`main` now publishes. Verified from outside immediately afterwards:
+
+- both article pages 200 at the real root
+- `drqaria.njmcmedicsupp.com` and `/drqaria/` both 200, so the subdomain survived
+- `.automation/`, `DEPLOY.md`, `README.md`, `STATUS.md`, `.gitignore` all 403
+- `gittest/` gone (404), the custom 404 page intact, http and www still 301
+- all 51 servable committed files byte for byte identical to the live server
+
+The weekly writer routine is the remaining piece. `.automation/routine-prompt.md`
+is ready to paste; it has not been scheduled yet.
+
+## What was true before the cutover (kept for the record)
 
 `DEPLOY.md` is the checklist, now much further along. As of 26 August 2026:
 
