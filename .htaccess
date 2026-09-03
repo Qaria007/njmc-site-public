@@ -1,0 +1,21 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://njmcmedicsupp.com/$1 [L,R=301]
+
+# --- Everything below was added when the site moved to git deployment. -------
+# Hostinger copies the WHOLE repository into public_html, so the writing
+# pipeline and the project documentation land next to the site whether we want
+# them there or not. These rules keep them from being served. robots.txt is not
+# enough on its own: it only asks crawlers not to index a path, it does not stop
+# a direct request.
+#
+# Written with mod_rewrite rather than "Require all denied" because the rules
+# above already prove mod_rewrite is enabled here, which avoids depending on
+# whether this server takes Apache 2.2 or 2.4 authorisation syntax.
+
+RewriteRule ^\.automation/ - [F,L]
+RewriteRule ^\.git(/|ignore$) - [F,L]
+RewriteRule ^(DEPLOY|README|STATUS)\.md$ - [F,L]
