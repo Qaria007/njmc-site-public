@@ -1,0 +1,7 @@
+# robots.txt for drqaria.njmcmedicsupp.com
+# Dr. Majjid A. Qaria, PhD
+
+User-agent: *
+Allow: /
+
+Sitemap: https://drqaria.njmcmedicsupp.com/sitemap.xml
