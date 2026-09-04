@@ -10,6 +10,9 @@ The draft JSON needs, in addition to what new-article.py uses:
 
   "card": { "en": "one line blurb", "ar": "..." }
   "card_title": { "en": "...", "ar": "..." }   // optional, defaults to h1
+  "backlink_from": "insights-dmf-cep-api-documents"   // older article slug; a
+        // related card pointing at the new article is added to its EN and AR
+        // pages, so every new piece gets an inbound link from existing content
 """
 import json, os, re, sys, xml.dom.minidom
 
@@ -58,6 +61,25 @@ def add_sitemap(slug, date):
     print("sitemap.xml: two urls added and the file still parses")
 
 
+def add_backlink(from_slug, slug, title, blurb, lang):
+    f = f"{from_slug}.html" if lang == "en" else f"ar/{from_slug}.html"
+    href = f"/{slug}.html" if lang == "en" else f"/ar/{slug}.html"
+    path = os.path.join(ROOT, f)
+    if not os.path.exists(path):
+        sys.exit(f"backlink source does not exist: {f}")
+    h = open(path, encoding="utf-8").read()
+    if f'href="{href}"' in h:
+        print(f"{f}: already links to the new article, skipped")
+        return
+    m = re.search(r'<div class="related">.*?</div>', h, re.S)
+    if not m:
+        sys.exit(f"{f}: no related grid to add a backlink to")
+    card = f'<a href="{href}"><span class="t">{esc(title)}</span><span class="d">{esc(blurb)}</span></a>'
+    h = h[:m.end() - len("</div>")] + card + h[m.end() - len("</div>"):]
+    open(path, "w", encoding="utf-8").write(h)
+    print(f"{f}: backlink card added")
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
@@ -69,6 +91,12 @@ def main():
     add_card("ar/insights.html", f"/ar/{slug}.html",
              titles.get("ar", spec["ar"]["h1"]), spec["card"]["ar"])
     add_sitemap(slug, spec["date"])
+    src = spec.get("backlink_from")
+    if src:
+        for lang in ("en", "ar"):
+            add_backlink(src, slug, titles.get(lang, spec[lang]["h1"]), spec["card"][lang], lang)
+    else:
+        print("WARNING: no backlink_from; the new article gets no inbound link from older content")
 
 
 if __name__ == "__main__":

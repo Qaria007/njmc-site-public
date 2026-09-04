@@ -19,6 +19,8 @@ Draft JSON shape, all fields required unless marked optional:
     "description": "...",      // 140 to 165 chars
     "h1": "...",
     "summary": "...",          // hero standfirst
+    "question": "...?",        // the AEO target question, rendered as the answer box H2
+    "answer": "...",           // 40 to 60 standalone words, quotable on its own
     "badge": "Active Pharmaceutical Ingredients",
     "published": "Published 18 August 2026",
     "body": "<div class=\"answer-box\">...</div>\n<h2>...</h2>...",
@@ -26,8 +28,16 @@ Draft JSON shape, all fields required unless marked optional:
     "faq_heading": "Frequently asked questions",
     "related": [["/drug-apis.html", "Card title", "Card blurb"], ...]
   },
-  "ar": { same keys, Arabic values }
+  "ar": { same keys, Arabic values },
+  "backlink_from": "insights-dmf-cep-api-documents"   // older article that links TO this one
 }
+
+GEO, AEO and SEO rules the template enforces (gates.py checks them):
+  - the answer box is a question-phrased H2 followed by a 40 to 60 word answer,
+    and that pair is also the first FAQPage item, so assistants can quote it
+  - one canonical boilerplate sentence about NJMC (BOILERPLATE below) appears
+    once in the prose and in the Article schema's publisher, identical every time
+  - "body" must NOT start with an answer box any more; it starts with prose
 
 Run .automation/gates.py on the output before publishing anything.
 """
@@ -36,6 +46,10 @@ import json, os, re, sys
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 DEFAULT_REF = "insights-dmf-cep-api-documents.html"
 BASE = "https://njmcmedicsupp.com"
+BOILERPLATE = {
+ "en": "NJMC Medical Supplies Co., Ltd is a trading and consultancy company in Nanjing, China, supplying medical equipment, medical consumables and active pharmaceutical ingredients to healthcare institutions, sourced from manufacturers in China and India.",
+ "ar": "شركة NJMC Medical Supplies Co., Ltd شركة تجارة واستشارات طبية في نانجينغ بالصين، تورد المعدات الطبية والمستهلكات الطبية والمواد الفعالة الدوائية للمؤسسات الصحية من مصانع في الصين والهند."
+}
 
 
 def read(p):
@@ -54,7 +68,8 @@ def esc(s):
 
 
 def faq_ld(items, lang):
-    """json.dumps owns all escaping so the schema can never be malformed."""
+    """json.dumps owns all escaping so the schema can never be malformed.
+    items[0] is always the direct-answer pair, so the quotable answer is in the schema."""
     return json.dumps({
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -132,7 +147,9 @@ PAGE = """<!DOCTYPE html>
 <section>
 <div class="section-inner">
 <div class="prose">
+<div class="answer-box"><h2 class="answer-label">{question}</h2><p>{answer}</p></div>
 {body}
+<p>{boilerplate}</p>
 {faq}
 </div>
 {author}
@@ -188,8 +205,10 @@ def build(spec, lang):
         summary=esc(s["summary"]), badge=esc(s["badge"]), published=esc(s["published"]),
         head_chrome=block(ref, r'<link rel="icon" href="/favicon\.ico".*?njmc-pages\.css\?v=7">',
                           "head links"),
-        author_ld=block(ref, r'"author": \{.*?\n  \},\n  "publisher": \{.*?\n  \}', "author schema"),
-        faq_ld=faq_ld(s["faq"], lang), nav=nav, body=s["body"],
+        author_ld=block(ref, r'"author": \{.*?\n  \},\n  "publisher": \{.*?\n  \}', "author schema")
+                  .replace('"publisher": {', '"publisher": {\n    "description": ' + json.dumps(BOILERPLATE[lang], ensure_ascii=False) + ',', 1),
+        question=esc(s["question"]), answer=esc(s["answer"]), boilerplate=esc(BOILERPLATE[lang]),
+        faq_ld=faq_ld([[s["question"], s["answer"]]] + s["faq"], lang), nav=nav, body=s["body"],
         faq=faq_html(s["faq"], s["faq_heading"]),
         author=block(ref, r'<div class="author-box">.*?\n</div>\n</div>', "author box"),
         related=related_html(s["related"],

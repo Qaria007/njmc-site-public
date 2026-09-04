@@ -61,6 +61,28 @@ python3 .automation/gates.py
 Six pre-existing failures on pages this pipeline did not write are known and
 listed in `known-issues.md`. They are not regressions.
 
+## Search, answer engines and generative engines
+
+Every article the pipeline writes is built for all three at once, and the
+gates refuse to publish one that is not:
+
+- **AEO**: the answer box is a question-phrased H2 followed by a 40 to 60 word
+  direct answer that stands on its own; the same pair is item 0 of the FAQPage
+  schema, so an assistant can quote it; at least three further FAQ pairs.
+- **GEO**: one canonical sentence describing NJMC, identical in every article
+  and in the Article schema's publisher, so every engine sees the same entity
+  described the same way. It lives as `BOILERPLATE` in `new-article.py` and
+  `gates.py`; change it in both or the gate fails.
+- **SEO**: title 60 characters or fewer carrying the registered target query,
+  description 140 to 165, a registered query per topic in `topics.md`, at least
+  two internal links out, and a backlink in from an older article
+  (`backlink_from`), added by `index-and-sitemap.py`.
+
+What the cloud writer cannot do, and must not pretend to: score topics from
+live search data, check what currently ranks, or submit for indexing. Those
+belong to the weekly review run from the Mac (the growth-engine skill's weekly
+cycle), which reorders `topics.md` from Search Console and closes the loop.
+
 ## Content guardrails, in full
 
 1. **Invent nothing about NJMC.** No clients, numbers, years, certifications,

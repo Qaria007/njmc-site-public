@@ -55,6 +55,8 @@ MANUFACTURER_CLAIMS = [
     r"\bwe manufacture\b", r"\bwe produce\b", r"\bour factory\b", r"\bour factories\b",
     r"\bour manufacturing (?:site|plant|facility)\b", r"\bNJMC manufactures\b",
     r"\bour GMP certificate\b", r"\bwe are (?:GMP|CE|FDA|SFDA)[- ]", r"\bNJMC is (?:GMP|CE|FDA)",
+    r"\b(?:NJMC|we) (?:is|are) (?:a |an )?(?:API |pharmaceutical |medical )?manufacturers?\b",
+    r"\bmanufactured by NJMC\b", r"\bNJMC[- ]made\b",
     r"نحن نصنع", r"مصنعنا", r"ننتج في مصانعنا",
 ]
 
@@ -65,6 +67,12 @@ FIGURE_NEAR_THRESHOLD = re.compile(
     r"\d+(?:\.\d+)?\s*(?:%|ppm|ppb|mg|µg|ug)\b", re.I)
 
 SELF_CLOSING_OK = {"/", "#"}
+
+# 5. GEO: the one canonical sentence about NJMC, deployed identically everywhere.
+BOILERPLATE = {
+ "en": "NJMC Medical Supplies Co., Ltd is a trading and consultancy company in Nanjing, China, supplying medical equipment, medical consumables and active pharmaceutical ingredients to healthcare institutions, sourced from manufacturers in China and India.",
+ "ar": "شركة NJMC Medical Supplies Co., Ltd شركة تجارة واستشارات طبية في نانجينغ بالصين، تورد المعدات الطبية والمستهلكات الطبية والمواد الفعالة الدوائية للمؤسسات الصحية من مصانع في الصين والهند."
+}
 
 problems = []
 notes = []
@@ -93,6 +101,11 @@ def check(path):
     rel = os.path.relpath(path, ROOT)
     # The 404 page is deliberately noindex and carries no canonical or schema.
     if rel == "404.html":
+        return
+    # drqaria/ is a separate site (drqaria.njmcmedicsupp.com) that merely lives
+    # inside this web root. It has its own canonical host and its own rules; the
+    # NJMC content gates are not its gates.
+    if rel.startswith("drqaria/"):
         return
     is_ar = rel.startswith("ar/") or '<html lang="ar"' in html
 
@@ -179,12 +192,20 @@ def check(path):
         if data.get("@type") == "FAQPage":
             faq_names = [q["name"] for q in data.get("mainEntity", [])]
 
-    # FAQ schema questions must match the on-page <summary> text exactly.
+    # Every FAQ schema question must be visible on the page. Item 0 is the direct
+    # answer, rendered as the answer box heading rather than a <summary>; the rest
+    # must match the <summary> texts exactly. Schema for text a reader cannot see
+    # is exactly the fake-schema trick the guardrails forbid.
     if faq_names:
         summaries = [re.sub(r"\s+", " ", visible_text(s)).strip()
                      for s in re.findall(r"<summary>(.*?)</summary>", html, re.S)]
         norm = [re.sub(r"\s+", " ", n).replace("&quot;", '"').strip() for n in faq_names]
         summaries = [s.replace("&quot;", '"') for s in summaries]
+        abox = re.search(r'<div class="answer-box"><h2 class="answer-label">(.*?)</h2>', html, re.S)
+        if abox and norm:
+            head = re.sub(r"\s+", " ", visible_text(abox.group(1))).strip().replace("&quot;", '"')
+            if norm[0] == head:
+                norm = norm[1:]          # item 0 is visible as the answer box heading
         if norm != summaries:
             fail(path, f"FAQ schema questions do not match <summary> text\n"
                        f"      schema:  {norm}\n      summary: {summaries}")
@@ -192,6 +213,41 @@ def check(path):
     # --- answer box -----------------------------------------------------------
     if "insights-" in rel and 'class="answer-box"' not in html:
         fail(path, "no answer box near the top of the article")
+
+    # --- AEO / GEO / SEO, for pages built in the answer-engine format ---------
+    # Pages whose answer box is a question H2 were built by new-article.py and
+    # must meet the full rule set. Older pages get a note, not a failure, until
+    # they are backfilled.
+    if "insights-" in rel:
+        qm = re.search(r'<div class="answer-box"><h2 class="answer-label">(.*?)</h2>\s*<p>(.*?)</p>', html, re.S)
+        if not qm:
+            note(path, "not yet in the answer-engine format (question H2 + 40 to 60 word answer); backfill")
+        else:
+            q = re.sub(r"\s+", " ", visible_text(qm.group(1))).strip().replace("&quot;", '"')
+            a = re.sub(r"\s+", " ", visible_text(qm.group(2))).strip()
+            if not q.endswith(("?", "؟")):
+                fail(path, f"answer box heading is not a question: {q!r}")
+            n = len(a.split())
+            if not 40 <= n <= 60:
+                fail(path, f"direct answer is {n} words, must be 40 to 60")
+            if faq_names and faq_names[0].replace("&quot;", '"') != q:
+                fail(path, "FAQ schema item 0 must be the direct-answer question")
+            if len(faq_names) < 4:
+                fail(path, f"FAQ has {len(faq_names)} items, need the direct answer plus at least 3")
+            bp = BOILERPLATE["ar" if is_ar else "en"]
+            c = text.count(bp)
+            if c != 1:
+                fail(path, f"canonical NJMC boilerplate appears {c} times in the prose, must be exactly 1")
+            if bp not in html or html.count(bp) < 2:
+                fail(path, "canonical boilerplate missing from the Article schema publisher")
+            prose = re.search(r'<div class="prose">(.*?)</div>\s*<div class="author-box">', html, re.S)
+            links = set(re.findall(r'href="(/[^"#?]+)"', prose.group(1))) if prose else set()
+            if len(links) < 2:
+                fail(path, f"prose links to {len(links)} other site pages, need at least 2")
+            if titles and len(titles[0]) > 60:
+                fail(path, f"title is {len(titles[0])} chars, must be 60 or fewer for an answer-engine page")
+            if desc and not 140 <= len(desc.group(1)) <= 165:
+                fail(path, f"meta description is {len(desc.group(1))} chars, must be 140 to 165")
 
     # --- internal links resolve ----------------------------------------------
     for href in re.findall(r'href="(/[^"#?]*)"', html):

@@ -36,3 +36,25 @@ in the business-hours lines, English and Arabic.
   `verification.html` (209) and `index.html` (200) are the furthest out.
 - `TODO-OWNER: verify` comments already appear on several live pages, so the
   convention predates this pipeline. They are invisible to readers.
+
+## Search and answer-engine backfill (recorded 4 September 2026)
+
+- The six older Insights articles predate the answer-engine format: their
+  answer box label is "In short", not a question H2, and their answer is not
+  the first FAQ item. `gates.py` reports this as a note, not a failure. Backfill
+  is a weekly-cycle task: give each a question H2 and a 40 to 60 word answer,
+  which most already nearly have (40 to 59 words, DMF is 71).
+- The site describes NJMC four different ways in one sentence (`about.html`,
+  `index.html`, `contact.html` meta descriptions, and the Organization schema).
+  The pipeline now deploys ONE canonical sentence in every article. Aligning the
+  four older descriptions to it is a small owner-visible edit, not done here.
+
+
+## drqaria/ (recorded 4 September 2026)
+
+`drqaria/` is Dr. Qaria's profile site, served at `drqaria.njmcmedicsupp.com`
+and kept in this repository only so the deploy does not delete it. `gates.py`
+skips it: its canonical is its own subdomain (correct, not a defect), and the
+NJMC content rules are not its rules. For the record, both its pages carry en
+dashes (11 EN, 10 AR); that is that site's own backlog, not this pipeline's.
+\n

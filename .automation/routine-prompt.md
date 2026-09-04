@@ -31,8 +31,12 @@ If `.automation/PAUSED` exists, append `paused, nothing to do` and stop.
 ### Step 1, pick the topic
 
 Read `.automation/topics.md`. Take the **first** topic whose slug has no
-matching `<slug>.html` at the repository root. If every topic is used, append
-`queue empty` to the run log, push, and stop without writing anything.
+matching `<slug>.html` at the repository root. Its row gives you the **target
+query** and the **AEO question**; use them exactly. If every topic is used,
+append `queue empty` to the run log, push, and stop without writing anything.
+
+You do not choose or score topics. The queue's order is set from live search
+data by a separate weekly review that has network access; you do not.
 
 ### Step 2, write the draft
 
@@ -64,10 +68,31 @@ and `insights-dmf-cep-api-documents.html` first and match them.
 - **No AI-writing markers.** `gates.py` lists the ones that are checked.
 - Do not name a specific company, factory or product brand.
 
-Structure each language as: an `answer-box` div first, then `h2` sections with
-`h3` subsections where useful, a `callout` div for the single most important
-point, and a closing paragraph that links to two or three relevant site pages.
-Link only to pages that exist in the repository.
+**Write for search engines and answer engines at once (SEO, AEO, GEO).**
+
+- `question` is the row's AEO question, verbatim, ending in a question mark. It
+  becomes the H2 of the answer box and the first FAQ item.
+- `answer` is **40 to 60 words** that fully answer that question on their own,
+  with no reference to "this article" or "below". An assistant should be able
+  to quote it verbatim and have it make sense. Count the words.
+- `title` is 60 characters or fewer and contains the target query's core words
+  naturally. `description` is 140 to 165 characters and also answers the
+  question in miniature; it is what appears under the link.
+- `body` starts with prose, not an answer box (the template adds that). Use
+  `h2` sections phrased as the questions a buyer would actually ask, `h3` under
+  them where useful, one `callout` div for the single most important point, and
+  a closing paragraph linking to two or three relevant site pages. Link only to
+  pages that exist in the repository; at least two.
+- `faq`: at least three further question and answer pairs, each answer 30 to 80
+  words and complete on its own. These are the questions a buyer would ask an
+  assistant next. Do not repeat the direct answer.
+- The template adds one fixed sentence about NJMC to every article. Do not
+  write your own description of NJMC anywhere in the body.
+- `backlink_from`: the slug of the existing article closest in subject. The
+  pipeline adds a link from that page to yours; every new article must earn one
+  inbound link from older content.
+- Do not stuff the query. If the target query reads naturally in the title, the
+  H1, the direct answer and one body heading, that is enough.
 
 ### Step 3, build the pages
 
@@ -97,8 +122,9 @@ the reason to the run log, and stop. Do not touch `main` in that case.
 python3 .automation/index-and-sitemap.py .automation/drafts/<slug>.json
 ```
 
-Then move the topic's row in `.automation/topics.md` to the Used list with the
-date.
+This also adds the backlink card from `backlink_from` to your article, in both
+languages. Then move the topic's row in `.automation/topics.md` to the Used
+list with the date, the query and the question.
 
 ### Step 6, publish
 
