@@ -1,0 +1,128 @@
+{
+  "slug": "insights-api-polymorphism-particle-size",
+  "date": "2026-09-04",
+  "reference": "insights-dmf-cep-api-documents.html",
+  "en": {
+    "title": "API Polymorphic Form and Particle Size: Why They Matter",
+    "description": "A compliant certificate of analysis confirms identity and purity, not crystal form or particle size. Here is why both matter and what to ask a supplier.",
+    "h1": "Polymorphic form and particle size: the two API attributes a monograph does not fix",
+    "summary": "A monograph confirms what an API is. It says nothing about the crystal form or particle size you receive, and those two attributes decide how the material behaves once it is formulated.",
+    "question": "Why does the polymorphic form of an API matter if it meets the monograph?",
+    "answer": "The monograph in force confirms identity, purity and assay, not the solid form or particle size supplied. Polymorphic form and particle size govern solubility, dissolution rate, stability and manufacturability, so a batch can pass every monograph test and still perform differently in the finished dosage form than the material used in development.",
+    "badge": "Active Pharmaceutical Ingredients",
+    "published": "Published 4 September 2026",
+    "body": "<p>A pharmacopoeial monograph for an active pharmaceutical ingredient controls chemical identity, purity, assay and a defined set of impurities. It very rarely constrains the solid state the material is delivered in. Two batches from two different manufacturers can both pass every test in the monograph while consisting of different crystalline arrangements of the same molecule, or the same arrangement milled to different particle sizes, and the finished dosage form can behave quite differently as a result. Solid form and particle size sit alongside the monograph rather than inside it, and a buyer who checks only assay and impurities against the compendial limits has not checked the two attributes most likely to change how the product performs once it is compressed into a tablet, filled into a capsule or suspended for administration.</p>\n\n<h2>What the monograph actually fixes</h2>\n<p>A monograph fixes chemical identity, tested by an identification method, purity as measured against a stated <a href=\"/insights-api-impurity-profiles.html\">impurity profile</a>, an assay range for the active content, and a small number of physical tests such as loss on drying or residue on ignition. It typically does not fix the solid state of the material: which polymorph, solvate, hydrate or amorphous form it takes, nor the particle size distribution the powder is milled to. A handful of monographs for specific molecules do specify a required crystalline form, because the difference is understood to matter enough to control at compendial level, but this is the exception rather than the rule, and a buyer should not assume the monograph has already covered it.</p>\n\n<h2>Same molecule, different crystal: polymorphs, solvates and the amorphous form</h2>\n<p>Many organic molecules can crystallise in more than one internal lattice arrangement while remaining chemically identical on a mass spectrum or an infrared trace. Each arrangement is a polymorph, and different polymorphs of the same molecule can differ in melting point, density, mechanical behaviour under compression and, for most buyers the property that matters most, solubility and dissolution rate. A solvate or hydrate incorporates solvent or water molecules directly into the crystal lattice and can behave as a distinct form in every practical sense, including stability and dissolution. An amorphous form has no long range order at all. It usually dissolves faster and appears more soluble than any crystalline form of the same molecule, but it is generally less physically stable and can convert to a crystalline form over time, under mechanical stress, or on exposure to moisture.</p>\n\n<h2>Why the form on the certificate is not a footnote</h2>\n<p>For a poorly soluble molecule, dissolution rate can be the step that limits how much of the dose becomes available for absorption, and dissolution rate is exactly the property polymorphic form influences most. A change in form, from the one used when the finished product was developed to a different one supplied later, can move a formulation from adequate to inadequate dissolution without any assay or impurity result changing at all. Even for a molecule that is freely soluble regardless of form, differences in hygroscopicity, chemical stability and compressibility between polymorphs can still affect shelf life and manufacturability.</p>\n\n<h2>Particle size drives its own outcomes, independent of form</h2>\n<p>Particle size distribution shapes dissolution rate through the surface area it presents, content uniformity in a low dose formulation, powder flow during manufacture, and how the material behaves during wet granulation or direct compression. A batch milled to a coarser distribution than the one used in the original development or bioequivalence work can behave like a different substance in the finished dosage form, even when its assay, its impurity profile and its polymorphic form are all identical to the reference batch.</p>\n\n<div class=\"callout\">\n<p><strong>A compliant certificate is not a description of the material.</strong> A certificate of analysis that confirms assay and impurities against a monograph says nothing about crystal form or particle size. Two batches can be chemically identical and fully compliant and still be pharmaceutically different materials, and neither fact shows up on the standard specification.</p>\n</div>\n\n<h2>How form and particle size drift without the recipe changing</h2>\n<p>A manufacturer can shift the crystallisation solvent, the cooling rate, the drying conditions or the milling step for reasons that have nothing to do with the chemistry the monograph tests, and any of these can change the polymorphic form or the particle size distribution of what leaves the site. A change of manufacturing site or a change of scale can do the same thing even when the written process description looks unchanged on paper. Storage conditions can matter too: some polymorphic transitions are driven by temperature and humidity cycling during transport or warehousing rather than by anything that happened during manufacture.</p>\n\n<h2>What to ask a supplier for before committing to a source</h2>\n<p>Ask for X-ray powder diffraction or differential scanning calorimetry data confirming that the form supplied matches the form used in the product's original development, or the form your own process was validated against. Ask for a particle size specification that states the analytical method, such as laser diffraction, sieve analysis or microscopy, rather than accepting a descriptive term like \"micronised\" on its own. And put a clause in the quality agreement obliging the manufacturer to notify you before any change to the crystallisation, drying or milling step, since none of those changes will show up in a routine assay result. Where a monograph does specify a required polymorphic form for the molecule you are buying, verify the current requirement for your market and dosage form before relying on a supplier's word for it.<!-- TODO-OWNER: verify whether the applicable pharmacopoeia specifies a required polymorphic form or a particle size limit for this API in the buyer's market --></p>\n\n<p>This is the same discipline that applies to reading an <a href=\"/insights-api-impurity-profiles.html\">impurity profile</a> against a specification: a compliant certificate is a floor, not a description of the material. <a href=\"/drug-apis.html\">Active pharmaceutical ingredients</a> sourced without confirmation of solid form and particle size carry a formulation risk that assay and purity testing alone cannot see. Where an independent check of a proposed source is useful, that is the kind of work our <a href=\"/consultancy.html\">sourcing consultancy</a> covers.</p>\n",
+    "faq": [
+      [
+        "What is the difference between a polymorph, a solvate and the amorphous form?",
+        "A polymorph is a distinct internal crystal arrangement of the same chemical entity, differing in properties such as solubility, stability and compressibility. A solvate or hydrate incorporates solvent or water molecules into the lattice itself and can behave as its own distinct form. The amorphous form has no long range order, usually dissolves faster than any crystalline form, but is generally less physically stable over time."
+      ],
+      [
+        "Can polymorphic form change after the API has already been delivered?",
+        "Yes. Some transitions are driven by mechanical stress during milling or compression, and others by temperature or humidity cycling during storage and transport. A form that was correct on arrival is not guaranteed to remain the form present when the material is formulated, which is why stability data on the solid state, not only on chemical purity, is worth requesting."
+      ],
+      [
+        "Does a second supplier meeting the same monograph give me the same solid form?",
+        "Not necessarily. A monograph rarely fixes polymorphic form or particle size, so two manufacturers can both comply while supplying materially different solid states. Before treating a second source as interchangeable, ask for form and particle size data alongside the usual assay and impurity comparison, and check what your own process was validated against."
+      ],
+      [
+        "How is particle size normally measured and reported for an API?",
+        "Common methods include laser diffraction, sieve analysis and microscopy, each suited to a different size range and material type. A useful specification states the method used alongside the distribution parameters it reports, rather than a single descriptive word such as \"micronised\", because the method affects the result and the finished product was developed against a specific distribution, not a label."
+      ]
+    ],
+    "faq_heading": "Frequently asked questions",
+    "related": [
+      [
+        "/drug-apis.html",
+        "Active Pharmaceutical Ingredients",
+        "APIs sourced against the impurity profile, polymorph and documentation your filing needs."
+      ],
+      [
+        "/excipients.html",
+        "Pharmaceutical Excipients",
+        "Compendial grade excipients, chosen for function rather than by name alone."
+      ],
+      [
+        "/consultancy.html",
+        "Sourcing Consultancy",
+        "Supplier assessment and market entry advice, separate from any sourcing mandate."
+      ],
+      [
+        "/insights-api-impurity-profiles.html",
+        "API impurity profiles",
+        "Reading a certificate of analysis against a specification, impurity by impurity."
+      ],
+      [
+        "/insights-dmf-cep-api-documents.html",
+        "DMF, CEP and COA",
+        "What a Drug Master File, a CEP, a GMP certificate and a certificate of analysis each prove."
+      ]
+    ]
+  },
+  "ar": {
+    "title": "الشكل البلوري وحجم الجسيمات في المادة الفعالة الدوائية",
+    "description": "شهادة التحليل المطابقة تؤكد الهوية والنقاء، لا الشكل البلوري أو حجم الجسيمات التي وردت بها المادة. إليك سبب أهمية كليهما وما ينبغي طلبه من المورد.",
+    "h1": "الشكل البلوري وحجم الجسيمات: الصفتان اللتان لا يحددهما مونوغراف المادة الفعالة",
+    "summary": "المونوغراف يؤكد ما هي المادة الفعالة. أما الشكل البلوري وحجم الجسيمات اللذان تستلمهما فلا يذكرهما، وهما الصفتان اللتان تقرران سلوك المادة بمجرد تركيبها.",
+    "question": "لماذا يهم الشكل البلوري لمادة فعالة إذا كانت مطابقة للمونوغراف؟",
+    "answer": "المونوغراف الساري يؤكد الهوية والنقاء والمعايرة، لا الشكل الصلب أو حجم الجسيمات الموردين. والشكل البلوري وحجم الجسيمات يحكمان الانحلالية ومعدل الذوبان والثبات وقابلية التصنيع، فقد تجتاز التشغيلة كل اختبارات المونوغراف وتظل تسلك سلوكا مختلفا في الشكل الصيدلاني النهائي عن المادة المستخدمة في التطوير.",
+    "badge": "المواد الفعالة الدوائية",
+    "published": "نُشر في 4 سبتمبر 2026",
+    "body": "<p>مونوغراف دستور الأدوية لمادة فعالة يضبط الهوية الكيميائية والنقاء والمعايرة ومجموعة محددة من الشوائب. أما الحالة الصلبة التي تسلم بها المادة فنادرا ما يقيدها. فقد تجتاز تشغيلتان من مصنعين مختلفين كل اختبارات المونوغراف وهما مع ذلك تتكونان من ترتيبين بلوريين مختلفين للجزيء نفسه، أو الترتيب نفسه مطحونا إلى أحجام جسيمات مختلفة، فيسلك الشكل الصيدلاني النهائي سلوكا مختلفا تماما نتيجة لذلك. فالشكل البلوري وحجم الجسيمات يقفان إلى جانب المونوغراف لا داخله، والمشتري الذي يتحقق فقط من المعايرة والشوائب مقابل الحدود الدستورية لم يتحقق من الصفتين الأكثر ترجيحا لتغيير أداء المنتج بمجرد ضغطه في قرص أو تعبئته في كبسولة أو تعليقه للإعطاء.</p>\n\n<h2>ما الذي يضبطه المونوغراف فعلا</h2>\n<p>المونوغراف يضبط الهوية الكيميائية، وتختبر بطريقة تعريف، والنقاء مقاسا مقابل <a href=\"/ar/insights-api-impurity-profiles.html\">ملف شوائب</a> معتمد، ومدى معايرة للمحتوى الفعال، وعددا صغيرا من الاختبارات الفيزيائية مثل فقد الوزن بالتجفيف أو المتبقي عند الحرق. وهو عادة لا يضبط الحالة الصلبة للمادة: أي شكل بلوري أو مذيبة بلورية أو هيدرات أو شكل غير متبلور تتخذه، ولا توزيع حجم الجسيمات الذي يطحن إليه المسحوق. وقلة من المونوغرافات لجزيئات بعينها تشترط شكلا بلوريا محددا، لأن الفرق فيها يعد مهما بما يكفي لضبطه على المستوى الدستوري، لكن هذا استثناء لا القاعدة، وعلى المشتري ألا يفترض أن المونوغراف قد غطى هذا الجانب بالفعل. وهذا يعني عمليا أن اجتياز التشغيلة لكل بند في المواصفة الدستورية لا يخبرك بشيء عن الحالة الصلبة التي ستدخل بها خط الإنتاج لديك.</p>\n\n<h2>الجزيء نفسه، بلورة مختلفة: الأشكال البلورية المتعددة والمذيبات البلورية والشكل غير المتبلور</h2>\n<p>كثير من الجزيئات العضوية يمكن أن يتبلور في أكثر من ترتيب شبكي داخلي واحد مع بقائه مطابقا كيميائيا في طيف الكتلة أو أثر الأشعة تحت الحمراء. وكل ترتيب هو شكل بلوري متعدد، والأشكال البلورية المتعددة للجزيء نفسه يمكن أن تختلف في نقطة الانصهار والكثافة والسلوك الميكانيكي تحت الضغط، وفي الصفة التي تهم أغلب المشترين أكثر من غيرها، وهي الانحلالية ومعدل الذوبان. أما المذيبة البلورية أو الهيدرات فتدمج جزيئات مذيب أو ماء داخل الشبكة البلورية نفسها ويمكن أن تسلك سلوك شكل مستقل من كل الجوانب العملية، بما في ذلك الثبات والذوبان. والشكل غير المتبلور لا يملك أي نظام بعيد المدى إطلاقا. وهو عادة يذوب أسرع ويبدو أكثر انحلالية من أي شكل بلوري للجزيء نفسه، لكنه أقل ثباتا فيزيائيا بوجه عام ويمكن أن يتحول إلى شكل بلوري مع الوقت، أو تحت إجهاد ميكانيكي، أو عند التعرض للرطوبة.</p>\n\n<h2>لماذا الشكل المذكور في الشهادة ليس هامشا</h2>\n<p>بالنسبة لجزيء ضعيف الانحلالية، قد يكون معدل الذوبان هو الخطوة التي تحد من مقدار الجرعة المتاحة للامتصاص، ومعدل الذوبان هو بالضبط الصفة التي يؤثر فيها الشكل البلوري أكثر من غيرها. وتغيير الشكل، من الشكل المستخدم عند تطوير المنتج النهائي إلى شكل مختلف يورد لاحقا، يمكن أن ينقل التركيبة من ذوبان كاف إلى ذوبان غير كاف دون أن تتغير نتيجة معايرة أو شائبة على الإطلاق. وحتى بالنسبة لجزيء ذائب بحرية أيا كان شكله، فإن الفروق في قابلية امتصاص الرطوبة والثبات الكيميائي وقابلية الانضغاط بين الأشكال البلورية يمكن أن تظل تؤثر في مدة الصلاحية وقابلية التصنيع.</p>\n\n<h2>حجم الجسيمات يقود نتائجه الخاصة، بمعزل عن الشكل</h2>\n<p>توزيع حجم الجسيمات يشكل معدل الذوبان من خلال المساحة السطحية التي يقدمها، وتجانس المحتوى في تركيبة منخفضة الجرعة، وانسيابية المسحوق أثناء التصنيع، وسلوك المادة أثناء التحبيب الرطب أو الضغط المباشر. وتشغيلة مطحونة إلى توزيع أخشن من التوزيع المستخدم في التطوير الأصلي أو في دراسة التكافؤ الحيوي يمكن أن تسلك سلوك مادة مختلفة في الشكل الصيدلاني النهائي، حتى حين تكون معايرتها وملف شوائبها وشكلها البلوري كلها مطابقة تماما للتشغيلة المرجعية.</p>\n\n<div class=\"callout\">\n<p><strong>الشهادة المطابقة ليست وصفا للمادة.</strong> شهادة تحليل تؤكد المعايرة والشوائب مقابل مونوغراف لا تقول شيئا عن الشكل البلوري أو حجم الجسيمات. فقد تكون تشغيلتان متطابقتين كيميائيا ومطابقتين تماما وتظلان مع ذلك مادتين مختلفتين صيدلانيا، ولا تظهر أي من الحقيقتين في المواصفة القياسية.</p>\n</div>\n\n<h2>كيف ينحرف الشكل وحجم الجسيمات دون تغيير الوصفة</h2>\n<p>يمكن للمصنع أن يغير مذيب التبلور أو معدل التبريد أو ظروف التجفيف أو خطوة الطحن لأسباب لا علاقة لها بالكيمياء التي يختبرها المونوغراف، وأي من هذه التغييرات يمكن أن يغير الشكل البلوري أو توزيع حجم الجسيمات لما يغادر الموقع. وتغيير موقع التصنيع أو تغيير الحجم الإنتاجي يمكن أن يفعل الشيء نفسه حتى حين يبدو وصف العملية المكتوب دون تغيير على الورق. وظروف التخزين يمكن أن تؤثر أيضا: فبعض التحولات البلورية تدفعها دورات الحرارة والرطوبة أثناء النقل أو التخزين لا أي شيء حدث أثناء التصنيع. والمصنع قد لا يعد أيا من هذه التغييرات جديرا بالإبلاغ عنه ما دامت نتيجة المعايرة الكيميائية لم تتأثر، وهذه بالضبط هي الفجوة التي تترك المشتري دون علم.</p>\n\n<h2>ما ينبغي طلبه من المورد قبل الالتزام بمصدر</h2>\n<p>اطلب بيانات حيود الأشعة السينية على المسحوق أو المسح الحراري التفاضلي تؤكد أن الشكل الموَرَّد يطابق الشكل المستخدم عند التطوير الأصلي للمنتج، أو الشكل الذي تحقق منه عمليتك الخاصة. واطلب مواصفة لحجم الجسيمات تذكر الطريقة التحليلية، مثل حيود الليزر أو التحليل الغربالي أو الفحص المجهري، بدلا من قبول وصف مثل \"دقيق الحجم\" وحده. وأدرج بندا في اتفاقية الجودة يلزم المصنع بإخطارك قبل أي تغيير في خطوة التبلور أو التجفيف أو الطحن، لأن أيا من هذه التغييرات لن يظهر في نتيجة معايرة روتينية. وحين يشترط مونوغراف شكلا بلوريا محددا للجزيء الذي تشتريه، تحقق من المتطلب الساري في سوقك ولشكلك الصيدلاني قبل الاعتماد على كلام المورد وحده.<!-- TODO-OWNER: verify whether the applicable pharmacopoeia specifies a required polymorphic form or a particle size limit for this API in the buyer's market --></p>\n\n<p>وهذا هو الانضباط نفسه الذي ينطبق على قراءة <a href=\"/ar/insights-api-impurity-profiles.html\">ملف شوائب</a> مقابل مواصفة: الشهادة المطابقة حد أدنى، لا وصف للمادة. و<a href=\"/ar/drug-apis.html\">المواد الفعالة الدوائية</a> الموردة دون تأكيد الشكل الصلب وحجم الجسيمات تحمل مخاطرة تركيبية لا يراها اختبار المعايرة والنقاء وحده. وحين يكون التحقق المستقل من مصدر مقترح مفيدا، فهذا ما تغطيه أعمال <a href=\"/ar/consultancy.html\">استشارات التوريد</a> لدينا.</p>\n",
+    "faq": [
+      [
+        "ما الفرق بين الشكل البلوري المتعدد والمذيبة البلورية والشكل غير المتبلور؟",
+        "الشكل البلوري المتعدد ترتيب داخلي متميز للبلورة لكيان كيميائي واحد، يختلف في صفات مثل الانحلالية والثبات وقابلية الانضغاط. أما المذيبة البلورية أو الهيدرات فتدمج جزيئات مذيب أو ماء داخل الشبكة نفسها ويمكن أن تسلك سلوك شكل مستقل بذاته. والشكل غير المتبلور لا يملك نظاما بعيد المدى، ويذوب عادة أسرع من أي شكل بلوري، لكنه أقل ثباتا فيزيائيا بوجه عام مع الوقت."
+      ],
+      [
+        "هل يمكن أن يتغير الشكل البلوري بعد تسليم المادة الفعالة بالفعل؟",
+        "نعم. بعض التحولات يدفعها إجهاد ميكانيكي أثناء الطحن أو الضغط، وأخرى تدفعها دورات الحرارة أو الرطوبة أثناء التخزين والنقل. والشكل الصحيح عند الوصول ليس مضمونا أن يظل هو الشكل الحاضر عند التركيب، ولهذا يستحق طلب بيانات ثبات للحالة الصلبة نفسها، لا للنقاء الكيميائي فقط."
+      ],
+      [
+        "هل يعطيني مورد ثان مطابق للمونوغراف نفسه الشكل الصلب نفسه؟",
+        "ليس بالضرورة. المونوغراف نادرا ما يحدد الشكل البلوري أو حجم الجسيمات، فقد يطابقه مصنعان معا وهما يوردان حالتين صلبتين مختلفتين جوهريا. وقبل اعتماد مصدر ثان كبديل مكافئ، اطلب بيانات الشكل وحجم الجسيمات إلى جانب مقارنة المعايرة والشوائب المعتادة، وتحقق مما تحقق منه إجراؤك الخاص."
+      ],
+      [
+        "كيف يقاس حجم الجسيمات عادة ويبلغ عنه في مادة فعالة؟",
+        "من الطرق الشائعة حيود الليزر والتحليل الغربالي والفحص المجهري، ولكل منها نطاق أحجام ونوع مواد يناسبه أكثر من غيره. والمواصفة المفيدة تذكر الطريقة المستخدمة إلى جانب معايير التوزيع التي تبلغ عنها، بدلا من كلمة وصفية واحدة مثل \"دقيق الحجم\"، لأن الطريقة تؤثر في النتيجة، والمنتج النهائي طور مقابل توزيع محدد لا مقابل تسمية."
+      ]
+    ],
+    "faq_heading": "أسئلة متكررة",
+    "related": [
+      [
+        "/ar/drug-apis.html",
+        "المواد الفعالة الدوائية",
+        "مواد فعالة يتم توريدها وفق ملف الشوائب والشكل البلوري والمستندات التي يتطلبها ملفك التنظيمي."
+      ],
+      [
+        "/ar/excipients.html",
+        "السواغات الدوائية",
+        "سواغات بدرجات دستورية، تُختار حسب وظيفتها لا حسب اسمها فقط."
+      ],
+      [
+        "/ar/consultancy.html",
+        "استشارات التوريد",
+        "تقييم الموردين والمشورة لدخول الأسواق، بشكل مستقل عن أي تكليف توريد."
+      ],
+      [
+        "/ar/insights-api-impurity-profiles.html",
+        "ملف شوائب المادة الفعالة",
+        "قراءة شهادة التحليل مقابل المواصفة، شائبة بشائبة."
+      ],
+      [
+        "/ar/insights-dmf-cep-api-documents.html",
+        "ملف المادة وشهادة الملاءمة وشهادة التحليل",
+        "ما يثبته ملف المادة الرئيسي وشهادة الملاءمة وشهادة GMP وشهادة التحليل."
+      ]
+    ]
+  },
+  "card_title": {
+    "en": "Polymorphic form and particle size in APIs",
+    "ar": "الشكل البلوري وحجم الجسيمات في المواد الفعالة"
+  },
+  "card": {
+    "en": "A monograph does not fix crystal form or particle size. Both decide solubility, stability and how a compliant batch performs once it is formulated.",
+    "ar": "المونوغراف لا يحدد الشكل البلوري أو حجم الجسيمات. وكلاهما يقرر الانحلالية والثبات وأداء التشغيلة المطابقة بمجرد تركيبها."
+  },
+  "backlink_from": "insights-api-impurity-profiles"
+}

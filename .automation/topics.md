@@ -20,7 +20,6 @@ cloud writer's**, which has no network and must never guess at demand.
 
 | # | Slug | Badge | Working title (EN) | Target query | AEO question (the direct-answer H2) |
 |---|------|-------|--------------------|--------------|-------------------------------------|
-| 01 | `insights-api-polymorphism-particle-size` | Active Pharmaceutical Ingredients | Polymorphic form and particle size: the two API attributes a monograph does not fix | api polymorphic form particle size | Why does the polymorphic form of an API matter if it meets the monograph? |
 | 02 | `insights-reading-a-gmp-certificate` | Documentation | Reading a GMP certificate: site, scope, expiry and what none of them prove | how to read a gmp certificate | What does a GMP certificate actually prove? |
 | 03 | `insights-manufacturer-or-trader` | Sourcing | Telling a manufacturer from a trading company before you place an order | manufacturer vs trading company pharmaceutical | How do you tell a manufacturer from a trading company before ordering? |
 | 04 | `insights-quality-agreements-api-supply` | Sourcing | What belongs in a quality agreement with an API supplier | quality agreement api supplier | What should a quality agreement with an API supplier contain? |
@@ -44,3 +43,4 @@ rather than inventing a new one.
 ## Used
 
 - `insights-api-impurity-profiles` — published 25 August 2026; query `api impurity profile certificate of analysis`; question "How do you read an API impurity profile against its specification?"
+- `insights-api-polymorphism-particle-size` — published 4 September 2026; query `api polymorphic form particle size`; question "Why does the polymorphic form of an API matter if it meets the monograph?"

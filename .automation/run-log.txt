@@ -1,1 +1,7 @@
 2026-09-04 run started
+2026-09-04 step1 topic picked: insights-api-polymorphism-particle-size
+2026-09-04 step2 draft written
+2026-09-04 step3 pages built
+2026-09-04 step4 gates passed on new pages
+2026-09-04 step5 wired into index/sitemap, topics.md updated
+2026-09-04 step6 site-wide gates: only 6 known pre-existing failures remain
