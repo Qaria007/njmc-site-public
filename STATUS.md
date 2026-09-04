@@ -53,6 +53,19 @@ https://claude.ai/code/routines/trig_01FLNWL7NqGoxUm46g3KtUxo. The prompt is
 the repo is the live web root and a push is a publish). Change the file, then
 paste the new text into the routine; the routine does not read the file.
 
+**First unattended run: success, 4 September 2026, 00:39 to 00:47 UTC.**
+Session `cse_0122WYQNuE8TAgvZAs1ZCQgu`. It heartbeat-pushed within 20 seconds,
+read the queue, scaffolder, gates, known-issues and both reference articles
+before writing, took topic 01 (`insights-api-polymorphism-particle-size`),
+wrote 981 EN / 875 AR words, passed its gates, wired the indexes, sitemap and a
+backlink from the impurity article, retired the topic row, and pushed commit
+`d4c417f`. Verified from the Mac afterwards, not from its own report: whole-site
+gates show only the six known failures; both pages live and byte-identical;
+listed on both indexes and in the sitemap; the prose read by a human: accurate,
+no invented figures, no names, one TODO-OWNER where a figure could go. Pattern
+to watch: the run log's seven steps are the diagnostic trail if a future run
+goes quiet.
+
 **Every article is written for search, answer and generative engines.** The
 answer box is a question H2 with a 40 to 60 word answer that is also FAQ item
 0; one canonical NJMC sentence appears in every article and its schema; each
