@@ -5,3 +5,4 @@
 2026-09-04 step4 gates passed on new pages
 2026-09-04 step5 wired into index/sitemap, topics.md updated
 2026-09-04 step6 site-wide gates: only 6 known pre-existing failures remain
+2026-09-04 step7 published: insights-api-polymorphism-particle-size, en=981 words, ar=875 words, commit d4c417f0a691d8839dc91241767ab6a0c219c876
