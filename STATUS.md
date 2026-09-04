@@ -43,8 +43,25 @@ is `public_html` (blank subfolder), auto-deployment is on, and every push to
 - `gittest/` gone (404), the custom 404 page intact, http and www still 301
 - all 51 servable committed files byte for byte identical to the live server
 
-The weekly writer routine is the remaining piece. `.automation/routine-prompt.md`
-is ready to paste; it has not been scheduled yet.
+**The weekly writer is scheduled.** Cloud routine "NJMC weekly Insights
+article", id `trig_01FLNWL7NqGoxUm46g3KtUxo`, cron `0 1 * * 2` (Tuesday 01:00
+UTC, 09:00 Asia/Shanghai), model claude-sonnet-5, repo
+`Qaria007/njmc-site-public`, tools Bash/Read/Write/Edit/Glob/Grep only, no
+connectors, no web. Manage at
+https://claude.ai/code/routines/trig_01FLNWL7NqGoxUm46g3KtUxo. The prompt is
+`.automation/routine-prompt.md` verbatim (plus a two-sentence preamble saying
+the repo is the live web root and a push is a publish). Change the file, then
+paste the new text into the routine; the routine does not read the file.
+
+**Every article is written for search, answer and generative engines.** The
+answer box is a question H2 with a 40 to 60 word answer that is also FAQ item
+0; one canonical NJMC sentence appears in every article and its schema; each
+topic carries a registered query; each new article gets a backlink from an
+older one. All enforced by `gates.py`. Details in `.automation/README.md`.
+
+**What the writer deliberately does not do:** score topics from live data,
+check what ranks, submit for indexing. That is the weekly review from the Mac
+(growth-engine skill, weekly cycle), which reorders `.automation/topics.md`.
 
 ## What was true before the cutover (kept for the record)
 

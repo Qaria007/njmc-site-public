@@ -104,6 +104,15 @@ matching file at the repository root, so publishing a topic retires it automatic
 When fewer than four unused topics remain, add more. This is the only recurring
 human task in the pipeline.
 
+## The routine
+
+Cloud routine `trig_01FLNWL7NqGoxUm46g3KtUxo`, "NJMC weekly Insights article",
+Tuesdays 09:00 Asia/Shanghai. It runs `routine-prompt.md`'s prompt section as
+pasted at creation; **editing the file does not change the routine**, paste
+the new text at https://claude.ai/code/routines/trig_01FLNWL7NqGoxUm46g3KtUxo.
+Each run leaves a trail in `run-log.txt`; a run with a heartbeat but no article
+died mid-way, a run with no heartbeat never really started.
+
 ## Pausing
 
 Create a file named `PAUSED` in this directory. The writer checks for it first
