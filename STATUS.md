@@ -92,14 +92,13 @@ check what ranks, submit for indexing. That is the weekly review from the Mac
   `DEPLOY.md`, `README.md` and `STATUS.md` were all directly and publicly
   fetchable at the top of that test path. Deploying to the real root as the
   repository is laid out today would break the site and expose the tooling.
-- **The fix is understood and written up in `DEPLOY.md`, not yet executed.**
+- **The fix in `DEPLOY.md` was executed and the cutover happened on 4 September 2026.**
   Flatten the repository so site files sit at the top level, move the
   `.automation/*.py` path assumptions to match, add real `.htaccess` deny
   rules for the docs and tooling (robots.txt is not enough, it does not stop
   a direct fetch), then change the GIT page's root directory from
   `public_html/gittest` to blank. That last step is the actual cutover, since
-  auto-deployment is already on. **It needs Majid's go-ahead before it
-  happens**, same as any other live-site change.
+  auto-deployment is on. Done on Majid's explicit go-ahead, 4 September.
 - **`public_html/.htaccess` is still not rescued.** Still needed both to
   preserve what it already does (it drives the site's custom 404 page) and as
   the place the new deny rules get added.
