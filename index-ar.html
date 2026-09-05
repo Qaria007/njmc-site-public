@@ -415,6 +415,29 @@
     .service-card h3 { color: #fff; font-size: 1.1rem; }
     .service-card p { font-size: 0.89rem; color: rgba(255,255,255,0.82); line-height: 1.75; }
 
+    /* ── GROUP ── */
+    .group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 28px;
+    }
+    .group-card {
+      display: block;
+      border-radius: 16px;
+      background: var(--white);
+      box-shadow: var(--card-shadow);
+      padding: 30px 28px 26px;
+      text-decoration: none;
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .group-card:hover { transform: translateY(-5px); box-shadow: 0 16px 40px rgba(26,39,68,0.16); }
+    .group-logo { height: 60px; display: flex; align-items: center; margin-bottom: 18px; }
+    .group-logo img { max-height: 100%; max-width: 180px; object-fit: contain; }
+    .group-card h3 { font-size: 1.03rem; margin-bottom: 8px; color: var(--navy); }
+    .group-card p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 14px; }
+    .group-link { font-size: 0.85rem; font-weight: 600; color: var(--teal); }
+    .group-card:hover .group-link { color: var(--teal-light); }
+
     /* ── PRODUCTS ── */
     .product-grid {
       display: grid;
@@ -760,6 +783,39 @@
           <p>يساعد فريقنا من الخبراء الطبيين المستشفيات والمنشآت الطبية في توريد المعدات المطلوبة، مع الشهادات اللازمة.</p>
         </div>
       </div>
+      <div class="product-card">
+        <div class="product-media">
+          <span class="product-tag">برمجيات</span>
+          <img src="/assets/pharmatrust-banner.png" alt="PharmaTrust: تحليل الشهادة الذي يمكنك الدفاع عنه" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3>PharmaTrust</h3>
+          <p>تحليل الشهادة الذي يمكنك الدفاع عنه. منصتنا الخاصة تقرأ شهادة التحليل وتعرض النتائج مقابل المواصفة المعتمدة، ليصل فريقك إلى الأسئلة الحقيقية أسرع. من تطوير NJMC. <a href="https://pharmatrust.tech" target="_blank" rel="noopener">pharmatrust.tech</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── GROUP ── -->
+<section id="our-group" class="alt-bg">
+  <div class="section-inner">
+    <p class="section-label">ضمن المجموعة نفسها</p>
+    <h2>شركاتنا الشقيقة</h2>
+    <p class="section-intro">تعمل شركة NJMC للمستلزمات الطبية جنباً إلى جنب مع شركتين شقيقتين تخدمان سلسلة الإمداد الدوائي والصحي.</p>
+    <div class="group-grid">
+      <a class="group-card" href="https://landcarenj.com" target="_blank" rel="noopener">
+        <div class="group-logo"><img src="/assets/lnjc-logo.png" alt="شعار شركة LNJC للأدوية والمستلزمات الطبية" loading="lazy" /></div>
+        <h3>شركة LNJC للأدوية والمستلزمات الطبية</h3>
+        <p>موزع جملة للأدوية والمستلزمات الطبية، يورّد من مصنّعين معتمدين دولياً لأسواق المنطقة.</p>
+        <span class="group-link">زيارة landcarenj.com &larr;</span>
+      </a>
+      <a class="group-card" href="https://pharmatrust.tech" target="_blank" rel="noopener">
+        <div class="group-logo"><img src="/assets/pharmatrust-logo.png" alt="شعار PharmaTrust" loading="lazy" /></div>
+        <h3>PharmaTrust</h3>
+        <p>تحليل الشهادة الذي يمكنك الدفاع عنه. منصة رقمية تراجع شهادات التحليل الدوائية وتُبرز ما يحتاج إلى نظرة ثانية.</p>
+        <span class="group-link">زيارة pharmatrust.tech &larr;</span>
+      </a>
     </div>
   </div>
 </section>

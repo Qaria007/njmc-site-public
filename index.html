@@ -475,6 +475,29 @@
     .product-body h3 { font-size: 1.03rem; margin-bottom: 8px; }
     .product-body p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.65; }
 
+    /* ── GROUP ── */
+    .group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 28px;
+    }
+    .group-card {
+      display: block;
+      border-radius: 16px;
+      background: var(--white);
+      box-shadow: var(--card-shadow);
+      padding: 30px 28px 26px;
+      text-decoration: none;
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .group-card:hover { transform: translateY(-5px); box-shadow: 0 16px 40px rgba(26,39,68,0.16); }
+    .group-logo { height: 60px; display: flex; align-items: center; margin-bottom: 18px; }
+    .group-logo img { max-height: 100%; max-width: 180px; object-fit: contain; }
+    .group-card h3 { font-size: 1.03rem; margin-bottom: 8px; color: var(--navy); }
+    .group-card p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 14px; }
+    .group-link { font-size: 0.85rem; font-weight: 600; color: var(--teal); }
+    .group-card:hover .group-link { color: var(--teal-light); }
+
     /* ── TESTIMONIALS ── */
     .testi-grid {
       display: grid;
@@ -789,6 +812,39 @@
           <p>Our team of medical experts helps hospitals and medical facilities source the required equipment, complete with the necessary certifications.</p>
         </div>
       </div>
+      <div class="product-card">
+        <div class="product-media">
+          <span class="product-tag">Software</span>
+          <img src="/assets/pharmatrust-banner.png" alt="PharmaTrust: certificate analysis you can defend" loading="lazy" />
+        </div>
+        <div class="product-body">
+          <h3>PharmaTrust</h3>
+          <p>Certificate analysis you can defend. Our own platform reads a certificate of analysis and lays out the findings against the applicable specification, so your team reaches the real questions faster. Developed by NJMC. <a href="https://pharmatrust.tech" target="_blank" rel="noopener">pharmatrust.tech</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── GROUP ── -->
+<section id="our-group" class="alt-bg">
+  <div class="section-inner">
+    <p class="section-label">Part of the Same Group</p>
+    <h2>Our Sister Companies</h2>
+    <p class="section-intro">NJMC Medical Supplies Co. works alongside two related ventures serving the pharmaceutical and healthcare supply chain.</p>
+    <div class="group-grid">
+      <a class="group-card" href="https://landcarenj.com" target="_blank" rel="noopener">
+        <div class="group-logo"><img src="/assets/lnjc-logo.png" alt="LNJC Pharmaceuticals and Medical Supplies Co., Ltd. logo" loading="lazy" /></div>
+        <h3>LNJC Pharmaceuticals and Medical Supplies Co., Ltd.</h3>
+        <p>A wholesale distributor of pharmaceuticals and medical supplies, sourcing from internationally certified manufacturers for markets across the region.</p>
+        <span class="group-link">Visit landcarenj.com &rarr;</span>
+      </a>
+      <a class="group-card" href="https://pharmatrust.tech" target="_blank" rel="noopener">
+        <div class="group-logo"><img src="/assets/pharmatrust-logo.png" alt="PharmaTrust logo" loading="lazy" /></div>
+        <h3>PharmaTrust</h3>
+        <p>Certificate analysis you can defend. A digital platform that reviews pharmaceutical Certificates of Analysis and flags what needs a second look.</p>
+        <span class="group-link">Visit pharmatrust.tech &rarr;</span>
+      </a>
     </div>
   </div>
 </section>
