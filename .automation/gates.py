@@ -62,9 +62,13 @@ MANUFACTURER_CLAIMS = [
 
 # 4. Regulatory figures stated as fact. Percentages and ppm next to threshold language
 #    are the shape of an invented limit.
+# The trailing \b applies only to the alphabetic units. After "%" it can never
+# match at the end of a sentence, because "%" and "." are both non-word
+# characters with no boundary between them, so "not more than 0.5 %." passed.
+# Found 9 September 2026 while proving the drqaria gates by breaking them.
 FIGURE_NEAR_THRESHOLD = re.compile(
     r"(?:threshold|limit|not more than|nmt|must not exceed|حد|عتبة)[^.<]{0,60}?"
-    r"\d+(?:\.\d+)?\s*(?:%|ppm|ppb|mg|µg|ug)\b", re.I)
+    r"\d+(?:\.\d+)?\s*(?:%|(?:ppm|ppb|mg|µg|ug)\b)", re.I)
 
 SELF_CLOSING_OK = {"/", "#"}
 
@@ -270,8 +274,14 @@ def check(path):
 
 targets = sys.argv[1:]
 if not targets:
+    # .automation holds tooling, including page templates that carry unfilled
+    # placeholders and links that only resolve once a page is built from them.
+    # They are not pages and must not be gated as if they were.
     targets = [os.path.join(dp, f) for dp, _, fs in os.walk(ROOT)
-               for f in fs if f.endswith(".html")]
+               for f in fs
+               if f.endswith(".html")
+               and ".automation" not in os.path.relpath(dp, ROOT).split(os.sep)
+               and ".git" not in os.path.relpath(dp, ROOT).split(os.sep)]
 
 for t in sorted(targets):
     check(os.path.abspath(t))
