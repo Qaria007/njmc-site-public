@@ -2,3 +2,4 @@
 # Routine: trig_01M6RfnxeiDmEoqKtPxYRmWv, Thursdays 01:00 UTC (09:00 Shanghai).
 # One line per run: date, slug, EN/AR word counts, commit SHA.
 2026-09-09  writing-antibiotic-resistance-supply-chain  1147/1043  seeded by hand, pipeline built
+2026-09-10 run started
