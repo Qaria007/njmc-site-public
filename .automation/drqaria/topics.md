@@ -28,7 +28,6 @@ only be written well by quoting a number he cannot source, it is not ready.
 
 | # | Slug | Badge (EN) | Working title | The question it answers |
 |---|------|-----------|---------------|--------------------------|
-| 02 | `writing-what-a-coa-does-not-say` | Documents | The tests that are missing tell you more than the ones that passed | Why is a silent certificate of analysis a problem? |
 | 03 | `writing-cold-chain-red-sea` | Supply chain | What a shipping route does to a medicine before anyone opens the box | How does shipping affect a medicine's quality? |
 | 04 | `writing-buying-from-china` | Sourcing | What I learned about Chinese manufacturers by living here | How do you assess a Chinese pharmaceutical supplier? |
 | 05 | `writing-generic-is-not-a-quality-grade` | Quality | Generic is a legal category, not a quality grade | Does generic mean lower quality? |
@@ -45,3 +44,4 @@ only be written well by quoting a number he cannot source, it is not ready.
 | Slug | Published |
 |------|-----------|
 | `writing-antibiotic-resistance-supply-chain` | 9 September 2026 |
+| `writing-what-a-coa-does-not-say` | 10 September 2026 |
