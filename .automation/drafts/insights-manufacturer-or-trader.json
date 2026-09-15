@@ -1,0 +1,128 @@
+{
+  "slug": "insights-manufacturer-or-trader",
+  "date": "2026-09-15",
+  "reference": "insights-dmf-cep-api-documents.html",
+  "en": {
+    "title": "Pharmaceutical Manufacturer vs Trading Company: How to Tell",
+    "description": "A trading company can forward a manufacturer's documents without making anything. Here is how to tell which one you are buying from before you order.",
+    "h1": "Telling a manufacturer from a trading company before you place an order",
+    "summary": "Both can quote you the same material at the same price. Only one of them controls how it is made, and the difference shows in the documents long before it shows in a batch.",
+    "question": "How do you tell a manufacturer from a trading company before ordering?",
+    "answer": "Ask for documents only a manufacturer holds, and read the legal entity named on them. A manufacturer appears on its own site licence and GMP certificate and can describe its route of synthesis. A trading company forwards another site's paperwork, often offers one product from several origins, and cannot answer process questions without asking someone else.",
+    "badge": "Sourcing",
+    "published": "Published 15 September 2026",
+    "body": "<p>Two suppliers quote you the same material at almost the same price. One of them made it. The other bought it, or will buy it once your order is confirmed. Nothing in the quotation separates the two, and the language a company uses about itself is the least reliable guide available: the word manufacturer sits on the front page of factories, of groups that own factories, and of exporters who have never handled the material.</p>\n\n<p>The distinction decides who can answer a question about the process, who can commit to a named site, and who stands between you and a batch record when something goes wrong. Telling the two apart before you order is a documentary exercise rather than an intuitive one, and none of it requires a plant visit: there are documents only a manufacturer holds in its own name, questions only a manufacturer answers without a phone call first, and patterns in a catalogue that give a trading company away.</p>\n\n<h2>What is the difference between a manufacturer and a trading company?</h2>\n<p>A manufacturer owns or operates the site where the material is made. It holds the licences attached to that site, it employs the quality unit that releases the batch, and it carries the regulatory responsibility for what leaves the gate. A trading company buys from manufacturers and sells on. It can add real value: consolidating quantities too small for a factory to accept, handling export documentation, and carrying credit risk. What it cannot do is change how the material is made, or speak with authority about a process it does not run.</p>\n\n<p>Between the two sits the form that causes most of the confusion: a company that manufactures one product family and trades everything else. Its documents are its own for what it makes and borrowed for the rest, and its catalogue draws no line between them. So the question is never simply whether a supplier is a manufacturer. It is whether it is the manufacturer of the item on your enquiry.</p>\n\n<h2>Which documents can only a manufacturer hold?</h2>\n<p>Ask for the supplier's business licence and its manufacturing or site licence, and read the legal entity name on each. A manufacturing licence, an establishment registration or a site permit is issued to the company that operates the site, and the name on it either matches the company quoting you or it does not. A trading company forwards its principal's paperwork readily and produces its own reluctantly, because its own licence describes trade and export rather than manufacture.</p>\n\n<p>Then read the GMP certificate closely. It names a site address, and that address belongs to the manufacturer, not to whoever emailed it to you. A trading company sending a GMP certificate is sending someone else's document, which is legitimate as long as it says so. Which licences an exporter and an importer must each hold, and what each is called, differ by market and by product category, so confirm the current requirement for your own market and dosage form rather than assuming one pattern applies everywhere.<!-- TODO-OWNER: verify which manufacturing, export and import licences are required, and what each is called, in the buyer's own market and product category --></p>\n\n<h3>The legal entity behind the brand name</h3>\n<p>A trading name, an English marketing name and the registered legal entity are frequently three different strings. The proforma invoice, the licence and the certificate should converge on a single registered name. Where they do not, that gap is the answer to your question.</p>\n\n<h2>What do the questions a supplier cannot answer tell you?</h2>\n<p>Documents can be forwarded. Process knowledge cannot. Ask something only the people running the plant can answer, then watch how the answer arrives rather than what it says.</p>\n\n<p>Which route of synthesis does this material come from, and which impurities does that route produce? What is a normal batch size here, and how many batches make a campaign? What happens when an out of specification result appears at final testing, and who signs the release? A manufacturer's representative answers immediately and sometimes imprecisely, in the way people are imprecise about their own work. A trading company's representative answers correctly, slowly, in sentences lifted from a document, and cannot go one question deeper. The delay is the tell.</p>\n\n<div class=\"callout\">\n<p><strong>The problem is not that a trading company sits in the chain. It is not knowing that one does.</strong> A disclosed intermediary that names the manufacturing site, forwards documents matching that site, and states plainly what it does and does not control is a workable supplier. An undisclosed one leaves you holding a specification you agreed with a party that cannot enforce it.</p>\n</div>\n\n<h2>Which patterns in a catalogue give a trading company away?</h2>\n<p>A factory is built around a class of chemistry or a class of device, and its range reflects that. A catalogue spanning <a href=\"/drug-apis.html\">active pharmaceutical ingredients</a>, excipients, disposable consumables and imaging equipment under one legal entity describes a trading operation, whatever the header says. Plant photographs that appear on several unrelated companies' websites point the same way. So does an offer of the same product code from two origins at two prices, which is ordinary behaviour for a trader and impossible for the factory itself.</p>\n\n<h2>Is a trading company the wrong choice?</h2>\n<p>No, and assuming so removes options a buyer often needs. A factory may decline a trial quantity outright, or price it out of reach. Export documentation, consolidation and payment terms are real work, and someone has to do it. What a buyer should refuse is the undisclosed version: an intermediary presenting itself as the maker, quoting from a site it has not named, and passing on documents it has not reconciled. Ask directly whether the supplier manufactures the item or sources it; a straight answer says more about a counterparty than any certificate does.</p>\n\n<h2>What should you settle before the order?</h2>\n<p>Get the manufacturing site named in writing, with its address, and check that it matches the GMP certificate and the certificate of analysis you are eventually sent. Ask who performs testing and where, since testing is often done away from the site of synthesis. Establish who holds the regulatory documentation your filing will need, and whether the supplier can obtain a letter of access rather than merely say one exists.</p>\n\n<p>None of this is exotic due diligence. It is reading the documents you already asked for with the entity names in view. The same discipline runs through <a href=\"/insights-sourcing-apis-from-china-india.html\">sourcing from China and India</a>, through <a href=\"/insights-reading-a-gmp-certificate.html\">reading a GMP certificate</a>, and through <a href=\"/verification.html\">independent verification</a> when a buyer wants the paperwork checked by someone with no stake in the sale. Where a supplier's answers raise more questions than they settle, that is the gap our <a href=\"/consultancy.html\">sourcing consultancy</a> is built to close.</p>\n",
+    "faq": [
+      [
+        "Can a trading company supply material that meets the same specification as buying direct?",
+        "Yes. The material is the same material, and an intermediary does not change it. What changes is who holds the process knowledge and who can act when something moves. A disclosed trading company that names the site and forwards documents belonging to that site can supply conforming material reliably. The risk lies in an undisclosed chain, not in the existence of one."
+      ],
+      [
+        "Why would a manufacturer refuse to sell to me directly?",
+        "Small quantities, unfamiliar destinations and an unproven payment record are the usual reasons. A factory plans around campaigns and full batches, and an order below that scale can cost more to administer than it earns. Export paperwork for a market it does not already serve is a further deterrent. Refusal is a commercial judgement about order size, not a comment on the buyer."
+      ],
+      [
+        "Does holding a GMP certificate prove that a supplier is the manufacturer?",
+        "No. A GMP certificate names the site that was inspected, and any party with a copy can forward it. Compare the address and legal entity on the certificate against the name on the quotation and the invoice. If they differ, the supplier is handling someone else's document, which is acceptable when disclosed and a warning when presented as its own."
+      ],
+      [
+        "What should a buyer do after discovering an undisclosed intermediary?",
+        "Treat it as a disclosure problem before treating it as a disqualification. Ask who manufactures the item, at which site, and why that was not stated at the outset. A supplier that answers plainly and produces matching documents may still be worth using. One that keeps blurring the question has shown you how it will behave when a batch is disputed."
+      ]
+    ],
+    "faq_heading": "Frequently asked questions",
+    "related": [
+      [
+        "/drug-apis.html",
+        "Active Pharmaceutical Ingredients",
+        "APIs sourced against a named manufacturing site, with the documents to match."
+      ],
+      [
+        "/insights-sourcing-apis-from-china-india.html",
+        "Sourcing from China and India",
+        "What changes when the manufacturing site sits in a market a buyer cannot visit easily."
+      ],
+      [
+        "/insights-reading-a-gmp-certificate.html",
+        "Reading a GMP certificate",
+        "Site, scope and expiry, and what none of them prove about the batch you are buying."
+      ],
+      [
+        "/verification.html",
+        "Independent Verification",
+        "Third party checks on a supplier's documents and claims, separate from any sourcing mandate."
+      ],
+      [
+        "/consultancy.html",
+        "Sourcing Consultancy",
+        "Supplier assessment and market entry advice, engaged on its own terms."
+      ]
+    ]
+  },
+  "ar": {
+    "title": "المصنع أم الشركة التجارية: كيف تميز بينهما قبل الطلب",
+    "description": "الشركة التجارية تستطيع تمرير مستندات مصنع دون أن تصنع شيئا. إليك كيف تميز الشركة المصنعة من الشركة التجارية قبل أن تضع طلبك، بالمستندات وحدها.",
+    "h1": "التمييز بين الشركة المصنعة والشركة التجارية قبل وضع الطلب",
+    "summary": "كلاهما يستطيع أن يعرض عليك المادة نفسها بالسعر نفسه. لكن واحدا منهما فقط يتحكم في طريقة صنعها، والفارق يظهر في المستندات قبل أن يظهر في تشغيلة.",
+    "question": "كيف تميز الشركة المصنعة من الشركة التجارية قبل الطلب؟",
+    "answer": "اطلب المستندات التي لا يملكها إلا المصنع، واقرأ اسم الكيان القانوني المذكور فيها. فالمصنع يظهر باسمه في رخصة موقعه وشهادة GMP الخاصة به، ويستطيع وصف مسار التخليق. أما الشركة التجارية فتحيل أوراق موقع آخر، وتعرض المنتج نفسه من عدة مصادر، ولا تجيب عن أسئلة العملية دون الرجوع إلى طرف ثالث.",
+    "badge": "التوريد",
+    "published": "نُشر في 15 سبتمبر 2026",
+    "body": "<p>يعرض عليك موردان المادة نفسها بسعر متقارب. أحدهما صنعها، والآخر اشتراها، أو سيشتريها بعد تأكيد طلبك. ولا شيء في عرض السعر يميز أحدهما عن الآخر، واللغة التي تصف بها الشركة نفسها أقل الأدلة موثوقية، لأن كلمة مصنع تتصدر صفحات المصانع، وصفحات المجموعات التي تملك مصانع، وصفحات المصدرين الذين لم تدخل المادة يوما مستودعاتهم.</p>\n\n<p>وهذا التمييز يحدد من يستطيع الإجابة عن سؤال يخص العملية الإنتاجية، ومن يستطيع الالتزام بموقع مسمى، ومن يقف بينك وبين سجل التشغيلة حين يقع خطأ. والتمييز بينهما قبل الطلب عمل مستندي لا حدسي. فهناك مستندات لا يحملها باسمه إلا المصنع، وأسئلة لا يجيب عنها دون اتصال هاتفي مسبق إلا المصنع، وأنماط في قائمة المنتجات تكشف الشركة التجارية. ولا يتطلب أي من ذلك زيارة ميدانية للموقع.</p>\n\n<h2>ما الفرق بين الشركة المصنعة والشركة التجارية؟</h2>\n<p>المصنع يملك الموقع الذي تصنع فيه المادة أو يشغله. وهو يحمل الرخص المرتبطة بذلك الموقع، ويوظف وحدة الجودة التي تفرج عن التشغيلة، ويتحمل المسؤولية التنظيمية عما يخرج من البوابة. أما الشركة التجارية فتشتري من المصانع وتبيع. وقد تضيف قيمة حقيقية: تجميع كميات أصغر من أن يقبلها مصنع، وإدارة مستندات التصدير، وتحمل مخاطر الائتمان، وتحويل مواصفة المشتري إلى صيغة يتعامل معها قسم المبيعات في المصنع. لكنها لا تستطيع تغيير طريقة تصنيع المادة، ولا الحديث بسلطة عن عملية لا تديرها.</p>\n\n<p>وبين الاثنين يقع الشكل الذي يسبب أكثر اللبس: شركة تصنع عائلة منتجات واحدة وتتاجر في كل ما عداها. فمستنداتها تخصها في ما تصنعه، ومستعارة في ما تبقى، وقائمة منتجاتها لا تفرق بين الحالتين. لذلك فالسؤال ليس هل المورد مصنع، بل هل هو مصنع الصنف المذكور في استفسارك أنت.</p>\n\n<h2>أي المستندات لا يحملها إلا المصنع؟</h2>\n<p>اطلب السجل التجاري للمورد ورخصة التصنيع أو رخصة الموقع، واقرأ اسم الكيان القانوني في كل منها. فرخصة التصنيع أو تسجيل المنشأة أو تصريح الموقع تصدر للشركة التي تشغل الموقع، والاسم المذكور فيها إما أن يطابق الشركة التي تعرض عليك أو لا يطابقها. والشركة التجارية تحيل أوراق موكلها بسهولة وتقدم أوراقها هي على مضض، لأن رخصتها تصف التجارة والتصدير لا التصنيع.</p>\n\n<p>ثم اقرأ شهادة GMP كما تقرؤها لأي غرض آخر. فهي تسمي عنوان موقع، وذلك العنوان يخص المصنع لا من أرسلها إليك. والشركة التجارية التي ترسل شهادة GMP ترسل مستند طرف آخر، وهذا مشروع تماما ما دامت تقول ذلك صراحة. أما أي الرخص يجب أن يحملها المصدر والمستورد، وماذا تسمى كل منها، فيختلف باختلاف السوق وفئة المنتج، فتحقق من المتطلب الساري حاليا في سوقك وشكل الجرعة الذي تتعامل معه بدلا من افتراض نمط واحد يسري في كل مكان.<!-- TODO-OWNER: verify which manufacturing, export and import licences are required, and what each is called, in the buyer's own market and product category --></p>\n\n<h3>الكيان القانوني خلف الاسم التجاري</h3>\n<p>الاسم التجاري والاسم التسويقي الإنجليزي والكيان القانوني المسجل ثلاثة نصوص مختلفة في أغلب الأحيان، وقد يستخدمها المورد جميعا في أسبوع واحد من المراسلات. والفاتورة المبدئية والرخصة والشهادة ينبغي أن تلتقي عند اسم مسجل واحد. وحين يختلف الاسم في الفاتورة عن الاسم في رخصة التصنيع، فهذا الفارق هو إجابة سؤالك، والأفضل أن يسأل عنه صراحة لا أن يستنتج ضمنا.</p>\n\n<h2>ماذا تخبرك الأسئلة التي لا يستطيع المورد الإجابة عنها؟</h2>\n<p>المستندات يمكن تمريرها. أما معرفة العملية فلا تمرر. اسأل سؤالا لا يجيب عنه إلا من يدير المصنع، ثم راقب كيف تصل الإجابة لا ما تقوله.</p>\n\n<p>من أي مسار تخليق تأتي هذه المادة، وأي شوائب ينتجها ذلك المسار؟ ما حجم التشغيلة المعتاد هنا، وكم تشغيلة تشكل حملة إنتاج؟ أي خطوة تحدد الإيقاع؟ ماذا يحدث حين تظهر نتيجة غير مطابقة عند الاختبار النهائي، ومن يوقع الإفراج؟ ممثل المصنع يجيب فورا وأحيانا بلا دقة، بالطريقة التي يفتقر بها الناس إلى الدقة حين يصفون عملهم اليومي. أما ممثل الشركة التجارية فيجيب إجابة صحيحة، ببطء، بجمل منقولة من مستند، ولا يستطيع التقدم سؤالا واحدا إلى العمق. والتأخير، وجمود الإجابة الثانية، هو الدليل.</p>\n\n<div class=\"callout\">\n<p><strong>المشكلة ليست وجود شركة تجارية في السلسلة، بل عدم علمك بوجودها.</strong> فالوسيط المعلن الذي يسمي موقع التصنيع، ويحيل مستندات تطابق ذلك الموقع، ويقول بوضوح ما يتحكم فيه وما لا يتحكم فيه، مورد صالح للتعامل. أما الوسيط غير المعلن فيتركك بمواصفة اتفقت عليها مع طرف لا يملك فرضها.</p>\n</div>\n\n<h2>أي أنماط في قائمة المنتجات تكشف الشركة التجارية؟</h2>\n<p>المصنع يبنى حول فئة من الكيمياء أو فئة من الأجهزة، ونطاق منتجاته يعكس ذلك. وقائمة تمتد من <a href=\"/ar/drug-apis.html\">المواد الفعالة الدوائية</a> إلى السواغات إلى المستهلكات أحادية الاستعمال إلى أجهزة التصوير تحت كيان قانوني واحد تصف عملا تجاريا مهما قال العنوان. وصور مصنع تظهر على مواقع عدة شركات لا صلة بينها تشير إلى الاتجاه نفسه. وكذلك مهلة تسليم تذكر دون إشارة إلى جدول إنتاج، وكذلك عرض رمز المنتج نفسه من مصدرين بسعرين، وهو سلوك عادي للتاجر ومستحيل على المصنع نفسه.</p>\n\n<h2>هل الشركة التجارية خيار خاطئ؟</h2>\n<p>لا، وافتراض ذلك يحرم المشتري من خيارات يحتاجها كثيرا. فقد يرفض المصنع كمية تجريبية رفضا صريحا، أو يسعرها بحيث لا يستحق طلبها. ومستندات التصدير والتجميع وشروط الدفع عمل حقيقي يقوم به أحد. وما ينبغي للمشتري رفضه هو النسخة غير المعلنة: وسيط يقدم نفسه بوصفه الصانع، ويعرض من موقع لم يسمه، ويمرر مستندات لم يطابقها. اسأل مباشرة: هل تصنع هذا الصنف أم تورده من غيرك؟ والإجابة الصريحة عن هذا السؤال تخبرك عن الطرف المقابل أكثر مما تخبرك به أي شهادة.</p>\n\n<h2>ماذا ينبغي أن تسويه قبل الطلب؟</h2>\n<p>احصل على اسم موقع التصنيع كتابة مع عنوانه، وتحقق من أن العنوان يطابق شهادة GMP وشهادة التحليل التي سترسل إليك لاحقا. واسأل من يجري الاختبار وأين يجرى، فالاختبار كثيرا ما يتم في غير موقع التخليق. وحدد من يحمل المستندات التنظيمية التي سيحتاجها ملفك، وهل يستطيع المورد الحصول على خطاب وصول فعلي لا أن يكتفي بالقول إن الملف موجود. ثم اسأل ماذا يحدث لطلبك إذا غير المصنع شيئا، ولاحظ هل تأتي الإجابة ممن يملك الصفة التي تتيح له معرفتها.</p>\n\n<p>لا شيء في ما سبق تدقيق استثنائي، بل هو قراءة المستندات التي طلبتها أصلا وأسماء الكيانات ماثلة أمامك. وهذا الانضباط نفسه يسري على <a href=\"/ar/insights-sourcing-apis-from-china-india.html\">التوريد من الصين والهند</a>، وعلى <a href=\"/ar/insights-reading-a-gmp-certificate.html\">قراءة شهادة GMP</a> من حيث الموقع والنطاق والصلاحية، وعلى <a href=\"/ar/verification.html\">التحقق المستقل</a> حين يريد المشتري أن يفحص الأوراق طرف لا مصلحة له في البيع. وحين تثير إجابات المورد أسئلة أكثر مما تغلق، فهذه هي الفجوة التي بنيت <a href=\"/ar/consultancy.html\">استشارات التوريد</a> لدينا لسدها.</p>\n",
+    "faq": [
+      [
+        "هل تستطيع الشركة التجارية توريد مادة تطابق المواصفة نفسها كالشراء المباشر؟",
+        "نعم. فالمادة هي المادة نفسها، والوسيط لا يغيرها. وما يتغير هو من يملك معرفة العملية ومن يستطيع التصرف حين يتغير شيء. والشركة التجارية المعلنة التي تسمي الموقع وتحيل مستندات تخص ذلك الموقع تستطيع توريد مادة مطابقة بشكل موثوق. والمخاطرة تكمن في سلسلة غير معلنة، لا في وجود سلسلة من الأساس."
+      ],
+      [
+        "لماذا قد يرفض مصنع البيع لي مباشرة؟",
+        "الكميات الصغيرة والوجهات غير المألوفة وسجل الدفع غير المثبت هي الأسباب المعتادة. فالمصنع يخطط حول حملات إنتاج وتشغيلات كاملة، والطلب الأصغر من ذلك قد يكلفه إداريا أكثر مما يعود عليه. ومستندات التصدير لسوق لا يخدمه أصلا عائق إضافي. والرفض حكم تجاري على حجم الطلب، لا تعليق على المشتري نفسه."
+      ],
+      [
+        "هل حمل المورد لشهادة GMP يثبت أنه المصنع؟",
+        "لا. فشهادة GMP تسمي الموقع الذي جرى تفتيشه، وأي طرف يملك نسخة منها يستطيع تمريرها. قارن العنوان والكيان القانوني في الشهادة بالاسم المذكور في عرض السعر والفاتورة. فإن اختلفا، فالمورد يتعامل بمستند طرف آخر، وهذا مقبول إذا أعلنه، ومؤشر تحذير إذا قدمه على أنه مستنده هو."
+      ],
+      [
+        "ماذا يفعل المشتري إذا اكتشف وسيطا غير معلن؟",
+        "عامل الأمر أولا كمشكلة إفصاح لا كسبب استبعاد. اسأل من يصنع الصنف، وفي أي موقع، ولماذا لم يذكر ذلك من البداية. والمورد الذي يجيب بوضوح ويقدم مستندات متطابقة قد يظل جديرا بالتعامل. أما الذي يواصل تعمية السؤال فقد أخبرك كيف سيتصرف حين يقع نزاع على تشغيلة."
+      ]
+    ],
+    "faq_heading": "أسئلة متكررة",
+    "related": [
+      [
+        "/ar/drug-apis.html",
+        "المواد الفعالة الدوائية",
+        "مواد فعالة يتم توريدها مقابل موقع تصنيع مسمى، ومستندات تطابقه."
+      ],
+      [
+        "/ar/insights-sourcing-apis-from-china-india.html",
+        "التوريد من الصين والهند",
+        "ما الذي يتغير حين يقع موقع التصنيع في سوق لا يسهل على المشتري زيارته."
+      ],
+      [
+        "/ar/insights-reading-a-gmp-certificate.html",
+        "قراءة شهادة GMP",
+        "الموقع والنطاق والصلاحية، وما لا يثبته أي منها عن التشغيلة التي تشتريها."
+      ],
+      [
+        "/ar/verification.html",
+        "التحقق المستقل",
+        "تحقق طرف ثالث من مستندات المورد وادعاءاته، بمعزل عن أي تكليف توريد."
+      ],
+      [
+        "/ar/consultancy.html",
+        "استشارات التوريد",
+        "تقييم الموردين والمشورة لدخول الأسواق، بشروطها الخاصة."
+      ]
+    ]
+  },
+  "card_title": {
+    "en": "Manufacturer or trading company?",
+    "ar": "شركة مصنعة أم شركة تجارية؟"
+  },
+  "card": {
+    "en": "Both can quote the same material at the same price. Here is how to tell which one you are buying from, using documents you have already asked for.",
+    "ar": "كلاهما يعرض المادة نفسها بالسعر نفسه. إليك كيف تعرف أيهما تشتري منه، بالاعتماد على مستندات طلبتها أصلا."
+  },
+  "backlink_from": "insights-sourcing-apis-from-china-india"
+}
