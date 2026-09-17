@@ -6,3 +6,5 @@
 2026-09-10 draft written, build+gates passed for writing-what-a-coa-does-not-say
 2026-09-10 slug=writing-what-a-coa-does-not-say en_words=1407 ar_words=1137 sha=4586fc47287b3bc14ceb279737963ae27fcadfcd
 2026-09-17 run started
+2026-09-17 topic picked: writing-cold-chain-red-sea
+2026-09-17 draft written, build+gates passed for writing-cold-chain-red-sea
