@@ -20,7 +20,6 @@ cloud writer's**, which has no network and must never guess at demand.
 
 | # | Slug | Badge | Working title (EN) | Target query | AEO question (the direct-answer H2) |
 |---|------|-------|--------------------|--------------|-------------------------------------|
-| 04 | `insights-quality-agreements-api-supply` | Sourcing | What belongs in a quality agreement with an API supplier | quality agreement api supplier | What should a quality agreement with an API supplier contain? |
 | 05 | `insights-retest-date-and-expiry` | Active Pharmaceutical Ingredients | Retest date and expiry date are not the same promise | api retest date vs expiry date | What is the difference between a retest date and an expiry date? |
 | 06 | `insights-incoming-goods-inspection` | Quality | Receiving imported material: what to check before the pallet is accepted | incoming goods inspection pharmaceutical | What should you check when imported pharmaceutical material arrives? |
 | 07 | `insights-residual-solvents-elemental-impurities` | Active Pharmaceutical Ingredients | Residual solvents and elemental impurities sit outside the ordinary limit | residual solvents elemental impurities api | Why are residual solvents and elemental impurities controlled separately? |
@@ -44,3 +43,4 @@ rather than inventing a new one.
 - `insights-api-polymorphism-particle-size` — published 4 September 2026; query `api polymorphic form particle size`; question "Why does the polymorphic form of an API matter if it meets the monograph?"
 - `insights-reading-a-gmp-certificate` — published 8 September 2026; query `how to read a gmp certificate`; question "What does a GMP certificate actually prove?"
 - `insights-manufacturer-or-trader` — published 15 September 2026; query `manufacturer vs trading company pharmaceutical`; question "How do you tell a manufacturer from a trading company before ordering?"
+- `insights-quality-agreements-api-supply` — published 22 September 2026; query `quality agreement api supplier`; question "What should a quality agreement with an API supplier contain?"
