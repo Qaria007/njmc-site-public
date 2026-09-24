@@ -12,3 +12,4 @@
 2026-09-24 run started
 2026-09-24 topic picked: writing-buying-from-china
 2026-09-24 draft written, build+gates passed for writing-buying-from-china
+2026-09-24 slug=writing-buying-from-china en_words=1299 ar_words=1130 sha=62d3e64e4c01eabff27f4d6e63dae3e87df566eb
