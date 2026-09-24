@@ -9,3 +9,4 @@
 2026-09-17 topic picked: writing-cold-chain-red-sea
 2026-09-17 draft written, build+gates passed for writing-cold-chain-red-sea
 2026-09-17 slug=writing-cold-chain-red-sea en_words=1302 ar_words=1124 sha=74d337ca724f0b1531b3717ef231bfa77121d643
+2026-09-24 run started
