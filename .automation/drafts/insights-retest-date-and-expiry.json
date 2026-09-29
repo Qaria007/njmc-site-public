@@ -1,0 +1,108 @@
+{
+ "slug": "insights-retest-date-and-expiry",
+ "date": "2026-09-29",
+ "reference": "insights-api-impurity-profiles.html",
+ "en": {
+  "title": "API Retest Date vs Expiry Date: What Each Promises",
+  "description": "A retest date means an API may be tested again and used if it still conforms. An expiry date means it must not be used after that day, whatever a test shows.",
+  "h1": "Retest date and expiry date are not the same promise",
+  "summary": "Both dates sit on the certificate of analysis and look alike. One invites you to test again. The other closes the door. Here is what separates them.",
+  "question": "What is the difference between a retest date and an expiry date?",
+  "answer": "A retest date is the date by which an active pharmaceutical ingredient should be sampled and tested again against its specification; if it still conforms, it may be used for a further defined period. An expiry date is final: after it, the material should not be used, whatever a test would show.",
+  "badge": "Active Pharmaceutical Ingredients",
+  "published": "Published 29 September 2026",
+  "body": "<p>Two dates on the same certificate of analysis can mean very different things, and treating them as interchangeable is one of the quieter ways a batch of active pharmaceutical ingredient gets used when it should not have been, or thrown away when it was still good. A retest date and an expiry date look alike on paper, but they rest on different evidence and ask different things of the site receiving the material.</p>\n<p>The difference matters most at two moments: when material arrives and the warehouse has to decide how long it may sit, and when the date printed on the drum has passed and someone has to decide what happens next. In the first case the answer may be to test the material again. In the second it is not.</p>\n\n<h2>Why does an API usually carry a retest date rather than an expiry date?</h2>\n<p>Most active pharmaceutical ingredients are stable chemical substances held in bulk, in sealed containers, under defined storage conditions. Stability work on a material like that tends to show that it changes slowly and predictably, and that whether it still conforms to its specification can be established by testing it. That is the basis of a retest date. The manufacturer is not claiming the material becomes unusable on a particular day; only that the assurance created by the original release testing should not be relied on indefinitely without checking.</p>\n<p>An expiry date carries a stronger claim: beyond that point the material should not be used at all, whatever a test result says. Finished dosage forms almost always carry one, because a tablet or a solution is a formulated system whose behaviour over time is not captured by assaying it. Some APIs carry one too: those that are inherently unstable, sterile, biologically derived, or supplied in a form where degradation would not reliably show up in the release specification.</p>\n\n<h2>What does a retest actually involve?</h2>\n<p>A retest is not a paperwork exercise or a signature added to an existing certificate. The material is sampled again, in a way that genuinely represents the container and the batch, and tested against the same specification it was released to. The tests that matter are the ones that would reveal degradation: appearance, assay, water content, related substances, and whatever else the monograph and the manufacturer's specification identify as stability indicating. Tests that cannot plausibly change inside a sealed drum may not need repeating, but that decision belongs in a written rationale agreed in advance.</p>\n\n<h3>Who performs it, and against what</h3>\n<p>The work may be done by the manufacturer, by your own laboratory, or by a contract laboratory, and which of those applies should be settled before the date approaches. What is not negotiable is the specification: retesting against a looser specification than the one the material was released to is not a retest, it is a redefinition. If your own laboratory does the work, you need the analytical method, evidence that it transferred successfully, and the reference standards.</p>\n\n<h3>What happens if it passes, and if it fails</h3>\n<p>If the material conforms, it may be used and a new retest date is assigned. How long that further period runs comes from the applicable guideline and the manufacturer's stability data, not from repeating the original interval as a habit, so confirm the current expectation for your own market and dosage form before you write it into a procedure.</p>\n<!-- TODO-OWNER: verify the retest interval, the permitted extension after a passing retest and the total in-use period expected in the buyer's market for this dosage form -->\n<p>If it fails, the batch is out of specification and follows your out of specification procedure. It is not quietly reassigned to a lower grade, or diverted to a product where the requirement is thought to be less demanding, unless that use is separately justified and documented.</p>\n\n<div class=\"callout\">\n<p><strong>A retest date is not a licence to keep testing forever.</strong> Each retest establishes that the material conformed at that moment. It does not reset the batch to new. The manufacturer's stability data supports a defined period, and both the number of retests a batch may reasonably take and the total time it may remain in use belong in your own procedure before the first retest date arrives.</p>\n</div>\n\n<h2>Where do the two dates appear, and which one governs?</h2>\n<p>On the certificate of analysis you should expect a manufacturing date or a date of analysis, and then either a retest date or an expiry date, labelled as what it is. Wording such as best before, valid until or shelf life is worth querying rather than interpreting, because the two meanings carry different obligations. The drum label and the certificate should agree; where they disagree, that is a question for the supplier, not a decision for the warehouse.</p>\n<p>Reading these fields properly belongs to the same skill as reading the rest of the certificate: a date is part of the document's meaning, and it is checked in the same pass as <a href=\"/insights-api-impurity-profiles.html\">the impurity section</a>.</p>\n\n<h2>How does the API date affect the shelf life of what you make?</h2>\n<p>The API's retest or expiry date does not become your product's expiry date, and it does not extend it either. Your finished product's shelf life comes from stability studies on your own formulation in your own packaging. What the API date governs is the point at which the starting material may still be taken into manufacture. Material is best used well inside its remaining period rather than on the last permitted day, because a batch that is retested, released and then held again has spent its margin on the warehouse floor.</p>\n\n<h2>What should you ask a supplier about these dates?</h2>\n<p>Ask which of the two dates applies and on what stability data. Ask what period the manufacturer supports and how it was established, and whether the batch on offer has already been retested once, because a drum arriving with most of its period spent is a different commercial proposition from a freshly released one. Ask what storage conditions the date assumes, since a date means nothing apart from the conditions it was determined under.</p>\n<p>Where you buy through a trading or distribution company, the answers still concern the site that made the material, and the distributor's job is to pass them through intact rather than summarise them into reassurance. That distinction is covered in our note on <a href=\"/insights-manufacturer-or-trader.html\">telling a manufacturer from a trading company</a>.</p>\n\n<p>Retest and expiry dates are among the fields we check on every certificate before material is offered, alongside grade, specification and impurity data, as part of our <a href=\"/drug-apis.html\">API sourcing work</a> and separately through our <a href=\"/consultancy.html\">consultancy service</a>. They read naturally alongside <a href=\"/insights-pharmacopoeial-grades-explained.html\">what a pharmacopoeial grade does and does not tell you</a>.</p>",
+  "faq": [
+   [
+    "Can an API be used after its retest date has passed?",
+    "Only after it has been sampled and tested again against the specification it was released to, and found to conform. Until that testing is complete the material is not available for manufacture. If it fails, it is handled as out of specification material under your own procedure, not reassigned to a product thought to be less demanding."
+   ],
+   [
+    "How many times can the same batch be retested?",
+    "That comes from the manufacturer's stability data and from your own written procedure, not from repeating the interval indefinitely. Each retest confirms conformity at that moment; it does not make the material new. Decide the total permitted in-use period and the number of retests allowed before the first date approaches, and record the reasoning behind both."
+   ],
+   [
+    "Does the API retest date set my finished product's expiry date?",
+    "No. Your product's shelf life comes from stability studies on your own formulation in its own packaging. The API date governs only when the starting material may still be taken into manufacture. Using material late in its permitted period does not shorten your product's approved shelf life, but it leaves you less room if anything delays the batch."
+   ],
+   [
+    "What if the certificate of analysis gives neither a retest nor an expiry date?",
+    "Ask the supplier which one applies and on what basis, and ask for the stability summary behind it. A certificate with no such date, or with vague wording like valid until, leaves the receiving site guessing about an obligation that ought to be explicit. Have it corrected at source rather than resolving the ambiguity locally."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-api-impurity-profiles.html",
+    "Reading an impurity profile",
+    "How to read an API impurity profile against its specification."
+   ],
+   [
+    "/insights-pharmacopoeial-grades-explained.html",
+    "Pharmacopoeial grades",
+    "What a USP, EP or BP grade tells you, and what it leaves out."
+   ],
+   [
+    "/drug-apis.html",
+    "API sourcing",
+    "How we assess and source active pharmaceutical ingredients."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "تاريخ إعادة الاختبار وتاريخ الانتهاء: ما الفرق",
+  "description": "تاريخ إعادة الاختبار يعني أن المادة الفعالة يمكن اختبارها مرة أخرى واستخدامها إن بقيت مطابقة. أما تاريخ الانتهاء فيعني ألا تُستخدم بعده مهما أظهر الاختبار.",
+  "h1": "تاريخ إعادة الاختبار وتاريخ الانتهاء ليسا الوعد نفسه",
+  "summary": "التاريخان يقعان في شهادة التحليل ويتشابهان في الشكل. أحدهما يدعوك إلى الاختبار من جديد، والآخر يغلق الباب. وهذا ما يفرّق بينهما.",
+  "question": "ما الفرق بين تاريخ إعادة الاختبار وتاريخ انتهاء الصلاحية؟",
+  "answer": "تاريخ إعادة الاختبار هو التاريخ الذي ينبغي عنده أخذ عينة من المادة الفعالة واختبارها مرة أخرى مقابل مواصفتها، فإن بقيت مطابقة جاز استخدامها لفترة أخرى محددة. أما تاريخ انتهاء الصلاحية فهو نهائي: بعده لا ينبغي استخدام المادة مهما أظهر الاختبار. وهو الفرق بين وثيقة تطلب منك التحقق، ووثيقة تُغلق الباب.",
+  "badge": "المواد الفعالة الدوائية",
+  "published": "نُشر في 29 سبتمبر 2026",
+  "body": "<p>قد يحمل المستند نفسه تاريخين يعنيان أمرين مختلفين تماماً، والتعامل معهما كأنهما شيء واحد هو أحد الطرق الهادئة التي تُستخدم بها تشغيلة من المادة الفعالة وكان ينبغي ألا تُستخدم، أو تُتلف تشغيلة وكانت لا تزال سليمة تماماً. تاريخ إعادة الاختبار وتاريخ انتهاء الصلاحية يتشابهان على الورق، لكنهما يقومان على أدلة مختلفة، ويطلبان من الموقع المستلم أمرين مختلفين.</p>\n<p>ويظهر الفرق بينهما في لحظتين على وجه الخصوص. الأولى عند وصول المادة، حين يتعين على المخزن أن يقرر كم من الوقت يجوز أن تبقى قبل أن يتحرك أحد. والثانية عند مرور التاريخ المطبوع على البرميل، حين يتعين على أحد أن يقرر ما يحدث بعد ذلك. في الحالة الأولى قد يكون الجواب أن تُختبر المادة من جديد. وفي الثانية ليس هذا هو الجواب.</p>\n\n<h2>لماذا تحمل المادة الفعالة عادةً تاريخ إعادة اختبار لا تاريخ انتهاء؟</h2>\n<p>معظم المواد الفعالة الدوائية مواد كيميائية مستقرة تُحفظ سائبة في عبوات محكمة الإغلاق وفي ظروف تخزين محددة. وأعمال الثبات على مادة من هذا النوع تُظهر عادةً أنها تتغير ببطء وعلى نحو يمكن التنبؤ به، وأن مطابقتها لمواصفتها يمكن إثباتها بالاختبار. وهذا هو أساس تاريخ إعادة الاختبار. فالمصنّع لا يدّعي أن المادة تصبح غير قابلة للاستخدام في يوم بعينه، بل يقول شيئاً أضيق من ذلك: إن الطمأنينة التي نشأت عن اختبار الإفراج الأصلي لا ينبغي الاعتماد عليها إلى ما لا نهاية دون التحقق منها مرة أخرى.</p>\n<p>أما تاريخ انتهاء الصلاحية فيحمل ادعاءً أقوى. فهو يقول إن المادة بعد هذه النقطة لا ينبغي استخدامها على الإطلاق، مهما كانت نتيجة الاختبار. والأشكال الصيدلانية النهائية تحمله في الغالب دائماً، لأن القرص أو المحلول منظومة مصاغة لا يُلتقط سلوكها مع الوقت بمعايرة المحتوى والنظر في قائمة قصيرة من الشوائب. وبعض المواد الفعالة تحمله كذلك: تلك غير المستقرة بطبيعتها، أو المعقمة، أو ذات المنشأ الحيوي، أو المورّدة في صورة لا يظهر فيها التحلل ظهوراً موثوقاً في مواصفة الإفراج. وإذا قدّم لك مورّد تاريخ انتهاء على مادة كنت تتوقع لها تاريخ إعادة اختبار، فذلك سؤال يستحق أن يُطرح لا تفصيل يُسجّل ويُنسى.</p>\n\n<h2>ماذا تعني إعادة الاختبار فعلياً؟</h2>\n<p>إعادة الاختبار ليست إجراءً ورقياً، وليست توقيعاً يُضاف إلى شهادة قائمة. تُؤخذ العينة من المادة مرة أخرى، على نحو يمثّل العبوة والتشغيلة تمثيلاً حقيقياً، وتُختبر مقابل المواصفة نفسها التي أُفرجت عليها. والاختبارات التي يُعتد بها هي تلك التي تكشف التحلل: المظهر، ومعايرة المحتوى، والمحتوى المائي، والمواد المرتبطة، وكل ما يحدده المونوغراف ومواصفة المصنّع بأنه دال على الثبات. أما الاختبارات التي لا يُعقل أن تتغير داخل برميل محكم الإغلاق فقد لا تحتاج إلى تكرار، لكن هذا القرار ينتمي إلى تسويغ مكتوب متفق عليه سلفاً، لا إلى تقدير شخص ما في صبيحة اليوم الذي يحين فيه موعد البرميل.</p>\n\n<h3>من يجري الاختبار، ومقابل أي مواصفة</h3>\n<p>قد يجري إعادة الاختبار المصنّع، أو مختبرك أنت، أو مختبر بالعقد، وأي هؤلاء ينطبق ينبغي أن يُحسم قبل اقتراب التاريخ لا أن يُرتجل عند حلوله. والذي لا يقبل التفاوض هو المواصفة. فإعادة الاختبار مقابل مواصفة أوسع من تلك التي أُفرجت عليها المادة ليست إعادة اختبار، بل إعادة تعريف. وإن قام مختبرك بالعمل، فأنت بحاجة إلى الطريقة التحليلية، وإلى دليل على نقل الطريقة نقلاً ناجحاً، وإلى المواد المرجعية القياسية، وهذا أحد أسباب أن وثائق طرق المورّد تثبت قيمتها قبل موعد أي إعادة اختبار بوقت طويل.</p>\n\n<h3>ماذا يحدث إذا نجحت، وإذا فشلت</h3>\n<p>إن طابقت المادة، جاز استخدامها وأُسند إليها تاريخ إعادة اختبار جديد. وطول الفترة الإضافية يأتي من الدليل الإرشادي المنطبق ومن بيانات ثبات المصنّع، لا من تكرار الفترة الأصلية على سبيل العادة، فتأكد من التوقع السائد حالياً في سوقك وشكلك الصيدلاني قبل أن تكتبه في إجراء.</p>\n<!-- TODO-OWNER: verify the retest interval, the permitted extension after a passing retest and the total in-use period expected in the buyer's market for this dosage form -->\n<p>وإن فشلت، فالتشغيلة خارج المواصفة وتُعالج بإجراء النتائج خارج المواصفة عندك كأي فشل آخر. ولا تُحوّل بهدوء إلى درجة أدنى، ولا تُصرف إلى منتج يُظن أن مطلبه أقل صرامة، إلا إذا كان ذلك الاستخدام مسوّغاً وموثقاً على أساسه المستقل.</p>\n\n<div class=\"callout\">\n<p><strong>تاريخ إعادة الاختبار ليس رخصة للاختبار إلى الأبد.</strong> كل إعادة اختبار تثبت أن المادة كانت مطابقة في تلك اللحظة، ولا تعيد التشغيلة إلى حالة الجديد. فبيانات ثبات المصنّع تدعم فترة محددة، وعدد المرات التي يُعقل فيها إعادة اختبار تشغيلة، ومجموع الوقت الذي يجوز أن تبقى فيه قيد الاستخدام، ينبغي أن يُكتبا في إجرائك أنت قبل أن يحين أول تاريخ إعادة اختبار، لا أن يُقررا في الأسبوع الذي يتأخر فيه برميل عن موعده.</p>\n</div>\n\n<h2>أين يظهر التاريخان، وأيهما يحكم؟</h2>\n<p>في شهادة التحليل ينبغي أن تتوقع تاريخ تصنيع أو تاريخ تحليل، ثم إما تاريخ إعادة اختبار وإما تاريخ انتهاء صلاحية، موسوماً بما هو عليه. أما صيغ مثل يُفضّل الاستخدام قبل، أو صالح حتى، أو العمر الافتراضي، فتستحق الاستفسار لا التأويل، لأن المعنيين المحتملين يحملان التزامين مختلفين، ولا ينبغي للموقع المستلم أن يخمّن أيهما سُلّم إليه. وينبغي أن يتفق ملصق البرميل مع الشهادة، وحيث يختلفان فذلك سؤال للمورّد لا قرار للمخزن.</p>\n<p>وقراءة هذين الحقلين قراءة صحيحة تنتمي إلى المهارة نفسها التي تُقرأ بها بقية الشهادة: معرفة أي الاختبارات أُجري، ومقابل أي إصدار من أي مواصفة، وما الذي تثبته النتائج فعلاً. فالتاريخ جزء من معنى الوثيقة، لا حقل إداري يُلحق بها في آخرها، ويُراجع في الجولة نفسها التي يُراجع فيها <a href=\"/ar/insights-api-impurity-profiles.html\">قسم الشوائب</a>.</p>\n\n<h2>كيف يؤثر تاريخ المادة الفعالة في عمر ما تصنعه؟</h2>\n<p>تاريخ إعادة الاختبار أو الانتهاء الخاص بالمادة الفعالة لا يصبح تاريخ انتهاء منتجك، ولا يمدّه كذلك. فالعمر الافتراضي لمنتجك النهائي يأتي من دراسات الثبات على تركيبتك أنت في عبوتك أنت. والذي يحكمه تاريخ المادة الفعالة هو النقطة التي ما تزال المادة الابتدائية عندها صالحة لأن تُدخل في التصنيع. والتوقع الذي يمكن الدفاع عنه أن تُستخدم المادة وهي داخل فترتها المتبقية بمريح لا في آخر يوم مسموح به، لأن التشغيلة التي تُعاد اختبارها ثم تُفرج ثم تُحتجز مرة أخرى قد أنفقت هامشها على أرضية المخزن بدلاً من أن تنفقه في عمليتك.</p>\n\n<h2>ماذا ينبغي أن تسأل المورّد عن هذين التاريخين؟</h2>\n<p>اسأل أي التاريخين ينطبق على المادة، وعلى أي بيانات ثبات. واسأل عن الفترة التي يدعمها المصنّع وكيف أُثبتت. واسأل إن كانت التشغيلة المعروضة عليك قد أُعيد اختبارها مرة من قبل، لأن برميلاً يصل وقد انقضى معظم فترته عرضٌ تجاري مختلف عن برميل أُفرج عنه حديثاً. واسأل عن ظروف التخزين التي يفترضها التاريخ، فالتاريخ لا يعني شيئاً بمعزل عن الظروف التي حُدد عندها، والشحنة التي أمضت أسابيع خارج تلك الظروف عليها سؤال مفتوح مهما قال الملصق.</p>\n<p>وحين تشتري عبر شركة تجارة أو توزيع، فالأجوبة تتعلق مع ذلك بالموقع الذي صنع المادة. ومهمة الموزّع أن يمرّرها كما هي لا أن يلخّصها إلى طمأنة، والمشتري الذي لا يحصل على جواب مباشر عن فترة إعادة الاختبار يُبعَد عادةً عن المصنّع لأسباب تستحق أن تُفهم. وهذا الفارق بين التاجر الذي أمامك والموقع الذي خلفه مشروح في مقالنا عن <a href=\"/ar/insights-manufacturer-or-trader.html\">تمييز المصنّع من شركة التجارة</a>.</p>\n\n<p>وتاريخا إعادة الاختبار والانتهاء من الحقول التي نراجعها في كل شهادة قبل أن تُعرض المادة، إلى جانب الدرجة والمواصفة وبيانات الشوائب، كجزء من <a href=\"/ar/drug-apis.html\">عمل توريد المواد الفعالة</a> وبصورة منفصلة عبر <a href=\"/ar/consultancy.html\">خدمة الاستشارات</a>. وهما يُقرآن طبيعياً مع <a href=\"/ar/insights-pharmacopoeial-grades-explained.html\">ما تقوله الدرجة الدستورية وما لا تقوله</a>.</p>",
+  "faq": [
+   [
+    "هل يجوز استخدام المادة الفعالة بعد مرور تاريخ إعادة اختبارها؟",
+    "لا يجوز إلا بعد أخذ عينة منها واختبارها مرة أخرى مقابل المواصفة التي أُفرجت عليها، وثبوت مطابقتها. وإلى أن يكتمل ذلك الاختبار لا تكون المادة متاحة للتصنيع. وإن فشلت، عوملت كمادة خارج المواصفة بإجرائك أنت، لا أن تُحوّل إلى منتج يُظن أن مطلبه أقل صرامة."
+   ],
+   [
+    "كم مرة يجوز إعادة اختبار التشغيلة نفسها؟",
+    "يأتي ذلك من بيانات ثبات المصنّع ومن إجرائك المكتوب، لا من تكرار الفترة إلى ما لا نهاية. فكل إعادة اختبار تؤكد المطابقة في تلك اللحظة ولا تجعل المادة جديدة. حدد مجموع فترة الاستخدام المسموح بها وعدد مرات إعادة الاختبار قبل أن يقترب التاريخ الأول، وسجّل التسويغ الذي بنيت عليه الاثنين."
+   ],
+   [
+    "هل يحدد تاريخ إعادة اختبار المادة الفعالة تاريخ انتهاء منتجي النهائي؟",
+    "لا. فعمر منتجك الافتراضي يأتي من دراسات الثبات على تركيبتك أنت في عبوتها. وتاريخ المادة الفعالة يحكم فقط متى تظل المادة الابتدائية صالحة لأن تُدخل في التصنيع. واستخدام مادة في آخر فترتها المسموح بها لا يقصّر العمر المعتمد لمنتجك، لكنه يترك لك مجالاً أقل إن تأخرت التشغيلة لأي سبب."
+   ],
+   [
+    "وماذا إن لم تذكر شهادة التحليل تاريخ إعادة اختبار ولا تاريخ انتهاء؟",
+    "اسأل المورّد أيهما ينطبق وعلى أي أساس، واطلب ملخص الثبات الذي يسنده. فالشهادة التي تخلو من مثل هذا التاريخ، أو تستخدم صيغة غامضة مثل صالح حتى، تترك الموقع المستلم يخمّن التزاماً كان ينبغي أن يكون صريحاً. اطلب تصحيحها من المنشأ بدلاً من حلّ الغموض محلياً."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-api-impurity-profiles.html",
+    "قراءة ملف الشوائب",
+    "كيف تُقرأ شوائب المادة الفعالة مقابل مواصفتها."
+   ],
+   [
+    "/ar/insights-pharmacopoeial-grades-explained.html",
+    "الدرجات الدستورية",
+    "ماذا تقوله درجة USP أو EP أو BP، وماذا تتركه."
+   ],
+   [
+    "/ar/drug-apis.html",
+    "توريد المواد الفعالة",
+    "كيف نقيّم ونورّد المواد الفعالة الدوائية."
+   ]
+  ]
+ },
+ "card": {
+  "en": "A retest date invites you to test again; an expiry date closes the door. What each date on an API certificate commits the manufacturer to, and what it asks of the site receiving the drum.",
+  "ar": "تاريخ إعادة الاختبار يدعوك إلى الاختبار من جديد، وتاريخ الانتهاء يغلق الباب. ما يلتزم به المصنّع في كل تاريخ على شهادة المادة الفعالة، وما يطلبه من الموقع المستلم."
+ },
+ "card_title": {
+  "en": "Retest date or expiry date?",
+  "ar": "تاريخ إعادة اختبار أم تاريخ انتهاء؟"
+ },
+ "backlink_from": "insights-api-impurity-profiles"
+}
