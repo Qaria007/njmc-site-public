@@ -16,3 +16,4 @@
 2026-10-01 run started
 2026-10-01 topic picked: writing-generic-is-not-a-quality-grade
 2026-10-01 draft written, build+gates passed for writing-generic-is-not-a-quality-grade
+2026-10-01 slug=writing-generic-is-not-a-quality-grade en_words=1300 ar_words=1080 sha=96b117e5801a48831451c82f079208d206cdfe02
