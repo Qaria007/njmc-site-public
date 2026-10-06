@@ -1,0 +1,108 @@
+{
+ "slug": "insights-incoming-goods-inspection",
+ "date": "2026-10-06",
+ "reference": "insights-api-impurity-profiles.html",
+ "en": {
+  "title": "Incoming Goods Inspection for Pharmaceutical Imports",
+  "description": "Incoming goods inspection checks the documents against the order, the containers against the documents, and the material against its own specification.",
+  "h1": "Receiving imported material: what to check before the pallet is accepted",
+  "summary": "A delivery that has cleared customs is a claim, not yet usable material. Here is the order in which that claim is checked, and what each check settles.",
+  "question": "What should you check when imported pharmaceutical material arrives?",
+  "answer": "Check the documents against the order, the containers against the documents, and the material against its specification. Confirm identity, verify seals, labels, batch numbers and quantity, assess the transport record where storage conditions apply, and hold the whole delivery in quarantine until the quality unit releases it.",
+  "badge": "Quality",
+  "published": "Published 6 October 2026",
+  "body": "<p>A shipment that has cleared customs and reached your yard is not yet usable material. It is a consignment with a claim attached to it, and incoming goods inspection is where that claim meets what is physically on the pallet. Everything upstream exists so that this check can be quick and conclusive rather than guessed at under time pressure.</p>\n<p>The work divides into three questions, in order. Do the documents describe the order you placed? Do the containers match the documents? Does the material match its specification? Each carries a different consequence when the answer is no, and collapsing all three into one signature on a delivery note loses the ability to say which of them failed.</p>\n\n<h2>What should already be in your hands before the pallet arrives?</h2>\n<p>A receipt check is only as quick as the preparation behind it. The agreed specification, the analytical method that goes with it, and the approved supplier and site record belong in place long before the shipment moves. So do the batch documents: the certificate of analysis for the batch actually being shipped rather than a typical one, and the packing list.</p>\n<p>The site named on those documents matters as much as the results printed on them. A certificate issued by a site other than the one you assessed and approved describes a different supply, whatever the product name on the drum says. Reading that detail is the same skill as <a href=\"/insights-reading-a-gmp-certificate.html\">reading a GMP certificate</a>, where the address and the scope carry the meaning.</p>\n\n<h2>What do you check before the vehicle is unloaded?</h2>\n<p>The first checks belong to the vehicle, not the material. Confirm that the consignment is the one expected, that the seal is intact and its number agrees with the shipping documents, and that the load compartment is clean and dry. A broken seal, or a number that does not agree, is recorded before anything comes off the truck, because once the pallets are standing on your floor the question of where the discrepancy arose is much harder to answer.</p>\n\n<h3>Temperature and transport conditions</h3>\n<p>Where the material has a defined storage condition, the transport record is evidence rather than a courtesy. Check that the monitoring device travelled with the goods, that it was reading for the whole journey, and that the data has been assessed rather than filed unread. An excursion is not automatically a rejection; it is a decision for the quality unit against the stability data, and the acceptable range comes from the applicable guideline, so confirm the current expectation for your own market and product type.</p>\n<!-- TODO-OWNER: verify the transport temperature ranges, the excursion assessment route and the monitoring requirements expected in the buyer's market for this product type -->\n\n<h2>What do you check on the containers themselves?</h2>\n<p>With the goods unloaded and held apart from released stock, the check moves to the containers.</p>\n\n<h3>Labels, batch identity and quantity</h3>\n<p>Every container should carry a label that agrees with the certificate of analysis and the packing list on material name, grade, batch number, manufacturer and quantity. Count the containers yourself rather than accepting the packing list figure as a count already performed. Several batches in one delivery are kept apart from the first moment, because a receipt record that merges them cannot be unmerged later. Check the dates too, and know which of the two kinds you are looking at, which our note on <a href=\"/insights-retest-date-and-expiry.html\">retest dates and expiry dates</a> sets out.</p>\n\n<h3>Damage, tamper evidence and the container itself</h3>\n<p>Look at the packaging as an item of evidence. Tamper-evident features intact, outer packaging undamaged, no staining, no crushing, no sign of a container having been opened and closed again. Record the container type: material supplied in a different closure or liner from the one agreed is a change, even when the contents are identical.</p>\n\n<div class=\"callout\">\n<p><strong>Quarantine is a status, not a location.</strong> Material is unavailable for use from the moment it is booked in until the quality unit releases it, and the receiving system should make bypassing that impossible rather than merely discouraged. A segregated area helps, but what stops the wrong drum reaching production is a status production cannot override and a label that says so plainly.</p>\n</div>\n\n<h2>What sampling and testing does receipt require?</h2>\n<p>Receipt testing is not a repeat of the manufacturer's release testing, and not a signature on the manufacturer's certificate either. The purpose is to establish that the material inside the container is what the document says it is. Identity is the check that does that. How many containers are sampled, how the samples are drawn, and whether one container's result may stand for others come from the applicable guideline and your own written rationale, so verify the current requirement for your market and material type.</p>\n<!-- TODO-OWNER: verify the sampling plan, the number of containers requiring identity testing and the conditions under which reduced testing is permitted in the buyer's market -->\n<p>Sampling needs the care any operation that opens a sealed container needs: a defined area, controlled conditions, cleaned equipment, and a record of which container each sample came from. A container opened and not properly reclosed has had its storage condition changed. Where the specification controls impurities, the certificate is read against it rather than scanned for the word complies, as set out in our note on <a href=\"/insights-api-impurity-profiles.html\">reading an impurity profile</a>.</p>\n\n<h2>What happens when something does not match?</h2>\n<p>A discrepancy found at receipt is cheap compared with the same discrepancy found in production, so a receiving procedure should make recording one easy and resolving one slow. Missing documents, a short count, a damaged container, a label that disagrees with the certificate: each is recorded against the delivery, assessed by the quality unit, and raised with the supplier formally rather than settled in a message that leaves no trace.</p>\n<p>Partial acceptance is a decision, not a convenience. Releasing the undamaged containers and holding the rest can be correct, but it has to be a documented assessment rather than a warehouse judgement made to clear floor space.</p>\n\n<h2>What should you agree with the supplier before the shipment leaves?</h2>\n<p>Most receipt problems are avoidable at the order stage. Agree which documents travel with the goods and which arrive ahead of them, in what language, and who is told when a container is found damaged. Agree the labelling detail, the container type, and how a change to either is communicated. Agree what happens to a rejected consignment, including who pays to return or destroy it. Those points belong in <a href=\"/insights-quality-agreements-api-supply.html\">a quality agreement with an API supplier</a> rather than in correspondence.</p>\n\n<p>Document review, label and container checks, and the condition of an arriving consignment are part of what we look at before material is offered, through our <a href=\"/drug-apis.html\">API sourcing work</a> and separately through our <a href=\"/consultancy.html\">consultancy service</a>. They read alongside <a href=\"/insights-manufacturer-or-trader.html\">telling a manufacturer from a trading company</a>, which decides whose answers you are really getting.</p>",
+  "faq": [
+   [
+    "Is incoming goods inspection a repeat of the manufacturer's testing?",
+    "No. The manufacturer's release testing establishes that the batch met its specification when it was made. The receipt check establishes that what arrived is that batch, in sound condition, with documents that agree. Identity testing is the part that looks inside the container; the rest is document, label and container work."
+   ],
+   [
+    "Can material be moved into production while it is still in quarantine?",
+    "No. Quarantined material is unavailable until the quality unit releases it, and the receiving system should enforce that rather than rely on people remembering. If production needs material urgently, the answer is to prioritise the release decision, not to take the drum early and complete the paperwork afterwards."
+   ],
+   [
+    "What do you do if the certificate of analysis arrives after the goods?",
+    "Book the delivery in and hold it. The physical checks on the seal, the containers and the labels can all be done, but the comparison that matters needs the batch certificate, so release waits for it. A pattern of certificates arriving late is a supplier performance issue worth raising formally rather than absorbing."
+   ],
+   [
+    "Who should carry out the receipt check, the warehouse or the quality unit?",
+    "Both, with the split written down. Warehouse staff do the physical work: vehicle, seal, count, labels, container condition, and recording what they find. The quality unit reviews the documents, decides on sampling and testing, assesses any discrepancy, and is the only function that can move material out of quarantine."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-quality-agreements-api-supply.html",
+    "Quality agreements",
+    "What a quality agreement with an API supplier should contain."
+   ],
+   [
+    "/insights-retest-date-and-expiry.html",
+    "Retest date or expiry date",
+    "What each date on a certificate commits the manufacturer to."
+   ],
+   [
+    "/drug-apis.html",
+    "API sourcing",
+    "How we assess and source active pharmaceutical ingredients."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "فحص الواردات: ماذا تتحقق منه عند وصول المادة",
+  "description": "فحص الواردات يقابل المستندات بأمر الشراء، والعبوات بالمستندات، والمادة بمواصفتها، ويبقي الشحنة في حجر الفحص حتى تُفرجها وحدة الجودة لديك قبل أي استخدام.",
+  "h1": "استلام المادة المستوردة: ماذا تتحقق منه قبل قبول المنصة",
+  "summary": "الشحنة التي خرجت من الجمارك ادّعاء، لا مادة قابلة للاستخدام بعد. وهذا ترتيب فحص ذلك الادّعاء، وما يحسمه كل فحص منه.",
+  "question": "ماذا ينبغي أن تتحقق منه عند وصول مادة دوائية مستوردة؟",
+  "answer": "قابل المستندات بأمر الشراء، والعبوات بالمستندات، والمادة بمواصفتها. وتأكد من هوية المادة، وتحقق من الأختام والملصقات وأرقام التشغيلات والكمية، وقيّم سجل النقل حيث تكون هناك ظروف تخزين محددة، وأبقِ الشحنة كلها في حجر الفحص حتى تُفرجها وحدة الجودة لديك قبل أي استخدام.",
+  "badge": "الجودة",
+  "published": "نُشر في 6 أكتوبر 2026",
+  "body": "<p>الشحنة التي خرجت من الجمارك ووصلت إلى ساحتك ليست مادة قابلة للاستخدام بعد. هي إرسالية يصحبها ادّعاء، وفحص الواردات هو اللحظة التي يُقاس فيها هذا الادّعاء على ما هو موجود فعلاً على المنصة. وكل ما سبق ذلك، من تقييم المورّد إلى المواصفة المتفق عليها إلى حزمة المستندات، قائم حتى يصبح هذا الفحص سريعاً وقاطعاً لا تخميناً يُجرى تحت ضغط الوقت.</p>\n<p>والعمل ينقسم إلى ثلاثة أسئلة تُطرح بالترتيب. هل تصف المستندات الطلب الذي قدّمته؟ هل تطابق العبوات المستندات؟ هل تطابق المادة مواصفتها؟ كل سؤال منها يمكن الإجابة عليه قبل طرح الذي يليه، ولكل منها نتيجة مختلفة عندما تكون الإجابة لا. أما دمج الثلاثة في توقيع واحد على إشعار التسليم فيُفقدك القدرة على تحديد أيّها فشل، وهو بالضبط ما تحتاج معرفته عندما تظهر المشكلة بعد أسابيع.</p>\n\n<h2>ما الذي ينبغي أن يكون بين يديك قبل وصول المنصة؟</h2>\n<p>فحص الاستلام لا يكون أسرع من التحضير الذي يسنده. فالمواصفة المتفق عليها، وطريقة التحليل المرافقة لها، وسجل المورّد والموقع المعتمدين، كلها ينبغي أن تكون جاهزة قبل حركة الشحنة بوقت طويل. وكذلك مستندات التشغيلة: شهادة التحليل للتشغيلة المُرسَلة فعلاً لا شهادة نموذجية، وقائمة التعبئة، وما يطلبه سوقك من مستندات استيراد وتخليص.</p>\n<p>والموقع المذكور في تلك المستندات لا يقل أهمية عن النتائج المطبوعة فيها. فشهادة صادرة عن موقع غير الموقع الذي قيّمته واعتمدته تصف توريداً آخر، أيّاً كان اسم المنتج على البرميل. وقراءة هذه التفصيلة بدقة هي المهارة نفسها التي تتطلبها <a href=\"/ar/insights-reading-a-gmp-certificate.html\">قراءة شهادة ممارسات التصنيع الجيدة</a>، حيث يحمل العنوان والنطاق معظم المعنى.</p>\n\n<h2>ماذا تتحقق منه قبل تفريغ الشاحنة؟</h2>\n<p>الفحوص الأولى تتعلق بالشاحنة لا بالمادة. تأكد أن الإرسالية هي المتوقعة، وأن الختم سليم ورقمه مطابق لمستندات الشحن، وأن حيز الحمل نظيف وجاف وخالٍ من أي شيء كان يمكن أن يلوّث البضاعة. فالختم المكسور، أو رقم الختم غير المطابق، ملاحظة تُسجَّل قبل أن ينزل أي شيء من الشاحنة، لأن السؤال عن موضع الاختلاف يصبح أصعب كثيراً بعد أن تستقر المنصات على أرضك.</p>\n\n<h3>درجة الحرارة وظروف النقل</h3>\n<p>وحين تكون للمادة ظروف تخزين محددة، فسجل النقل جزء من الدليل لا مجاملة. تحقق أن جهاز المراقبة رافق البضاعة، وأنه كان يقيس طوال الرحلة، وأن البيانات سُحبت وقُيّمت لا حُفظت دون قراءة. والتجاوز في درجة الحرارة ليس رفضاً تلقائياً، لكنه قرار يخص وحدة الجودة في ضوء بيانات الاستقرار لتلك المادة، والمدى المقبول ومسار التقييم يأتيان من الدليل المعمول به ومن بيانات المورّد نفسه، فتحقق من المتطلب الساري في سوقك ولنوع منتجك قبل أن تكتب قاعدة في إجراء لديك.</p>\n<!-- TODO-OWNER: verify the transport temperature ranges, the excursion assessment route and the monitoring requirements expected in the buyer's market for this product type -->\n\n<h2>ماذا تتحقق منه على العبوات نفسها؟</h2>\n<p>بعد التفريغ وفصل البضاعة عن المخزون المُفرَج عنه، ينتقل الفحص إلى العبوات. وهذا أبطأ أجزاء الاستلام وأكثرها عرضة للاختصار عندما تكون الشاحنة في انتظار المغادرة.</p>\n\n<h3>الملصقات وهوية التشغيلة والكمية</h3>\n<p>ينبغي أن تحمل كل عبوة ملصقاً يتفق مع شهادة التحليل وقائمة التعبئة في اسم المادة ودرجتها ورقم التشغيلة والمصنّع والكمية. وتُعدّ العبوات وتُطابَق الكمية بنفسك، لا تُقبل الكمية المكتوبة في قائمة التعبئة كأنها عدّ أُجري سابقاً. وتُراجع التواريخ أيضاً: فالبرميل الذي يصل وقد انقضى معظم فترته المسموح بها مسألة تجارية بقدر ما هي مسألة جودة، والفرق بين نوعي التاريخ الذي قد تجده على الملصق موضوع مقالتنا عن <a href=\"/ar/insights-retest-date-and-expiry.html\">تاريخ إعادة الاختبار وتاريخ الانتهاء</a>.</p>\n<p>ووجود عدة تشغيلات في إرسالية واحدة أمر معتاد، ويجب فصلها من اللحظة الأولى، لأن سجل استلام يدمجها لا يمكن فصله لاحقاً. وحيث تكون الملصقات بلغة لا يقرأها مستودعك، فالترجمة تنتمي إلى إجراء الاستلام لا إلى ذاكرة شخص واحد.</p>\n\n<h3>التلف وأدلة العبث والعبوة نفسها</h3>\n<p>انظر إلى التغليف كقطعة دليل. خصائص إظهار العبث سليمة، والتغليف الخارجي غير متضرر، ولا تلطيخ ولا انسحاق ولا أثر لعبوة فُتحت ثم أُغلقت. وسجّل نوع العبوة وما إذا كان هو ما تفترضه المواصفة: فالمادة المورّدة بغلق مختلف أو ببطانة داخلية غير المتفق عليها تمثل تغييراً، حتى لو كان المحتوى مطابقاً، وموضعها السجل بهذه الصفة.</p>\n\n<div class=\"callout\">\n<p><strong>حجر الفحص حالة لا مكان.</strong> المادة غير متاحة للاستخدام من لحظة تسجيل استلامها حتى تُفرجها وحدة الجودة، وينبغي أن يجعل نظام الاستلام تجاوز ذلك مستحيلاً لا مجرد غير مستحسن. والمنطقة المعزولة فعلياً تساعد، لكن ما يمنع وصول البرميل الخطأ إلى الإنتاج هو حالة لا يستطيع الإنتاج تغييرها وملصق يقول ذلك بوضوح.</p>\n</div>\n\n<h2>أي معاينة واختبار يتطلبه الاستلام فعلاً؟</h2>\n<p>اختبار الاستلام ليس تكراراً لاختبارات الإفراج عند المصنّع، وليس توقيعاً على شهادته أيضاً. والغرض منه أضيق من ذلك: إثبات أن المادة الموجودة داخل العبوة هي ما تقوله الوثيقة. واختبار الهوية هو ما يفعل ذلك. أما عدد العبوات التي تُسحب منها عينات، وطريقة سحبها، وهل تنوب نتيجة عبوة عن غيرها، فكلها تأتي من الدليل المعمول به ومن مبرّرك المكتوب، فتحقق من المتطلب الساري في سوقك ولنوع مادتك بدلاً من نقل عادة من موقع آخر.</p>\n<!-- TODO-OWNER: verify the sampling plan, the number of containers requiring identity testing and the conditions under which reduced testing is permitted in the buyer's market -->\n<p>وسحب العينة نفسه يحتاج العناية التي تحتاجها أي عملية تفتح عبوة مغلقة: منطقة محددة، وظروف مضبوطة، ومعدات منظفة، وسجل يبيّن من أي عبوة أُخذت كل عينة. فالعينة المسحوبة بإهمال تُنتج نتيجة لا يمكن الاعتماد عليها في أي من الاتجاهين، والعبوة التي تُفتح ولا تُغلق بإحكام قد تغيّرت ظروف تخزينها.</p>\n<p>وحيث تشمل المواصفة ضبط الشوائب، تُقرأ الشهادة مقابلها لا تُمسح بحثاً عن كلمة مطابق، وهو عمل أطول من فحص الاستلام وموضوع مقالتنا عن <a href=\"/ar/insights-api-impurity-profiles.html\">قراءة ملف الشوائب</a>.</p>\n\n<h2>ماذا يحدث عندما لا يتطابق شيء؟</h2>\n<p>الاختلاف المكتشف عند الاستلام رخيص بالمقارنة مع الاختلاف نفسه مكتشفاً في الإنتاج، فينبغي أن يجعل إجراء الاستلام تسجيله سهلاً وحلّه بطيئاً. فالمستندات الناقصة أو الخاطئة، والعدد الأقل من المتفق عليه، والعبوة المتضررة، والملصق الذي يخالف الشهادة، كل منها يُسجّل على الإرسالية، وتُقيّمه وحدة الجودة، ويُرفع إلى المورّد كمسألة رسمية لا يُسوّى في رسالة لا تترك أثراً.</p>\n<p>والقبول الجزئي قرار لا تسهيل. فالإفراج عن العبوات السليمة وحجز الباقي قد يكون صحيحاً تماماً، لكن يجب أن يكون تقييماً موثقاً لا حكماً يصدره المستودع لتفريغ مساحة. وما لا ينبغي أن يحدث أبداً هو إعادة تصنيف هادئة لمادة فشلت في الاستلام إلى استخدام يُفترض أن متطلبه أقل تشدداً.</p>\n\n<h2>ماذا ينبغي أن تتفق عليه مع المورّد قبل مغادرة الشحنة؟</h2>\n<p>معظم مشكلات الاستلام يمكن تجنّبها عند الطلب. اتفق على المستندات التي تسافر مع البضاعة وتلك التي تسبقها، وبأي لغة، ومن يُبلَّغ عند العثور على عبوة متضررة. واتفق على تفاصيل الملصق ونوع العبوة وكيف يُبلَّغ أي تغيير فيهما. واتفق على ما يحدث للإرسالية المرفوضة، ومن يدفع تكلفة إعادتها أو إتلافها، لأن ذلك سؤال لا يرغب أحد في فتحه أول مرة ومنصة محجوزة تسدّ الطريق.</p>\n<p>وهذه النقاط موضعها الاتفاق المكتوب لا المراسلات، ولهذا تكون فحوص الواردات والمسؤوليات المحيطة بها أحد بنود <a href=\"/ar/insights-quality-agreements-api-supply.html\">اتفاقية الجودة مع مورّد المادة الفعالة</a>.</p>\n\n<p>مراجعة المستندات، وفحص الملصقات والعبوات، وحالة الإرسالية الواصلة، كلها جزء من تقييمنا قبل عرض أي مادة، من خلال <a href=\"/ar/drug-apis.html\">عملنا في توريد المواد الفعالة</a> وبشكل منفصل عبر <a href=\"/ar/consultancy.html\">خدمة الاستشارات</a>. وتُقرأ هذه المقالة جنباً إلى جنب مع <a href=\"/ar/insights-manufacturer-or-trader.html\">التمييز بين المصنّع والشركة التجارية</a>، الذي يحدد إجابات من تحصل عليها فعلاً عندما يصعد سؤال استلام في سلسلة التوريد.</p>",
+  "faq": [
+   [
+    "هل فحص الواردات تكرار لاختبارات المصنّع؟",
+    "لا. اختبارات الإفراج عند المصنّع تثبت أن التشغيلة طابقت مواصفتها وقت إنتاجها. أما فحص الاستلام فيثبت أن ما وصل هو تلك التشغيلة، بحالة سليمة، ومع مستندات متفقة. واختبار الهوية هو الجزء الذي ينظر داخل العبوة، وما تبقى عمل على المستندات والملصقات والعبوات."
+   ],
+   [
+    "هل يمكن نقل المادة إلى الإنتاج وهي في حجر الفحص؟",
+    "لا. المادة المحجوزة غير متاحة حتى تُفرجها وحدة الجودة، وينبغي أن يفرض نظام الاستلام ذلك لا أن يتكل على تذكّر العاملين. وإذا احتاج الإنتاج المادة بشكل عاجل، فالحل تقديم قرار الإفراج في الأولوية، لا أخذ البرميل مبكراً وإكمال الورق بعد ذلك."
+   ],
+   [
+    "ماذا تفعل إذا وصلت شهادة التحليل بعد وصول البضاعة؟",
+    "سجّل الاستلام واحجز الشحنة. يمكن إجراء كل الفحوص المادية على الختم والعبوات والملصقات، لكن المقابلة المهمة تحتاج شهادة التشغيلة، فينتظرها الإفراج. وتكرار وصول الشهادات متأخرة مسألة أداء لدى المورّد تستحق أن تُرفع رسمياً لا أن تُستوعب بهدوء."
+   ],
+   [
+    "من ينفّذ فحص الاستلام، المستودع أم وحدة الجودة؟",
+    "كلاهما، مع تقسيم مكتوب للمسؤوليات. يقوم المستودع بالعمل المادي: الشاحنة والختم والعدّ والملصقات وحالة العبوات وتسجيل ما يجده. وتراجع وحدة الجودة المستندات، وتقرر المعاينة والاختبار، وتقيّم أي اختلاف، وهي الوحيدة التي يمكنها إخراج المادة من حجر الفحص."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-quality-agreements-api-supply.html",
+    "اتفاقيات الجودة",
+    "ما ينبغي أن تحتويه اتفاقية الجودة مع مورّد المادة الفعالة."
+   ],
+   [
+    "/ar/insights-retest-date-and-expiry.html",
+    "إعادة الاختبار أم الانتهاء",
+    "ما يلتزم به المصنّع في كل تاريخ على الشهادة."
+   ],
+   [
+    "/ar/drug-apis.html",
+    "توريد المواد الفعالة",
+    "كيف نقيّم ونورّد المواد الفعالة الدوائية."
+   ]
+  ]
+ },
+ "card": {
+  "en": "A delivery that has cleared customs is a claim with a pallet attached. The order in which documents, containers and material are checked at receipt, and what each check settles before the quality unit releases anything.",
+  "ar": "الشحنة التي خرجت من الجمارك ادّعاء تصحبه منصة. ترتيب فحص المستندات والعبوات والمادة عند الاستلام، وما يحسمه كل فحص قبل أن تُفرج وحدة الجودة أي شيء."
+ },
+ "card_title": {
+  "en": "Checking a delivery before you accept it",
+  "ar": "فحص الشحنة قبل قبولها"
+ },
+ "backlink_from": "insights-quality-agreements-api-supply"
+}
