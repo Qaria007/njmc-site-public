@@ -45,3 +45,4 @@
 2026-10-06 step4 gates passed on new pages
 2026-10-06 step5 wired into index/sitemap, topics.md updated
 2026-10-06 step6 site-wide gates: only 6 known pre-existing failures remain
+2026-10-06 step7 published: insights-incoming-goods-inspection, en=1098 words, ar=1058 words, commit 223867743e937e461bd8d46aa8aec724b0a9e20d
