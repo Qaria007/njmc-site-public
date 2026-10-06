@@ -38,3 +38,4 @@
 2026-09-29 step5 wired into index/sitemap, topics.md updated
 2026-09-29 step6 site-wide gates: only 6 known pre-existing failures remain
 2026-09-29 step7 published: insights-retest-date-and-expiry, en=1095 words, ar=1085 words, commit 3dc8d8e080f8d4c5727ad61439d060d85a63b273
+2026-10-06 run started
