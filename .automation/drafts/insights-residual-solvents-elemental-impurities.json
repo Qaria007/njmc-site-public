@@ -1,0 +1,108 @@
+{
+ "slug": "insights-residual-solvents-elemental-impurities",
+ "date": "2026-10-13",
+ "reference": "insights-api-impurity-profiles.html",
+ "en": {
+  "title": "Residual Solvents and Elemental Impurities in APIs",
+  "description": "Residual solvents and elemental impurities come from the process, not the molecule, so each is judged on its own toxicity under its own guideline, not by API limits.",
+  "h1": "Residual solvents and elemental impurities sit outside the ordinary limit",
+  "summary": "The related substances list on a certificate can look clean while two whole groups of impurity sit elsewhere. Here is why they are controlled apart, and how to read them.",
+  "question": "Why are residual solvents and elemental impurities controlled separately?",
+  "answer": "Residual solvents and elemental impurities are not related to the drug molecule. Solvents remain from the manufacturing process, and elements come from catalysts, reagents, water, equipment or packaging. Their risk depends on the toxicity of the solvent or element itself, so each is assessed under its own guideline against a permitted daily exposure, not against the API's impurity criteria.",
+  "badge": "Active Pharmaceutical Ingredients",
+  "published": "Published 13 October 2026",
+  "body": "<p>An impurity profile on a certificate of analysis usually reads as one list: the specified related substances, any unspecified ones, and a total. Two groups of impurity rarely sit in that list, and a buyer who reads only the related substances section can conclude that a batch is clean without having looked at them at all. Residual solvents and elemental impurities are controlled under their own guidelines, tested by their own methods and reported in their own sections, sometimes on a separate document entirely.</p>\n<p>The separation is not administrative. These two groups differ from ordinary impurities in where they come from, in how their risk is judged, and in what a passing result can and cannot tell you. Reading them properly starts with those differences.</p>\n\n<h2>Why are residual solvents and elemental impurities controlled separately?</h2>\n<p>Ordinary organic impurities are related to the drug substance itself: starting materials, intermediates, by-products and degradation products of the chemistry that made it. Their acceptance criteria are set with reference to that substance, its dose and the safety evidence for each impurity, and they are usually separated and measured by the same chromatographic method that assays the API.</p>\n<p>Residual solvents and elemental impurities are not related to the molecule. Solvents are left over from the process: from reaction steps, from crystallisation, from washing and drying the solid. Elements may be added on purpose, as catalysts, or arrive by accident, from reagents, process water, equipment surfaces and container contact. Their toxicity belongs to the solvent or the element, not to the drug, so the same solvent carries broadly the same concern whichever API it turns up in. That is why each group is assessed on its own toxicological basis, under its own ICH guideline, rather than folded into criteria derived from the drug substance. The major pharmacopoeias have taken the same approach into their general chapters.</p>\n\n<h2>How is the risk of a residual solvent judged?</h2>\n<p>Solvents are grouped by how much harm they can do, from those that should be avoided in manufacture altogether to those regarded as low risk. The acceptable level of each one starts from a permitted daily exposure, which is then translated into a concentration in the material using the daily dose of the medicine it ends up in. Two consequences follow for a buyer. The same result can be acceptable for one product and not for another, because the dose differs. And a solvent in the group that should be avoided has no business appearing in a profile without a written justification.</p>\n<p>The groupings and the acceptable concentrations are set in the current guideline and pharmacopoeia, and they are revised from time to time. Check them against the edition that applies to your own market and dosage form rather than relying on a figure quoted on a certificate.</p>\n<!-- TODO-OWNER: verify the current solvent classes, permitted daily exposures and concentration limits in the applicable ICH guideline and pharmacopoeia for the buyer's market and dosage form -->\n\n<h3>Which solvents should the certificate report?</h3>\n<p>A residual solvents test finds only what it is set up to look for. The useful question is not whether the material passed, but which solvents were tested, and whether that list matches the solvents actually used in the route of synthesis, including those in the final steps and in purifying the solid. A certificate that reports two solvents when the process uses four has demonstrated nothing about the other two. If the route has changed since the specification was written, the list should have changed with it.</p>\n\n<h2>How are elemental impurities assessed?</h2>\n<p>Elemental impurities are approached by risk assessment rather than by testing a fixed list on every batch. The manufacturer considers each potential source: catalysts deliberately added, elements carried in with reagents and solvents, water, equipment, and the container the material is stored in. For each element that could plausibly be present, it weighs the likely level against the permitted daily exposure for the intended route of administration. The outcome may be routine testing for certain elements, periodic testing, or a documented conclusion that the assessment itself is sufficient control.</p>\n\n<h3>What the risk assessment should tell you</h3>\n<p>A buyer should be able to see a summary of that assessment, or at least its conclusions: which elements were considered, which sources were identified, and why each element is or is not tested. A certificate that says complies, with no indication of what it complies with, gives you nothing to check. The same goes for a line reporting a general heavy metals test. Several major pharmacopoeias have moved away from that older, non-specific test towards element-specific methods, and a certificate still relying on it raises a fair question about which edition of the monograph the material was tested against.</p>\n\n<h3>The finished product carries the final responsibility</h3>\n<p>The elemental impurities guideline is framed around the finished drug product. The API is one contributor among several, alongside excipients, water, manufacturing equipment and packaging. The manufacturer of the finished product therefore needs data from the API supplier to complete its own assessment, and an API supplier that cannot provide it leaves a gap in the buyer's file.</p>\n\n<div class=\"callout\">\n<p><strong>A pass is only as good as the list behind it.</strong> For residual solvents and elemental impurities alike, the result on a certificate says nothing about what was not tested. Before accepting a pass, confirm that the solvents reported match the route of synthesis, and that the elements considered come from a documented risk assessment rather than a habit.</p>\n</div>\n\n<h2>What should you ask a supplier about solvents and elements?</h2>\n<p>Ask for the list of solvents used in the process, at least in the final steps, and compare it with the solvents reported on the certificate. Ask whether any metal catalysts are used, and how their removal is demonstrated. Ask for the elemental impurities risk assessment summary, or the statement the manufacturer prepares for customers. Ask which edition of which pharmacopoeia, and which guideline, the specification follows. Where a drug master file or a certificate of suitability exists, much of this sits in the documents described in our note on <a href=\"/insights-dmf-cep-api-documents.html\">DMF and CEP documentation</a>.</p>\n<p>Where the material comes through a trading or distribution company, the answers still concern the site that made it. They should be passed through intact, not summarised into a general assurance that the material meets the pharmacopoeia.</p>\n\n<p>Residual solvents and elemental impurities are read in the same pass as the rest of the profile, as set out in our guide to <a href=\"/insights-api-impurity-profiles.html\">reading an API impurity profile</a>. We check both on every certificate as part of our <a href=\"/drug-apis.html\">API sourcing work</a>, and they read naturally alongside <a href=\"/insights-pharmacopoeial-grades-explained.html\">what a pharmacopoeial grade does and does not tell you</a>.</p>",
+  "faq": [
+   [
+    "Does a pass on the residual solvents test mean the API contains no solvent?",
+    "No. A pass means the solvents that were tested are within the acceptance criteria in the specification. It says nothing about solvents that were not on the list. Compare the solvents reported with those used in the route of synthesis, especially in the final steps and in purifying the solid, before treating the result as complete."
+   ],
+   [
+    "Why can the same solvent result be acceptable for one product and not another?",
+    "Because the acceptable concentration in the material is calculated from a permitted daily exposure and the daily dose of the medicine the material goes into. A higher dose means more of the API, and so more of the solvent, reaches the patient each day. Check the result against your own product's dose, not only against the supplier's specification."
+   ],
+   [
+    "Do I need elemental impurity data from my API supplier?",
+    "Yes, if you make a finished product. The elemental impurities guideline is framed around the finished drug product, and the API is one of its contributors alongside excipients, water, equipment and packaging. Without the supplier's risk assessment summary or customer statement, your own assessment has a gap that is hard to close by testing alone."
+   ],
+   [
+    "What does it mean if the certificate still reports a heavy metals test?",
+    "It may mean the specification follows an older edition of the monograph. Several major pharmacopoeias have moved from the non-specific heavy metals test to element-specific methods supported by a risk assessment. Ask the supplier which edition and which guideline the specification follows, and ask for the elemental impurities assessment that should now sit behind it."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-api-impurity-profiles.html",
+    "Reading an impurity profile",
+    "How to read an API impurity profile against its specification."
+   ],
+   [
+    "/insights-dmf-cep-api-documents.html",
+    "DMF and CEP documents",
+    "What the regulatory files behind an API contain."
+   ],
+   [
+    "/drug-apis.html",
+    "API sourcing",
+    "How we assess and source active pharmaceutical ingredients."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "المذيبات المتبقية والشوائب العنصرية في المواد الفعالة",
+  "description": "المذيبات المتبقية والشوائب العنصرية تأتي من عملية التصنيع لا من الجزيء، ولذلك تُقيَّم كل منها بحسب سميتها وبموجب دليل خاص بها، لا بمعايير شوائب المادة الفعالة.",
+  "h1": "المذيبات المتبقية والشوائب العنصرية خارج الحد المعتاد",
+  "summary": "قد تبدو قائمة المواد المرتبطة في الشهادة نظيفة بينما تقع مجموعتان كاملتان من الشوائب في مكان آخر. وهذا سبب ضبطهما بصورة منفصلة، وطريقة قراءتهما.",
+  "question": "لماذا تُضبط المذيبات المتبقية والشوائب العنصرية بصورة منفصلة؟",
+  "answer": "المذيبات المتبقية والشوائب العنصرية لا ترتبط بجزيء الدواء. فالمذيبات بقايا من عملية التصنيع، والعناصر تأتي من المحفزات أو الكواشف أو الماء أو المعدات أو العبوة. وخطرها يتوقف على سمية المذيب أو العنصر نفسه، ولذلك تُقيَّم كل منها بموجب دليل إرشادي خاص بها مقابل التعرض اليومي المسموح به، لا مقابل معايير شوائب المادة الفعالة.",
+  "badge": "المواد الفعالة الدوائية",
+  "published": "نُشر في 13 أكتوبر 2026",
+  "body": "<p>يُقرأ ملف الشوائب في شهادة التحليل عادةً كقائمة واحدة: المواد المرتبطة المحددة، وأي مواد غير محددة، ثم المجموع الكلي. لكن مجموعتين من الشوائب نادراً ما تظهران في تلك القائمة، والمشتري الذي يقرأ قسم المواد المرتبطة وحده قد يخلص إلى أن التشغيلة نظيفة دون أن ينظر إليهما أصلاً. فالمذيبات المتبقية والشوائب العنصرية تُضبط بموجب أدلة إرشادية خاصة بها، وتُختبر بطرق خاصة بها، وتُذكر في أقسام خاصة بها، وأحياناً في وثيقة منفصلة تماماً.</p>\n<p>وهذا الفصل ليس إجراءً إدارياً. فهاتان المجموعتان تختلفان عن الشوائب المعتادة في مصدرهما، وفي طريقة الحكم على خطرهما، وفيما يمكن أن تقوله النتيجة المطابقة وما لا يمكن أن تقوله. والقراءة الصحيحة لهما تبدأ من هذه الفروق. فمن لا يعرف من أين جاء المذيب أو العنصر لا يستطيع أن يحكم هل اختُبر ما ينبغي أن يُختبر، ولا هل النتيجة المدونة تعني ما تبدو أنها تعنيه.</p>\n\n<h2>لماذا تُضبط المذيبات المتبقية والشوائب العنصرية بصورة منفصلة؟</h2>\n<p>الشوائب العضوية المعتادة مرتبطة بالمادة الدوائية نفسها: المواد الأولية، والمركبات الوسيطة، والنواتج الجانبية، ونواتج التحلل الصادرة عن الكيمياء التي صنعتها. وتُوضع معايير قبولها بالرجوع إلى تلك المادة وجرعتها وأدلة السلامة الخاصة بكل شائبة، وتُفصل وتُقاس عادةً بالطريقة الكروماتوغرافية نفسها التي تُعاير بها المادة الفعالة.</p>\n<p>أما المذيبات المتبقية والشوائب العنصرية فلا علاقة لها بالجزيء. فالمذيبات بقايا من العملية: من خطوات التفاعل، ومن التبلور، ومن غسل المادة الصلبة وتجفيفها. والعناصر قد تُضاف عمداً كمحفزات، أو تصل عرضاً من الكواشف، وماء العملية، وأسطح المعدات، وملامسة العبوة. وسميتها تعود إلى المذيب أو العنصر لا إلى الدواء، فالمذيب نفسه يحمل القلق نفسه تقريباً أياً كانت المادة الفعالة التي يظهر فيها. ولهذا تُقيَّم كل مجموعة على أساس سمّي مستقل، بموجب دليل إرشادي خاص من إرشادات ICH، بدلاً من أن تُدمج في معايير مشتقة من المادة الدوائية. وقد نقلت دساتير الأدوية الكبرى النهج نفسه إلى فصولها العامة.</p>\n\n<h2>كيف يُحكم على خطر المذيب المتبقي؟</h2>\n<p>تُصنَّف المذيبات بحسب مقدار الضرر الذي يمكن أن تُحدثه، من تلك التي ينبغي تجنبها في التصنيع كلياً إلى تلك التي تُعد منخفضة الخطورة. ويبدأ المستوى المقبول لكل منها من التعرض اليومي المسموح به، ثم يُترجم إلى تركيز في المادة باستخدام الجرعة اليومية للدواء الذي ستدخل فيه. ويترتب على ذلك أمران بالنسبة للمشتري. فالنتيجة نفسها قد تكون مقبولة لمنتج وغير مقبولة لآخر، لأن الجرعة تختلف. والمذيب المنتمي إلى المجموعة التي ينبغي تجنبها لا مكان له في الملف من غير تسويغ مكتوب.</p>\n<p>والتصنيفات والتراكيز المقبولة مقررة في الدليل الإرشادي والدستور الساريين، وهي تُراجع من وقت لآخر. فتحقق منها مقابل الإصدار المنطبق على سوقك وشكلك الصيدلاني، بدلاً من الاعتماد على رقم منقول في شهادة.</p>\n<!-- TODO-OWNER: verify the current solvent classes, permitted daily exposures and concentration limits in the applicable ICH guideline and pharmacopoeia for the buyer's market and dosage form -->\n\n<h3>أي المذيبات ينبغي أن تذكرها الشهادة؟</h3>\n<p>اختبار المذيبات المتبقية لا يجد إلا ما أُعد للبحث عنه. والسؤال المفيد ليس هل نجحت المادة، بل أي المذيبات اختُبرت، وهل تتطابق تلك القائمة مع المذيبات المستخدمة فعلاً في مسار التخليق، بما فيها مذيبات الخطوات الأخيرة وتنقية المادة الصلبة. فالشهادة التي تذكر مذيبين بينما تستخدم العملية أربعة لم تثبت شيئاً عن الاثنين الآخرين. وإن تغير المسار منذ كُتبت المواصفة، فينبغي أن تكون القائمة قد تغيرت معه. ومسار التخليق ليس سراً يُحجب عن المشتري كلياً، فقائمة المذيبات على الأقل معلومة يمكن مشاركتها دون كشف تفاصيل العملية.</p>\n\n<h2>كيف تُقيَّم الشوائب العنصرية؟</h2>\n<p>يُتعامل مع الشوائب العنصرية بتقييم المخاطر لا باختبار قائمة ثابتة في كل تشغيلة. فالمصنّع ينظر في كل مصدر محتمل: المحفزات المضافة عمداً، والعناصر الداخلة مع الكواشف والمذيبات، والماء، والمعدات، والعبوة التي تُخزن فيها المادة. ولكل عنصر يُعقل وجوده، يوازن المستوى المرجح مقابل التعرض اليومي المسموح به لطريق الإعطاء المقصود. وقد تكون النتيجة اختباراً روتينياً لعناصر معينة، أو اختباراً دورياً، أو خلاصة موثقة بأن التقييم نفسه ضبط كافٍ.</p>\n\n<h3>ما الذي ينبغي أن يخبرك به تقييم المخاطر</h3>\n<p>ينبغي أن يتمكن المشتري من الاطلاع على ملخص لذلك التقييم، أو على خلاصاته على الأقل: أي العناصر نُظر فيها، وأي المصادر حُددت، ولماذا يُختبر كل عنصر أو لا يُختبر. فالشهادة التي تقول مطابق، دون أي إشارة إلى ما هي مطابقة له، لا تعطيك شيئاً تتحقق منه. والأمر نفسه ينطبق على سطر يذكر اختباراً عاماً للمعادن الثقيلة. فعدة دساتير كبرى ابتعدت عن ذلك الاختبار القديم غير النوعي نحو طرق نوعية لكل عنصر، والشهادة التي ما زالت تعتمد عليه تثير سؤالاً مشروعاً عن إصدار المونوغراف الذي اختُبرت المادة مقابله.</p>\n\n<h3>المنتج النهائي يحمل المسؤولية الأخيرة</h3>\n<p>دليل الشوائب العنصرية مبني حول المنتج الدوائي النهائي. والمادة الفعالة مساهم واحد بين عدة مساهمين، إلى جانب السواغات والماء ومعدات التصنيع والتعبئة. ولذلك يحتاج مصنّع المنتج النهائي إلى بيانات من مورّد المادة الفعالة ليكمل تقييمه هو، والمورّد الذي لا يستطيع تقديمها يترك فجوة في ملف المشتري. ومن الأفضل أن تُطلب هذه البيانات عند اعتماد المورّد، لا في الأسبوع الذي تسأل فيه الجهة التنظيمية عنها.</p>\n\n<div class=\"callout\">\n<p><strong>النتيجة المطابقة لا تساوي أكثر من القائمة التي خلفها.</strong> في المذيبات المتبقية والشوائب العنصرية على السواء، لا تقول النتيجة المدونة في الشهادة شيئاً عما لم يُختبر. فقبل أن تقبل نتيجة مطابقة، تأكد أن المذيبات المذكورة تطابق مسار التخليق، وأن العناصر التي نُظر فيها جاءت من تقييم مخاطر موثق لا من العادة.</p>\n</div>\n\n<h2>ماذا ينبغي أن تسأل المورّد عن المذيبات والعناصر؟</h2>\n<p>اطلب قائمة المذيبات المستخدمة في العملية، في الخطوات الأخيرة على الأقل، وقارنها بالمذيبات المذكورة في الشهادة. واسأل هل تُستخدم محفزات معدنية، وكيف يُثبت التخلص منها. واطلب ملخص تقييم مخاطر الشوائب العنصرية، أو البيان الذي يعده المصنّع لعملائه. واسأل أي إصدار من أي دستور، وأي دليل إرشادي، تتبعه المواصفة. وحيث يوجد ملف رئيسي للدواء أو شهادة ملاءمة، فكثير من ذلك موجود في الوثائق التي يشرحها مقالنا عن <a href=\"/ar/insights-dmf-cep-api-documents.html\">وثائق DMF وCEP</a>.</p>\n<p>وحين تصل المادة عبر شركة تجارة أو توزيع، فالأجوبة تتعلق مع ذلك بالموقع الذي صنعها. وينبغي أن تُمرَّر كما هي، لا أن تُلخَّص في طمأنة عامة بأن المادة تستوفي الدستور. والمورّد الذي لا يستطيع أن يسمّي المذيبات المستخدمة في الخطوة الأخيرة لا يعرف المادة بالقدر الذي يكفي لبيعها لك.</p>\n\n<p>وتُقرأ المذيبات المتبقية والشوائب العنصرية في الجولة نفسها التي يُقرأ فيها بقية الملف، كما هو مشروح في دليلنا إلى <a href=\"/ar/insights-api-impurity-profiles.html\">قراءة ملف شوائب المادة الفعالة</a>. ونحن نراجع الاثنين في كل شهادة كجزء من <a href=\"/ar/drug-apis.html\">عمل توريد المواد الفعالة</a>، وهما يُقرآن طبيعياً مع <a href=\"/ar/insights-pharmacopoeial-grades-explained.html\">ما تقوله الدرجة الدستورية وما لا تقوله</a>.</p>",
+  "faq": [
+   [
+    "هل تعني النتيجة المطابقة في اختبار المذيبات المتبقية أن المادة الفعالة خالية من المذيبات؟",
+    "لا. فالنتيجة المطابقة تعني أن المذيبات التي اختُبرت تقع ضمن معايير القبول في المواصفة، ولا تقول شيئاً عن المذيبات التي لم تكن في القائمة. قارن المذيبات المذكورة بتلك المستخدمة في مسار التخليق، وخاصة في الخطوات الأخيرة وتنقية المادة الصلبة، قبل أن تعد النتيجة كاملة."
+   ],
+   [
+    "لماذا قد تكون نتيجة المذيب نفسها مقبولة لمنتج وغير مقبولة لآخر؟",
+    "لأن التركيز المقبول في المادة يُحسب من التعرض اليومي المسموح به ومن الجرعة اليومية للدواء الذي تدخل فيه المادة. فالجرعة الأعلى تعني أن قدراً أكبر من المادة الفعالة، ومن ثم من المذيب، يصل إلى المريض كل يوم. فقارن النتيجة بجرعة منتجك أنت، لا بمواصفة المورّد وحدها."
+   ],
+   [
+    "هل أحتاج إلى بيانات الشوائب العنصرية من مورّد المادة الفعالة؟",
+    "نعم، إن كنت تصنع منتجاً نهائياً. فدليل الشوائب العنصرية مبني حول المنتج الدوائي النهائي، والمادة الفعالة أحد مساهميه إلى جانب السواغات والماء والمعدات والتعبئة. ومن دون ملخص تقييم المخاطر لدى المورّد أو بيانه الموجه للعملاء، يبقى في تقييمك أنت فجوة يصعب سدها بالاختبار وحده."
+   ],
+   [
+    "ماذا يعني أن تذكر الشهادة اختباراً للمعادن الثقيلة حتى الآن؟",
+    "قد يعني أن المواصفة تتبع إصداراً أقدم من المونوغراف. فعدة دساتير كبرى انتقلت من اختبار المعادن الثقيلة غير النوعي إلى طرق نوعية لكل عنصر يسندها تقييم للمخاطر. اسأل المورّد أي إصدار وأي دليل إرشادي تتبعه المواصفة، واطلب تقييم الشوائب العنصرية الذي ينبغي أن يقف خلفها الآن."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-api-impurity-profiles.html",
+    "قراءة ملف الشوائب",
+    "كيف تُقرأ شوائب المادة الفعالة مقابل مواصفتها."
+   ],
+   [
+    "/ar/insights-dmf-cep-api-documents.html",
+    "وثائق DMF وCEP",
+    "ما تحتويه الملفات التنظيمية خلف المادة الفعالة."
+   ],
+   [
+    "/ar/drug-apis.html",
+    "توريد المواد الفعالة",
+    "كيف نقيّم ونورّد المواد الفعالة الدوائية."
+   ]
+  ]
+ },
+ "card": {
+  "en": "The related substances list can look clean while two whole groups of impurity sit elsewhere. Why residual solvents and elemental impurities are judged apart, and what to ask for.",
+  "ar": "قد تبدو قائمة المواد المرتبطة نظيفة بينما تقع مجموعتان كاملتان من الشوائب في مكان آخر. لماذا تُقيَّم المذيبات المتبقية والشوائب العنصرية بمعزل، وماذا تطلب."
+ },
+ "card_title": {
+  "en": "Residual solvents and elemental impurities",
+  "ar": "المذيبات المتبقية والشوائب العنصرية"
+ },
+ "backlink_from": "insights-api-impurity-profiles"
+}
