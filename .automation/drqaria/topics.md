@@ -28,7 +28,6 @@ only be written well by quoting a number he cannot source, it is not ready.
 
 | # | Slug | Badge (EN) | Working title | The question it answers |
 |---|------|-----------|---------------|--------------------------|
-| 06 | `writing-why-i-left-the-bench` | Career | Why I left a research career for a trading company, and what transferred | What does research training give you in business? |
 | 07 | `writing-reading-a-supplier-audit` | Sourcing | Reading a supplier audit report as a scientist rather than a buyer | What should you look for in a supplier audit? |
 | 08 | `writing-excipients-nobody-checks` | Quality | Excipients are the part of a formulation nobody checks | Why do excipients matter to medicine quality? |
 | 09 | `writing-yemen-pharmacy-shelf` | Markets | What actually reaches a pharmacy shelf in a market under strain | How do medicines reach markets with weak regulation? |
@@ -45,3 +44,4 @@ only be written well by quoting a number he cannot source, it is not ready.
 | `writing-cold-chain-red-sea` | 17 September 2026 |
 | `writing-buying-from-china` | 24 September 2026 |
 | `writing-generic-is-not-a-quality-grade` | 1 October 2026 |
+| `writing-why-i-left-the-bench` | 15 October 2026 |
