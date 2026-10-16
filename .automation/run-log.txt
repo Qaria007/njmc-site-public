@@ -61,3 +61,4 @@
 2026-10-16 step4 gates passed on new pages
 2026-10-16 step5 wired into index/sitemap, backlink from insights-incoming-goods-inspection, topics.md updated
 2026-10-16 step6 site-wide gates: only 6 known pre-existing failures remain
+2026-10-16 step7 published: insights-how-to-check-a-certificate-of-analysis, en=1063 words, ar=908 words, commit 8cbaae84967f0a1871d80574c9f2ac2678b42be3
