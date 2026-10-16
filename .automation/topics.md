@@ -20,7 +20,6 @@ cloud writer's**, which has no network and must never guess at demand.
 
 | # | Slug | Badge | Working title (EN) | Target query | AEO question (the direct-answer H2) |
 |---|------|-------|--------------------|--------------|-------------------------------------|
-| C1 | `insights-how-to-check-a-certificate-of-analysis` | Documentation | How to check a supplier's certificate of analysis before you buy | how to check a certificate of analysis | How do you check a supplier's certificate of analysis before you buy? |
 | C2 | `insights-what-a-certificate-of-analysis-must-contain` | Documentation | What a certificate of analysis for an API or excipient must contain | certificate of analysis requirements | What must a certificate of analysis for an API or excipient contain? |
 | C3 | `insights-certificate-of-analysis-vs-conformance` | Documentation | Certificate of analysis or certificate of conformance: what each one proves | certificate of analysis vs certificate of conformance | What is the difference between a certificate of analysis and a certificate of conformance? |
 | 08 | `insights-device-technical-file` | Medical Devices | What a medical device technical file contains and what a buyer may ask to see | medical device technical file contents | What is in a medical device technical file and what can a buyer see? |
@@ -49,3 +48,4 @@ rather than inventing a new one.
 - `insights-retest-date-and-expiry` — published 29 September 2026; query `api retest date vs expiry date`; question "What is the difference between a retest date and an expiry date?"
 - `insights-incoming-goods-inspection` — published 6 October 2026; query `incoming goods inspection pharmaceutical`; question "What should you check when imported pharmaceutical material arrives?"
 - `insights-residual-solvents-elemental-impurities` — published 13 October 2026; query `residual solvents elemental impurities api`; question "Why are residual solvents and elemental impurities controlled separately?"
+- `insights-how-to-check-a-certificate-of-analysis`, published 16 October 2026; query `how to check a certificate of analysis`; question "How do you check a supplier's certificate of analysis before you buy?"

@@ -1,0 +1,108 @@
+{
+ "slug": "insights-how-to-check-a-certificate-of-analysis",
+ "date": "2026-10-16",
+ "reference": "insights-api-impurity-profiles.html",
+ "en": {
+  "title": "How to Check a Certificate of Analysis Before You Buy",
+  "description": "Check who issued a certificate of analysis, whether the batch matches the goods, whether each result fits your specification, and whether the maker will confirm it.",
+  "h1": "How to check a supplier's certificate of analysis before you buy",
+  "summary": "A certificate of analysis can be genuine and still describe the wrong batch, the wrong specification or the wrong site. Here is how to read one at a desk before any money moves.",
+  "question": "How do you check a supplier's certificate of analysis before you buy?",
+  "answer": "Check that the certificate names the manufacturer and its site, that the batch number, dates and quantity match the goods offered, and that every test and acceptance criterion matches your agreed specification and pharmacopoeial edition. Then confirm a named quality unit released it, compare it with earlier batches, and ask the manufacturer to confirm it directly.",
+  "badge": "Documentation",
+  "published": "Published 16 October 2026",
+  "body": "<p>A certificate of analysis is usually the first quality document a buyer sees, and often the only one attached to a quotation. It arrives as a single page with a table of tests and the word complies down the right hand column. That page is easy to accept and easy to misread. A certificate can be genuine and still describe a different batch, a different specification or a different site from the one you think you are buying from. It can also be copied, edited or assembled by someone who never handled the material.</p>\n<p>Checking a certificate does not need a laboratory. It needs the specification you agreed, a little patience, and a habit of reading every line as a claim that someone should be able to support. The checks below can be done at a desk before any money moves.</p>\n\n<h2>How do you check a certificate of analysis before you buy?</h2>\n<p>Read it in three passes. The first asks who issued it and for what. The second asks whether each result fits the specification you agreed. The third asks whether the document hangs together as a record of real work. Most problems show up in the first pass, which is why it comes first.</p>\n\n<h3>Who issued it, and for which site?</h3>\n<p>The certificate should name the manufacturer and the manufacturing site, not only a trading name or a sales office. Compare that name and address with the site named on the GMP certificate, the drug master file or the registration you are relying on. A certificate on the letterhead of a distributor, with no manufacturer named, tells you who sold the material, not who made it. It should also show who released the batch: a named person in the quality unit, a signature or an approved electronic equivalent, and a date of issue.</p>\n\n<h3>Does the batch match the goods on offer?</h3>\n<p>Check the product name, grade and batch number against the proforma invoice and, later, the drum labels. Check the manufacturing date and the retest or expiry date, and make sure they make sense against each other and against the date of the offer. Check the batch size against the quantity being sold. A batch that appears to supply more material than it could have contained, or a certificate dated before the material was made, needs an explanation before anything else.</p>\n\n<h2>Does each result match the specification you agreed?</h2>\n<p>Lay the certificate beside your own specification, line by line. Every test you require should appear, with the same acceptance criterion and a reported result. Missing tests matter more than failing ones, because a missing test is easy to overlook. If your specification follows a pharmacopoeial monograph, the certificate should say which pharmacopoeia and which edition. Monographs are revised, and a certificate written against an older edition may omit a test that the current one requires.</p>\n<p>Acceptance criteria and test requirements belong to the monograph, the guideline and the registration that apply in your market. Confirm them there rather than taking the certificate's version on trust.</p>\n<!-- TODO-OWNER: verify the current monograph edition and acceptance criteria for the buyer's market and dosage form before quoting any figure -->\n\n<h3>Look at the results, not only the word complies</h3>\n<p>A result should be a value where the test produces a value: an assay figure, a water content, a named impurity with its level. A column that reads complies for every quantitative test hides the information you need to judge how close the batch sits to its limits. Results reported to more precision than the method can deliver, or every impurity reported at exactly the same level, are worth a question. So is an assay that sits at the same value across every batch you have seen.</p>\n\n<h2>What signs suggest a certificate has been altered or copied?</h2>\n<p>Compare the certificate with others from the same supplier. Genuine certificates from one site share a layout, a numbering system and a set of signatories, and their results vary a little from batch to batch, as real measurements do. Identical results on certificates for different batches suggest a template rather than a test. Fonts that change within a table, a batch number that looks pasted in, a stamp that sits over text it should sit under, or a scanned signature that is pixel for pixel the same on every document are all reasons to slow down.</p>\n<p>None of these signs proves fraud on its own. Each one is a reason to ask the manufacturer to confirm the certificate directly, using contact details you obtained independently rather than those printed on the document.</p>\n\n<div class=\"callout\">\n<p><strong>A certificate is a claim, not a proof.</strong> It is only as reliable as the link between the page, the batch and the site that tested it. Before you buy, confirm that the manufacturer named on the certificate made the batch, that the tests match your specification, and that the manufacturer will confirm the document if asked.</p>\n</div>\n\n<h2>What should you ask for alongside the certificate?</h2>\n<p>Ask for the specification the certificate was issued against, so that you can compare like with like. Ask for certificates from two or three previous batches, which lets you see how results move over time. Ask whether the certificate is the manufacturer's original or a reissue, and if it is a reissue, ask for the original as well. For a first order, consider having a retained sample or a sample from the shipment tested by an independent laboratory against your own specification. Where a drug master file or a certificate of suitability exists, the specification in that file should match the one on the certificate.</p>\n\n<h2>What changes when the certificate comes through a trader?</h2>\n<p>Many buyers receive certificates through a trading company or distributor, and that is normal. What matters is that the manufacturer's original certificate reaches you unchanged. A trader may add its own covering certificate, but it should not replace the manufacturer's document, retype its results or remove the manufacturer's name. If a supplier will not disclose the manufacturer, you cannot check the certificate against anything, and that is itself the answer to the question.</p>\n\n<p>Reading the impurity section properly is covered in our guide to <a href=\"/insights-api-impurity-profiles.html\">reading an API impurity profile</a>, and the site details on the certificate should be checked against <a href=\"/insights-reading-a-gmp-certificate.html\">what a GMP certificate actually proves</a>. When the goods arrive, the same certificate is checked again at <a href=\"/insights-incoming-goods-inspection.html\">incoming goods inspection</a>. Certificates of analysis are among the documents we check as part of our <a href=\"/verification.html\">independent verification work</a>.</p>",
+  "faq": [
+   [
+    "Can a genuine certificate of analysis still be the wrong one?",
+    "Yes. A certificate can be authentic and still describe a different batch, a different grade or a different manufacturing site from the material you are being offered. Match the batch number, product name, grade and site against the invoice, the labels and the GMP certificate before relying on any result printed on it."
+   ],
+   [
+    "Is a certificate that says complies for every test enough?",
+    "Usually not. Where a test produces a number, such as assay, water content or a named impurity, the certificate should report the number. A column of complies hides how close the batch sits to its acceptance criteria and makes it impossible to compare one batch with the next. Ask for the actual results."
+   ],
+   [
+    "How do I confirm a certificate with the manufacturer?",
+    "Find the manufacturer's contact details independently, from its own website, its registration or a previous verified contact, not from the certificate itself. Send the batch number, the certificate number and a copy of the document, and ask the quality unit to confirm that it issued it and that the results match its records."
+   ],
+   [
+    "Should I test the material myself if the certificate looks right?",
+    "For a first order or a new supplier, independent testing against your own specification is a sensible check. It confirms that the material matches the certificate, not only that the certificate matches the specification. Over time, periodic testing of selected batches shows whether the supplier's certificates remain reliable."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-api-impurity-profiles.html",
+    "Reading an impurity profile",
+    "How to read an API impurity profile against its specification."
+   ],
+   [
+    "/insights-reading-a-gmp-certificate.html",
+    "Reading a GMP certificate",
+    "What a GMP certificate actually proves, and what it does not."
+   ],
+   [
+    "/verification.html",
+    "Independent verification",
+    "Supplier, factory and document verification."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "كيف تفحص شهادة التحليل قبل الشراء",
+  "description": "افحص من أصدر شهادة التحليل، وهل تطابق التشغيلة البضاعة، وهل تتفق كل نتيجة مع مواصفتك، وهل سيؤكد المصنّع الوثيقة إن سألته، وذلك كله قبل أن تدفع أي مبلغ.",
+  "h1": "كيف تفحص شهادة التحليل الصادرة عن المورّد قبل الشراء",
+  "summary": "قد تكون شهادة التحليل أصلية ومع ذلك تصف التشغيلة الخطأ أو المواصفة الخطأ أو الموقع الخطأ. وهذه طريقة قراءتها على المكتب قبل أن يتحرك أي مال.",
+  "question": "كيف تفحص شهادة التحليل الصادرة عن المورّد قبل الشراء؟",
+  "answer": "تحقق أن الشهادة تذكر المصنّع وموقعه، وأن رقم التشغيلة والتواريخ والكمية تطابق البضاعة المعروضة، وأن كل اختبار ومعيار قبول يطابق المواصفة المتفق عليها وإصدار الدستور المعتمد. ثم تأكد أن وحدة جودة مسماة أفرجت عنها، وقارنها بشهادات تشغيلات سابقة، واطلب من المصنّع تأكيدها مباشرة عبر بيانات اتصال حصلت عليها بنفسك.",
+  "badge": "التوثيق",
+  "published": "نُشر في 16 أكتوبر 2026",
+  "body": "<p>شهادة التحليل هي عادةً أول وثيقة جودة يراها المشتري، وكثيراً ما تكون الوحيدة المرفقة بعرض السعر. تصل في صفحة واحدة فيها جدول بالاختبارات وكلمة مطابق في العمود الأخير. وهذه الصفحة سهلة القبول وسهلة سوء القراءة. فقد تكون الشهادة أصلية ومع ذلك تصف تشغيلة أخرى، أو مواصفة أخرى، أو موقعاً غير الذي تظن أنك تشتري منه. وقد تكون منسوخة أو معدلة أو مركبة على يد شخص لم يلمس المادة قط.</p>\n<p>وفحص الشهادة لا يحتاج إلى مختبر. يحتاج إلى المواصفة التي اتفقت عليها، وقليل من الصبر، وعادة قراءة كل سطر على أنه ادعاء ينبغي أن يكون لدى أحد ما يسنده. والفحوص الواردة أدناه يمكن إجراؤها على المكتب قبل أن يتحرك أي مال.</p>\n\n<h2>كيف تفحص شهادة التحليل قبل الشراء؟</h2>\n<p>اقرأها في ثلاث جولات. الأولى تسأل من أصدرها ولأي غرض. والثانية تسأل هل كل نتيجة تتفق مع المواصفة التي اتفقت عليها. والثالثة تسأل هل الوثيقة متماسكة بوصفها سجلاً لعمل حقيقي. ومعظم المشكلات تظهر في الجولة الأولى، ولهذا تأتي أولاً. فإن لم تعرف من أصدر الشهادة ولأي موقع، فلا قيمة كبيرة لمقارنة نتائجها بأي شيء.</p>\n\n<h3>من أصدرها، ولأي موقع؟</h3>\n<p>ينبغي أن تذكر الشهادة اسم المصنّع وموقع التصنيع، لا اسماً تجارياً أو مكتب مبيعات فقط. قارن ذلك الاسم والعنوان بالموقع المذكور في شهادة GMP، أو في الملف الرئيسي للدواء، أو في التسجيل الذي تعتمد عليه. فالشهادة المكتوبة على ورق موزع، دون ذكر للمصنّع، تخبرك بمن باع المادة لا بمن صنعها. وينبغي أن تبين كذلك من أفرج عن التشغيلة: شخص مسمى في وحدة الجودة، وتوقيع أو ما يعادله إلكترونياً بصورة معتمدة، وتاريخ إصدار.</p>\n\n<h3>هل تطابق التشغيلة البضاعة المعروضة؟</h3>\n<p>طابق اسم المنتج والدرجة ورقم التشغيلة مع الفاتورة المبدئية، ثم لاحقاً مع ملصقات البراميل. وتحقق من تاريخ التصنيع ومن تاريخ إعادة الاختبار أو انتهاء الصلاحية، وتأكد أنهما منطقيان أحدهما مقابل الآخر ومقابل تاريخ العرض. وقارن حجم التشغيلة بالكمية المعروضة للبيع. فالتشغيلة التي يبدو أنها تورد مادة أكثر مما يمكن أن تحتويه، أو الشهادة المؤرخة قبل صنع المادة، تحتاج إلى تفسير قبل أي شيء آخر. وكذلك التشغيلة التي تقترب من نهاية مدة إعادة الاختبار وهي ما تزال في مستودع المورّد، لأنها قد تصل إليك وقد بقي من عمرها أقل مما تحتاجه خطتك.</p>\n\n<h2>هل تطابق كل نتيجة المواصفة التي اتفقت عليها؟</h2>\n<p>ضع الشهادة بجانب مواصفتك أنت، سطراً بسطر. فكل اختبار تشترطه ينبغي أن يظهر، بمعيار القبول نفسه وبنتيجة مدونة. والاختبارات الغائبة أهم من الاختبارات الراسبة، لأن الغائب يسهل أن يفوتك. وإن كانت مواصفتك تتبع مونوغرافاً دستورياً، فينبغي أن تذكر الشهادة أي دستور وأي إصدار. فالمونوغرافات تُراجع، والشهادة المكتوبة مقابل إصدار أقدم قد تُسقط اختباراً يشترطه الإصدار الحالي.</p>\n<p>ومعايير القبول ومتطلبات الاختبار مرجعها المونوغراف والدليل الإرشادي والتسجيل الساري في سوقك. فتحقق منها هناك بدلاً من أن تأخذ ما في الشهادة على الثقة.</p>\n<!-- TODO-OWNER: verify the current monograph edition and acceptance criteria for the buyer's market and dosage form before quoting any figure -->\n\n<h3>انظر إلى النتائج، لا إلى كلمة مطابق وحدها</h3>\n<p>ينبغي أن تكون النتيجة قيمة حيث ينتج الاختبار قيمة: رقم المعايرة، ومحتوى الماء، والشائبة المسماة مع مستواها. فالعمود الذي يقول مطابق لكل اختبار كمي يخفي المعلومة التي تحتاجها لتحكم على مدى قرب التشغيلة من حدودها. والنتائج المدونة بدقة تفوق ما تستطيعه الطريقة، أو الشوائب المدونة كلها عند المستوى نفسه تماماً، تستحق سؤالاً. وكذلك المعايرة التي تقف عند القيمة نفسها في كل تشغيلة رأيتها.</p>\n\n<h2>ما العلامات التي توحي بأن الشهادة معدلة أو منسوخة؟</h2>\n<p>قارن الشهادة بغيرها من المورّد نفسه. فالشهادات الأصلية الصادرة من موقع واحد تتشارك في التنسيق ونظام الترقيم ومجموعة الموقّعين، وتتفاوت نتائجها قليلاً من تشغيلة إلى أخرى كما تتفاوت القياسات الحقيقية. والنتائج المتطابقة في شهادات تشغيلات مختلفة توحي بقالب لا باختبار. والخطوط التي تتغير داخل الجدول، أو رقم التشغيلة الذي يبدو ملصقاً، أو الختم الذي يعلو نصاً كان ينبغي أن يكون فوقه، أو التوقيع الممسوح المتطابق تماماً في كل وثيقة، كلها أسباب للتمهل.</p>\n<p>ولا تثبت أي من هذه العلامات وحدها وجود تزوير. لكن كل واحدة منها سبب لأن تطلب من المصنّع تأكيد الشهادة مباشرة، مستخدماً بيانات اتصال حصلت عليها بنفسك لا تلك المطبوعة على الوثيقة. والمصنّع الجاد يجيب عن مثل هذا الطلب، لأن الشهادة المزورة باسمه تضره قبل أن تضرك.</p>\n\n<div class=\"callout\">\n<p><strong>الشهادة ادعاء لا برهان.</strong> وموثوقيتها لا تزيد على قوة الصلة بين الصفحة والتشغيلة والموقع الذي اختبرها. فقبل الشراء، تأكد أن المصنّع المذكور في الشهادة هو من صنع التشغيلة، وأن الاختبارات تطابق مواصفتك، وأن المصنّع سيؤكد الوثيقة إن سُئل.</p>\n</div>\n\n<h2>ماذا تطلب إلى جانب الشهادة؟</h2>\n<p>اطلب المواصفة التي صدرت الشهادة مقابلها، حتى تقارن الشيء بمثله. واطلب شهادات تشغيلتين أو ثلاث سابقة، فهي تتيح لك أن ترى كيف تتحرك النتائج مع الوقت. واسأل هل الشهادة هي الأصل الصادر عن المصنّع أم إعادة إصدار، وإن كانت إعادة إصدار فاطلب الأصل أيضاً. وفي الطلبية الأولى، فكر في أن تختبر عينة محتفظاً بها أو عينة من الشحنة لدى مختبر مستقل مقابل مواصفتك أنت. وحيث يوجد ملف رئيسي للدواء أو شهادة ملاءمة، فينبغي أن تطابق المواصفة الواردة في ذلك الملف المواصفة التي في الشهادة.</p>\n\n<h2>ما الذي يتغير حين تصل الشهادة عبر شركة تجارية؟</h2>\n<p>يتلقى كثير من المشترين الشهادات عبر شركة تجارية أو موزع، وهذا أمر طبيعي. والمهم أن تصلك شهادة المصنّع الأصلية دون تغيير. فقد يضيف التاجر شهادة مرافقة خاصة به، لكن لا ينبغي أن تحل محل وثيقة المصنّع، ولا أن يُعاد طبع نتائجها، ولا أن يُحذف اسم المصنّع منها. والمورّد الذي لا يكشف عن المصنّع لا يترك لك شيئاً تقارن الشهادة به، وهذا في حد ذاته جواب السؤال. أما المورّد الذي يمرر الأصل كما هو، ويجيب عن الأسئلة باسم المصنّع لا بطمأنة عامة، فيعطيك ما تحتاجه لتكمل الفحص بنفسك.</p>\n\n<p>وقراءة قسم الشوائب قراءة صحيحة مشروحة في دليلنا إلى <a href=\"/ar/insights-api-impurity-profiles.html\">قراءة ملف شوائب المادة الفعالة</a>، وبيانات الموقع في الشهادة ينبغي أن تُقارن بما يشرحه مقالنا عن <a href=\"/ar/insights-reading-a-gmp-certificate.html\">ما تثبته شهادة GMP فعلاً</a>. وحين تصل البضاعة، تُفحص الشهادة نفسها مرة أخرى عند <a href=\"/ar/insights-incoming-goods-inspection.html\">فحص البضاعة الواردة</a>. وشهادات التحليل من الوثائق التي نفحصها ضمن <a href=\"/ar/verification.html\">عمل التحقق المستقل</a> لدينا.</p>",
+  "faq": [
+   [
+    "هل يمكن أن تكون شهادة التحليل أصلية ومع ذلك غير صحيحة؟",
+    "نعم. فقد تكون الشهادة أصلية وتصف مع ذلك تشغيلة أخرى أو درجة أخرى أو موقع تصنيع غير الذي تُعرض عليك مادته. طابق رقم التشغيلة واسم المنتج والدرجة والموقع مع الفاتورة والملصقات وشهادة GMP قبل أن تعتمد على أي نتيجة مطبوعة فيها."
+   ],
+   [
+    "هل تكفي شهادة تقول مطابق لكل اختبار؟",
+    "في الغالب لا. فحيث ينتج الاختبار رقماً، كالمعايرة أو محتوى الماء أو شائبة مسماة، ينبغي أن تذكر الشهادة الرقم. والعمود المليء بكلمة مطابق يخفي مدى قرب التشغيلة من معايير قبولها، ويجعل مقارنة تشغيلة بأخرى مستحيلة. فاطلب النتائج الفعلية."
+   ],
+   [
+    "كيف أؤكد الشهادة مع المصنّع؟",
+    "احصل على بيانات اتصال المصنّع بنفسك، من موقعه الإلكتروني أو تسجيله أو جهة اتصال سبق التحقق منها، لا من الشهادة ذاتها. أرسل رقم التشغيلة ورقم الشهادة ونسخة من الوثيقة، واطلب من وحدة الجودة أن تؤكد أنها أصدرتها وأن النتائج تطابق سجلاتها."
+   ],
+   [
+    "هل أختبر المادة بنفسي إن بدت الشهادة سليمة؟",
+    "في الطلبية الأولى أو مع مورّد جديد، يُعد الاختبار المستقل مقابل مواصفتك فحصاً معقولاً. فهو يؤكد أن المادة تطابق الشهادة، لا أن الشهادة تطابق المواصفة فقط. ومع الوقت، يبين الاختبار الدوري لتشغيلات مختارة هل تبقى شهادات المورّد جديرة بالثقة."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-api-impurity-profiles.html",
+    "قراءة ملف الشوائب",
+    "كيف تُقرأ شوائب المادة الفعالة مقابل مواصفتها."
+   ],
+   [
+    "/ar/insights-reading-a-gmp-certificate.html",
+    "قراءة شهادة GMP",
+    "ما تثبته شهادة GMP فعلاً وما لا تثبته."
+   ],
+   [
+    "/ar/verification.html",
+    "التحقق المستقل",
+    "التحقق من المورّدين والمصانع والوثائق."
+   ]
+  ]
+ },
+ "card": {
+  "en": "A certificate of analysis can be genuine and still describe the wrong batch, specification or site. How to check one at a desk before any money moves.",
+  "ar": "قد تكون شهادة التحليل أصلية وتصف مع ذلك التشغيلة أو المواصفة أو الموقع الخطأ. هكذا تفحصها على المكتب قبل أن يتحرك أي مال."
+ },
+ "card_title": {
+  "en": "How to check a certificate of analysis",
+  "ar": "كيف تفحص شهادة التحليل"
+ },
+ "backlink_from": "insights-incoming-goods-inspection"
+}
