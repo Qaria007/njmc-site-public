@@ -1,0 +1,108 @@
+{
+ "slug": "insights-what-a-certificate-of-analysis-must-contain",
+ "date": "2026-10-16",
+ "reference": "insights-api-impurity-profiles.html",
+ "en": {
+  "title": "Certificate of Analysis Requirements for APIs and Excipients",
+  "description": "A certificate of analysis must name the material and grade, the batch and dates, the maker and site, each test with its criterion and result, and who released it.",
+  "h1": "What a certificate of analysis for an API or excipient must contain",
+  "summary": "A certificate of analysis is short, but every line on it has a job. Here is what a complete certificate for an API or an excipient contains, and why each item is there.",
+  "question": "What must a certificate of analysis for an API or excipient contain?",
+  "answer": "It must identify the material, grade and pharmacopoeial edition; the batch number with its manufacture and retest or expiry dates; the manufacturer and the site that made and tested it; every test in the agreed specification with its acceptance criterion and actual result; and a dated release by a named person in the quality unit.",
+  "badge": "Documentation",
+  "published": "Published 16 October 2026",
+  "body": "<p>Most buyers learn what a certificate of analysis should contain the hard way: a shipment is held at the warehouse because the certificate is missing a test, a site name or a signature that the receiving quality unit expects. The document itself is short, but every line on it carries a job. When one of those lines is absent, the certificate stops being able to do what it is for, which is to link one batch of material to the tests that released it.</p>\n<p>This article sets out the contents a buyer should expect on a certificate for an active pharmaceutical ingredient or an excipient, and why each item is there. It describes the shape of a complete certificate. The exact tests and acceptance criteria come from the specification you agreed and the rules of your own market, not from any general list.</p>\n\n<h2>What are the certificate of analysis requirements for an API or excipient?</h2>\n<p>A complete certificate answers four questions without the reader needing another document: what the material is, which batch it describes, who made and tested it, and what the tests found against which criteria. Everything a buyer checks later depends on those four answers being on the page.</p>\n\n<h3>Identification of the material</h3>\n<p>The certificate should give the product name as it appears in the specification, the grade, and the pharmacopoeia the material is tested against where one applies, with its edition. A certificate that says only the common name of the substance, with no grade and no monograph reference, cannot be matched to a specification with confidence. For an excipient, the grade matters as much as the name, because the same substance is often sold in grades meant for food, technical use and pharmaceutical use.</p>\n\n<h3>Identification of the batch</h3>\n<p>The batch or lot number is the anchor of the whole document. Beside it, a buyer should expect the date of manufacture and either a retest date or an expiry date, depending on how the material is controlled. Many certificates also show the batch size. Where the material has been repacked or relabelled by someone other than the manufacturer, the original batch number should still be traceable, either on the same certificate or on a linked one.</p>\n\n<h3>Identification of the manufacturer and the testing site</h3>\n<p>The certificate should name the manufacturer and the address of the site where the batch was made. If testing was done at a different site or at a contract laboratory, that should be clear too. This is the line that connects the certificate to the site's GMP status and to any file the buyer relies on, so a certificate that names only a distributor or a sales office leaves a gap that nothing else on the page can fill.</p>\n\n<h2>What should the results section show?</h2>\n<p>The body of the certificate is a table. Each row should give the name of the test, the acceptance criterion and the result. Where the specification refers to a method, such as a pharmacopoeial method or an in house method, the certificate should say which one. A buyer reading it should be able to place each row beside the matching row in their own specification and compare them directly.</p>\n<p>The tests normally cover appearance, identification, assay, and the impurities and other attributes that the specification controls. For many APIs that includes related substances, residual solvents, water content and any physical properties that matter for the dosage form. For many excipients it includes functional properties that affect how the material behaves in manufacture. Which tests are required, and at what acceptance criteria, depends on the monograph, the registration and the market.</p>\n<!-- TODO-OWNER: verify the current pharmacopoeial monograph and registration requirements for the buyer's market and dosage form before listing any test or acceptance criterion -->\n\n<h3>Numbers where the test gives numbers</h3>\n<p>Where a test produces a value, the certificate should report the value, with the unit. A result written as complies is acceptable for tests that are pass or fail by nature, such as appearance or identification. For assay, water content or a named impurity, a value lets the buyer see how close the batch sits to its acceptance criterion and compare it with earlier batches. A certificate that reports complies for every quantitative test is incomplete, even if each statement is true.</p>\n\n<div class=\"callout\">\n<p><strong>A complete certificate stands on its own.</strong> It names the material and grade, the batch and its dates, the manufacturer and testing site, every test in the agreed specification with its criterion and result, and the person who released it. If any of these is missing, the certificate cannot link the batch to the tests that released it.</p>\n</div>\n\n<h2>Who should sign a certificate of analysis?</h2>\n<p>The certificate should show that the batch was released by the manufacturer's quality unit. In practice that means the name or position of the person responsible, a signature or an approved electronic equivalent, and the date of release or issue. A certificate with no signatory, or with a signature that cannot be connected to anyone in the quality function, records results without recording that anyone stood behind them.</p>\n<p>A clear statement of conformity is also expected, usually a line saying that the batch meets the stated specification. That statement means more when the specification it refers to is identified by name or number, so that it cannot later be read as referring to a different version.</p>\n\n<h2>Does an excipient certificate differ from an API certificate?</h2>\n<p>The structure is the same, but the emphasis shifts. Excipients are often produced in large volumes for several industries at once, and the pharmaceutical grade may come from the same plant as other grades. That makes the grade statement, the manufacturing site and the traceability of the batch especially important. Excipient certificates also tend to carry functional tests, such as particle size or viscosity, that are critical to how the material performs in a formulation even when the monograph treats them as optional.</p>\n<p>Excipient makers that follow the industry guidance on excipient GMP and on certificates of analysis usually present this information in a consistent way. A certificate that departs from that pattern is not wrong for that reason, but it deserves a closer read.</p>\n\n<h2>What does a certificate not need to contain?</h2>\n<p>A certificate is a summary, not a full record. It does not normally include chromatograms, raw data or method validation. Those sit in the manufacturer's batch records and may be requested under a quality agreement or reviewed during an audit. Nor does a certificate need to repeat the full specification document, provided each test row carries its acceptance criterion. Asking for supporting data is reasonable when a result looks unusual. Expecting it on every certificate is not.</p>\n\n<p>Once you know what a complete certificate looks like, the next step is to <a href=\"/insights-how-to-check-a-certificate-of-analysis.html\">check a certificate of analysis before you buy</a>. The dates on it are explained in our guide to <a href=\"/insights-retest-date-and-expiry.html\">retest dates and expiry dates</a>, and the impurity rows in <a href=\"/insights-api-impurity-profiles.html\">reading an API impurity profile</a>. For excipients, see <a href=\"/insights-excipient-gmp-ipec.html\">excipient GMP and the IPEC guidance</a>.</p>",
+  "faq": [
+   [
+    "Is a certificate of analysis from a distributor acceptable?",
+    "A distributor may issue its own covering certificate, but the manufacturer's original certificate should travel with it unchanged. Only the original names the site that made and tested the batch and the quality unit that released it. A distributor's certificate on its own tells you who sold the material, not who produced it or tested it."
+   ],
+   [
+    "Should every result on a certificate be a number?",
+    "No. Tests that are pass or fail by nature, such as appearance and identification, can be reported as complies. Tests that produce a value, such as assay, water content or a named impurity, should report the value with its unit, so that the buyer can see how close the batch sits to its acceptance criterion."
+   ],
+   [
+    "Does a certificate of analysis need to include raw data?",
+    "Not normally. A certificate summarises the results; chromatograms, raw data and method validation stay in the manufacturer's batch records. A buyer can ask for supporting data when a result looks unusual, or review it during an audit, and a quality agreement can set out when the manufacturer must provide it."
+   ],
+   [
+    "What should an excipient certificate add that an API certificate may not?",
+    "An excipient certificate should state the pharmaceutical grade clearly, because the same substance is often made in food and technical grades too. It should also report the functional properties that matter for your formulation, such as particle size or viscosity, where your specification controls them."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-how-to-check-a-certificate-of-analysis.html",
+    "Checking a certificate of analysis",
+    "How to check a supplier's certificate before you buy."
+   ],
+   [
+    "/insights-retest-date-and-expiry.html",
+    "Retest date and expiry date",
+    "What each date on a certificate means."
+   ],
+   [
+    "/excipients.html",
+    "Excipients",
+    "Pharmaceutical excipients we source."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "متطلبات شهادة التحليل للمادة الفعالة والسواغ",
+  "description": "يجب أن تذكر شهادة التحليل المادة ودرجتها، والتشغيلة وتواريخها، والمصنّع وموقعه، وكل اختبار مع معيار قبوله ونتيجته، وتوقيعاً مؤرخاً من وحدة الجودة لدى المصنّع.",
+  "h1": "ما الذي يجب أن تحتويه شهادة التحليل للمادة الفعالة أو السواغ",
+  "summary": "شهادة التحليل وثيقة قصيرة، لكن لكل سطر فيها وظيفة. وهذا ما تحتويه الشهادة المكتملة للمادة الفعالة أو السواغ، وسبب وجود كل بند فيها.",
+  "question": "ما الذي يجب أن تحتويه شهادة التحليل للمادة الفعالة أو السواغ؟",
+  "answer": "يجب أن تعرّف المادة ودرجتها وإصدار الدستور الدوائي، ورقم التشغيلة مع تاريخ التصنيع وتاريخ إعادة الاختبار أو الانتهاء، والمصنّع والموقع الذي صنعها واختبرها، وكل اختبار في المواصفة المتفق عليها مع معيار قبوله ونتيجته الفعلية، وإفراجاً مؤرخاً من شخص مسمى في وحدة الجودة لدى المصنّع.",
+  "badge": "التوثيق",
+  "published": "نُشر في 16 أكتوبر 2026",
+  "body": "<p>يتعلم معظم المشترين ما ينبغي أن تحتويه شهادة التحليل بالطريقة الصعبة: شحنة تُحتجز في المستودع لأن الشهادة ينقصها اختبار، أو اسم موقع، أو توقيع تتوقعه وحدة الجودة المستلمة. والوثيقة نفسها قصيرة، لكن لكل سطر فيها وظيفة. وحين يغيب أحد هذه الأسطر، تعجز الشهادة عن أداء الغرض الذي وُجدت له، وهو ربط تشغيلة واحدة من المادة بالاختبارات التي أُفرج عنها على أساسها.</p>\n<p>يعرض هذا المقال المحتويات التي ينبغي أن يتوقعها المشتري في شهادة مادة فعالة دوائية أو سواغ، وسبب وجود كل بند منها. وهو يصف شكل الشهادة المكتملة. أما الاختبارات المحددة ومعايير القبول فمرجعها المواصفة التي اتفقت عليها وقواعد سوقك أنت، لا أي قائمة عامة.</p>\n\n<h2>ما متطلبات شهادة التحليل للمادة الفعالة أو السواغ؟</h2>\n<p>الشهادة المكتملة تجيب عن أربعة أسئلة دون أن يحتاج القارئ إلى وثيقة أخرى: ما المادة، وأي تشغيلة تصف، ومن صنعها واختبرها، وماذا وجدت الاختبارات مقابل أي معايير. وكل ما يفحصه المشتري لاحقاً يعتمد على وجود هذه الأجوبة الأربعة في الصفحة.</p>\n\n<h3>تعريف المادة</h3>\n<p>ينبغي أن تذكر الشهادة اسم المنتج كما يرد في المواصفة، والدرجة، والدستور الدوائي الذي تُختبر المادة مقابله حيث ينطبق ذلك، مع إصداره. فالشهادة التي لا تذكر إلا الاسم الشائع للمادة، دون درجة ولا إشارة إلى مونوغراف، لا يمكن مطابقتها بمواصفة بثقة. وفي السواغات تهم الدرجة بقدر ما يهم الاسم، لأن المادة نفسها تُباع كثيراً بدرجات مخصصة للغذاء وللاستخدام التقني وللاستخدام الدوائي.</p>\n\n<h3>تعريف التشغيلة</h3>\n<p>رقم التشغيلة هو مرساة الوثيقة كلها. وإلى جانبه ينبغي أن يتوقع المشتري تاريخ التصنيع، وتاريخ إعادة الاختبار أو تاريخ انتهاء الصلاحية بحسب طريقة ضبط المادة. وكثير من الشهادات يذكر حجم التشغيلة أيضاً. وحيث أعاد غير المصنّع تعبئة المادة أو وسمها، ينبغي أن يبقى رقم التشغيلة الأصلي قابلاً للتتبع، إما في الشهادة نفسها أو في شهادة مرتبطة بها. وإذا اختلف رقم التشغيلة في الشهادة عن الرقم المطبوع على ملصق العبوة ولو بحرف واحد، فهذا سؤال ينبغي أن يُجاب عنه قبل الشحن لا بعده.</p>\n\n<h3>تعريف المصنّع وموقع الاختبار</h3>\n<p>ينبغي أن تذكر الشهادة اسم المصنّع وعنوان الموقع الذي صُنعت فيه التشغيلة. وإن جرى الاختبار في موقع آخر أو في مختبر متعاقد، فينبغي أن يكون ذلك واضحاً كذلك. فهذا هو السطر الذي يربط الشهادة بوضع الموقع من حيث ممارسات التصنيع الجيد وبأي ملف يعتمد عليه المشتري، والشهادة التي لا تذكر إلا موزعاً أو مكتب مبيعات تترك فجوة لا يملؤها شيء آخر في الصفحة.</p>\n\n<h2>ماذا ينبغي أن يبين قسم النتائج؟</h2>\n<p>متن الشهادة جدول. وكل صف فيه ينبغي أن يذكر اسم الاختبار ومعيار القبول والنتيجة. وحيث تحيل المواصفة إلى طريقة، كطريقة دستورية أو طريقة داخلية، ينبغي أن تذكر الشهادة أيها. ويجب أن يستطيع المشتري وضع كل صف بجانب الصف المقابل في مواصفته والمقارنة بينهما مباشرة.</p>\n<p>وتشمل الاختبارات عادةً المظهر والتعرف والمعايرة، والشوائب وغيرها من الخصائص التي تضبطها المواصفة. وفي كثير من المواد الفعالة يدخل في ذلك المواد ذات الصلة والمذيبات المتبقية ومحتوى الماء وأي خصائص فيزيائية تهم الشكل الصيدلاني. وفي كثير من السواغات تدخل الخصائص الوظيفية التي تؤثر في سلوك المادة أثناء التصنيع. أما أي الاختبارات مطلوب، وبأي معايير قبول، فذلك يتوقف على المونوغراف والتسجيل والسوق.</p>\n<!-- TODO-OWNER: verify the current pharmacopoeial monograph and registration requirements for the buyer's market and dosage form before listing any test or acceptance criterion -->\n\n<h3>أرقام حيث يعطي الاختبار أرقاماً</h3>\n<p>حيث ينتج الاختبار قيمة، ينبغي أن تذكر الشهادة القيمة مع وحدتها. وكلمة مطابق مقبولة في الاختبارات التي هي بطبيعتها نجاح أو رسوب، كالمظهر والتعرف. أما في المعايرة ومحتوى الماء والشائبة المسماة، فالقيمة تتيح للمشتري أن يرى مدى قرب التشغيلة من معيار قبولها وأن يقارنها بتشغيلات سابقة. والشهادة التي تكتب مطابق لكل اختبار كمي شهادة ناقصة، حتى لو كانت كل عبارة فيها صحيحة.</p>\n\n<div class=\"callout\">\n<p><strong>الشهادة المكتملة تقوم بذاتها.</strong> فهي تذكر المادة ودرجتها، والتشغيلة وتواريخها، والمصنّع وموقع الاختبار، وكل اختبار في المواصفة المتفق عليها مع معياره ونتيجته، والشخص الذي أفرج عنها. وإن غاب أي من ذلك، عجزت الشهادة عن ربط التشغيلة بالاختبارات التي أُفرج عنها على أساسها.</p>\n</div>\n\n<h2>من ينبغي أن يوقّع شهادة التحليل؟</h2>\n<p>ينبغي أن تبين الشهادة أن وحدة الجودة لدى المصنّع هي التي أفرجت عن التشغيلة. وهذا يعني عملياً اسم الشخص المسؤول أو صفته، وتوقيعاً أو ما يعادله إلكترونياً بصورة معتمدة، وتاريخ الإفراج أو الإصدار. فالشهادة التي لا موقّع عليها، أو التي يحمل توقيعها اسماً لا يمكن ربطه بأحد في وظيفة الجودة، تسجل نتائج دون أن تسجل أن أحداً وقف خلفها.</p>\n<p>ويُتوقع كذلك بيان واضح بالمطابقة، وهو عادةً سطر يقول إن التشغيلة تستوفي المواصفة المذكورة. وتزداد قيمة هذا البيان حين تُعرَّف المواصفة التي يشير إليها باسمها أو رقمها، حتى لا تُقرأ لاحقاً على أنها تشير إلى إصدار آخر.</p>\n\n<h2>هل تختلف شهادة السواغ عن شهادة المادة الفعالة؟</h2>\n<p>البنية واحدة، لكن موضع التركيز يتغير. فالسواغات تُنتج كثيراً بكميات كبيرة لعدة صناعات في آن واحد، وقد تأتي الدرجة الدوائية من المصنع نفسه الذي ينتج الدرجات الأخرى. وهذا يجعل بيان الدرجة وموقع التصنيع وتتبع التشغيلة أموراً بالغة الأهمية. وتحمل شهادات السواغات أيضاً اختبارات وظيفية، كحجم الجسيمات أو اللزوجة، لها أثر حاسم في أداء المادة داخل التركيبة حتى حين يعدها المونوغراف اختيارية.</p>\n<p>ومصنّعو السواغات الذين يتبعون إرشادات الصناعة الخاصة بممارسات التصنيع الجيد للسواغات وبشهادات التحليل يعرضون هذه المعلومات عادةً بطريقة متسقة. والشهادة التي تخرج عن هذا النمط ليست خاطئة لهذا السبب، لكنها تستحق قراءة أدق.</p>\n\n<h2>ما الذي لا تحتاج الشهادة إلى احتوائه؟</h2>\n<p>الشهادة ملخص لا سجل كامل. فهي لا تتضمن عادةً المخططات الكروماتوغرافية ولا البيانات الخام ولا التحقق من صلاحية الطرق. فهذه موجودة في سجلات التشغيلة لدى المصنّع، ويمكن طلبها بموجب اتفاقية الجودة أو مراجعتها أثناء التدقيق. ولا تحتاج الشهادة كذلك إلى تكرار وثيقة المواصفة كاملة، ما دام كل صف اختبار يحمل معيار قبوله. وطلب البيانات الداعمة معقول حين تبدو نتيجة ما غير معتادة، أما توقعها مع كل شهادة فليس كذلك.</p>\n\n<p>وبعد أن تعرف شكل الشهادة المكتملة، تأتي الخطوة التالية وهي أن <a href=\"/ar/insights-how-to-check-a-certificate-of-analysis.html\">تفحص شهادة التحليل قبل الشراء</a>. والتواريخ الواردة فيها مشروحة في دليلنا إلى <a href=\"/ar/insights-retest-date-and-expiry.html\">تاريخ إعادة الاختبار وتاريخ الانتهاء</a>، وصفوف الشوائب في <a href=\"/ar/insights-api-impurity-profiles.html\">قراءة ملف شوائب المادة الفعالة</a>. وللسواغات، راجع مقالنا عن <a href=\"/ar/insights-excipient-gmp-ipec.html\">ممارسات التصنيع الجيد للسواغات وإرشادات IPEC</a>.</p>",
+  "faq": [
+   [
+    "هل تُقبل شهادة التحليل الصادرة عن موزع؟",
+    "يجوز للموزع أن يصدر شهادة مرافقة خاصة به، لكن ينبغي أن تصحبها شهادة المصنّع الأصلية دون تغيير. فالأصل وحده يذكر الموقع الذي صنع التشغيلة واختبرها ووحدة الجودة التي أفرجت عنها. وشهادة الموزع وحدها تخبرك بمن باع المادة، لا بمن أنتجها أو اختبرها."
+   ],
+   [
+    "هل ينبغي أن تكون كل نتيجة في الشهادة رقماً؟",
+    "لا. فالاختبارات التي هي بطبيعتها نجاح أو رسوب، كالمظهر والتعرف، يمكن أن تُكتب نتيجتها مطابق. أما الاختبارات التي تنتج قيمة، كالمعايرة ومحتوى الماء والشائبة المسماة، فينبغي أن تذكر القيمة مع وحدتها، حتى يرى المشتري مدى قرب التشغيلة من معيار قبولها."
+   ],
+   [
+    "هل يجب أن تتضمن شهادة التحليل البيانات الخام؟",
+    "ليس عادةً. فالشهادة تلخص النتائج، أما المخططات الكروماتوغرافية والبيانات الخام والتحقق من صلاحية الطرق فتبقى في سجلات التشغيلة لدى المصنّع. ويمكن للمشتري طلب البيانات الداعمة حين تبدو نتيجة ما غير معتادة، أو مراجعتها أثناء التدقيق، ويمكن لاتفاقية الجودة أن تحدد متى يلتزم المصنّع بتقديمها."
+   ],
+   [
+    "ماذا ينبغي أن تضيف شهادة السواغ مما قد لا تذكره شهادة المادة الفعالة؟",
+    "ينبغي أن تذكر شهادة السواغ الدرجة الدوائية بوضوح، لأن المادة نفسها تُصنع كثيراً بدرجات غذائية وتقنية أيضاً. وينبغي أن تذكر كذلك الخصائص الوظيفية التي تهم تركيبتك، كحجم الجسيمات أو اللزوجة، حيث تضبطها مواصفتك."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-how-to-check-a-certificate-of-analysis.html",
+    "فحص شهادة التحليل",
+    "كيف تفحص شهادة المورّد قبل الشراء."
+   ],
+   [
+    "/ar/insights-retest-date-and-expiry.html",
+    "تاريخ إعادة الاختبار وتاريخ الانتهاء",
+    "ما يعنيه كل تاريخ في الشهادة."
+   ],
+   [
+    "/ar/excipients.html",
+    "السواغات",
+    "السواغات الدوائية التي نوردها."
+   ]
+  ]
+ },
+ "card": {
+  "en": "Material and grade, batch and dates, manufacturer and site, each test with its criterion and result, and a signatory: what a complete certificate contains.",
+  "ar": "المادة ودرجتها، والتشغيلة وتواريخها، والمصنّع وموقعه، وكل اختبار مع معياره ونتيجته، والموقّع: هذا ما تحتويه الشهادة المكتملة."
+ },
+ "card_title": {
+  "en": "What a certificate of analysis must contain",
+  "ar": "ما الذي يجب أن تحتويه شهادة التحليل"
+ },
+ "backlink_from": "insights-how-to-check-a-certificate-of-analysis"
+}
