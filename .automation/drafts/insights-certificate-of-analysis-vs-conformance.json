@@ -1,0 +1,108 @@
+{
+ "slug": "insights-certificate-of-analysis-vs-conformance",
+ "date": "2026-10-16",
+ "reference": "insights-api-impurity-profiles.html",
+ "en": {
+  "title": "Certificate of Analysis vs Certificate of Conformance",
+  "description": "A certificate of analysis shows test results for one batch; a certificate of conformance only states that goods meet requirements. Here is when each one is enough.",
+  "h1": "Certificate of analysis or certificate of conformance: what each one proves",
+  "summary": "Both documents carry a batch number and a signature, and both say the goods are acceptable. Only one of them shows the results, and that difference decides when each is enough.",
+  "question": "What is the difference between a certificate of analysis and a certificate of conformance?",
+  "answer": "A certificate of analysis reports the actual test results for one specific batch against its specification, signed by the quality unit that released it. A certificate of conformance states that a product or lot meets stated requirements without showing test results. The first gives evidence you can check; the second gives an assurance you must trust.",
+  "badge": "Documentation",
+  "published": "Published 16 October 2026",
+  "body": "<p>Two documents often arrive with a shipment and are easy to mistake for each other. One is a certificate of analysis. The other is a certificate of conformance, sometimes called a certificate of compliance or a declaration of conformity. Both carry a product name, a batch or lot number and a signature, and both say, in one way or another, that the goods are acceptable. They do not prove the same thing, and a buyer who accepts one when the other was needed can find out only when a receiving quality unit or an inspector asks the question.</p>\n<p>This article explains what each document records, when each one is normally expected, and what a buyer should do when a supplier offers the weaker of the two. It describes general practice. Which document your own regulator and your own specification require is a question for your market and your product type.</p>\n\n<h2>Certificate of analysis vs certificate of conformance: what is the difference?</h2>\n<p>The difference is between evidence and assurance. A certificate of analysis reports what the tests on one batch actually found. Each row names a test, gives the acceptance criterion from the specification, and states the result. A reader can put that table beside their own specification and check every line.</p>\n<p>A certificate of conformance makes a statement instead. It says that the product or lot meets stated requirements, such as a drawing, a specification, a standard or a purchase order. It usually shows no results at all. The reader learns that the issuer considers the goods compliant, but not what was measured, by whom, or how close the goods came to any limit.</p>\n\n<h3>What a certificate of analysis carries</h3>\n<p>A certificate of analysis identifies the material and its grade, the batch with its dates, the manufacturer and the site that made and tested it, every test in the agreed specification with its criterion and result, and a dated release by the quality unit. Because it is tied to one batch and shows numbers where the tests give numbers, it is the document a buyer uses to compare batches and to spot drift over time.</p>\n\n<h3>What a certificate of conformance carries</h3>\n<p>A certificate of conformance identifies the product, the lot or order it covers, the requirement it claims to meet, and the person or organisation making the claim. A good one names the exact specification or drawing and its revision. A weak one says only that the goods conform to requirements, without saying which requirements, which leaves the buyer with very little to hold.</p>\n\n<h2>When is a certificate of conformance enough?</h2>\n<p>A certificate of conformance is common, and often accepted, where the product is made to a fixed design and the important controls happen during manufacture rather than in a final test of each lot. Many medical consumables, packaging components and finished devices fall into this group. For a sterile single use item, for example, the assurance comes from a validated process, and the lot documentation may include process records alongside a conformance statement.</p>\n<p>Even then, a certificate of conformance is only as useful as the system behind it. It carries weight when the issuer works under a quality management system that the buyer has assessed, and when the requirement it cites is precise. Without that, it is a signature on a sentence.</p>\n<p>For a medical device, a declaration of conformity is a separate and formal document under the relevant regulation. It is a manufacturer's statement that the device meets the regulatory requirements of a given market, and it is not the same as a lot certificate. A buyer should keep the two apart and not treat either as a substitute for the other.</p>\n<!-- TODO-OWNER: verify which certificate the buyer's regulator and the agreed specification require for this product type and market before relying on a certificate of conformance -->\n\n<div class=\"callout\">\n<p><strong>A certificate of analysis shows you the results; a certificate of conformance asks you to trust them.</strong> For an API or an excipient, where your own release depends on batch results, a certificate of conformance alone does not replace a certificate of analysis.</p>\n</div>\n\n<h2>Why is a certificate of conformance not enough for an API or excipient?</h2>\n<p>For active pharmaceutical ingredients and excipients, the buyer's own quality unit normally has to decide whether to accept each batch. That decision rests on test results compared with a specification, and often on the buyer's own identity testing as well. A statement that the material conforms gives the quality unit nothing to compare. It cannot show where a batch sits against its assay range or its impurity criteria, and it cannot support a trend across batches.</p>\n<p>So when a supplier of an API or excipient offers only a certificate of conformance, the right response is to ask for the manufacturer's certificate of analysis for that batch. If the supplier cannot provide one, that tells you something about the supplier's access to the manufacturer, which is worth knowing before the order rather than after it.</p>\n\n<h2>Can one document do both jobs?</h2>\n<p>Yes. Many certificates of analysis end with a statement that the batch meets the stated specification, which is a conformance statement supported by the results above it. That combination is the strongest form, because the claim and the evidence sit on the same page. The reverse does not hold: adding the word analysis to the title of a document that shows no results does not turn it into a certificate of analysis.</p>\n<p>Some suppliers issue both, a certificate of analysis for the material and a certificate of conformance against the purchase order. That is fine, provided the batch numbers match and each document names the same manufacturer and site.</p>\n\n<h2>How should a buyer state the requirement?</h2>\n<p>The simplest protection is to write it down before ordering. The purchase order, the specification or the quality agreement should say which document must travel with each batch, who must issue it, and what it must contain. If a certificate of analysis from the original manufacturer is required, say so. If a certificate of conformance is acceptable for a particular item, say which requirement it must cite and which revision. A supplier who has agreed to that in writing has far less room to send the wrong paper.</p>\n<p>When the goods arrive, the receiving check is short. Look at the title, then look for a results table. A document with a table of tests, criteria and results for the named batch is a certificate of analysis, whatever it is called. A document with a single statement of compliance is a certificate of conformance, whatever it is called.</p>\n\n<p>For the contents of a complete certificate, see <a href=\"/insights-what-a-certificate-of-analysis-must-contain.html\">what a certificate of analysis must contain</a>, and for the checks to run on one, <a href=\"/insights-how-to-check-a-certificate-of-analysis.html\">how to check a certificate of analysis</a>. Device marks and declarations are covered in <a href=\"/insights-ce-fda-sfda-explained.html\">CE, FDA and SFDA explained</a>, and the products themselves under <a href=\"/medical-consumables.html\">medical consumables</a>.</p>",
+  "faq": [
+   [
+    "Is a certificate of compliance the same as a certificate of conformance?",
+    "In most commercial use, yes. Both names describe a statement that goods meet stated requirements, usually without test results. What matters is not the name but the content: which requirement is cited, which lot is covered, and who signs. For medical devices, a declaration of conformity is a separate formal document and should not be confused with either."
+   ],
+   [
+    "Can a certificate of conformance replace a certificate of analysis for an API?",
+    "Not on its own. A buyer's quality unit normally decides whether to accept each batch of an API or excipient by comparing test results with a specification. A conformance statement gives it nothing to compare. Ask for the manufacturer's certificate of analysis for that batch, and treat a supplier who cannot provide one with caution."
+   ],
+   [
+    "What makes a certificate of conformance worth relying on?",
+    "Three things: it cites an exact requirement with its revision, it identifies the lot or order it covers, and it is issued under a quality management system the buyer has assessed. A conformance statement that names no requirement, or comes from a party with no visible quality system, gives very little assurance."
+   ],
+   [
+    "Should both documents be requested for the same shipment?",
+    "Sometimes. A supplier may issue a certificate of analysis for the material and a certificate of conformance against the purchase order. That is acceptable when the batch numbers match and both name the same manufacturer and site. State in the purchase order or quality agreement which documents must travel with each batch."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-what-a-certificate-of-analysis-must-contain.html",
+    "What a certificate of analysis must contain",
+    "The items a complete certificate carries."
+   ],
+   [
+    "/insights-how-to-check-a-certificate-of-analysis.html",
+    "Checking a certificate of analysis",
+    "How to check a supplier's certificate before you buy."
+   ],
+   [
+    "/medical-consumables.html",
+    "Medical consumables",
+    "Single use consumables we source."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "شهادة التحليل أم شهادة المطابقة: ما الفرق؟",
+  "description": "تعرض شهادة التحليل نتائج اختبارات تشغيلة واحدة، أما شهادة المطابقة فتكتفي بالإفادة بأن البضاعة تستوفي المتطلبات. وهذا ما يحدد متى تكفي كل منهما للمشتري.",
+  "h1": "شهادة التحليل أم شهادة المطابقة: ما الذي تثبته كل منهما",
+  "summary": "تحمل الوثيقتان رقم تشغيلة وتوقيعاً، وتقول كلتاهما إن البضاعة مقبولة. لكن واحدة فقط تعرض النتائج، وهذا الفرق هو ما يحدد متى تكفي كل منهما.",
+  "question": "ما الفرق بين شهادة التحليل وشهادة المطابقة؟",
+  "answer": "تذكر شهادة التحليل نتائج الاختبارات الفعلية لتشغيلة محددة مقابل مواصفتها، موقّعة من وحدة الجودة التي أفرجت عنها. أما شهادة المطابقة فتفيد بأن المنتج أو الدفعة تستوفي متطلبات مذكورة دون أن تعرض نتائج اختبار. فالأولى تقدم دليلاً تستطيع فحصه، والثانية تقدم تعهداً عليك أن تثق به.",
+  "badge": "التوثيق",
+  "published": "نُشر في 16 أكتوبر 2026",
+  "body": "<p>كثيراً ما تصل مع الشحنة وثيقتان يسهل الخلط بينهما. الأولى شهادة التحليل، والثانية شهادة المطابقة، وتُسمى أحياناً شهادة الامتثال أو إعلان المطابقة. وكلتاهما تحمل اسم المنتج ورقم التشغيلة أو الدفعة وتوقيعاً، وكلتاهما تقول بصورة ما إن البضاعة مقبولة. لكنهما لا تثبتان الشيء نفسه، والمشتري الذي يقبل إحداهما حين كانت الأخرى هي المطلوبة قد لا يكتشف ذلك إلا حين تطرح وحدة الجودة المستلمة أو المفتش السؤال.</p>\n<p>يشرح هذا المقال ما تسجله كل وثيقة، ومتى تُطلب كل منهما عادةً، وماذا ينبغي أن يفعل المشتري حين يعرض المورّد الأضعف منهما. وهو يصف الممارسة العامة. أما أي الوثيقتين تطلبها الجهة التنظيمية لديك وتطلبها مواصفتك، فذلك سؤال يخص سوقك ونوع منتجك.</p>\n\n<h2>شهادة التحليل وشهادة المطابقة: ما الفرق بينهما؟</h2>\n<p>الفرق هو الفرق بين الدليل والتعهد. فشهادة التحليل تذكر ما وجدته الاختبارات فعلاً على تشغيلة واحدة. وكل صف فيها يسمي اختباراً، ويذكر معيار القبول من المواصفة، ويبين النتيجة. ويستطيع القارئ أن يضع هذا الجدول بجانب مواصفته ويفحص كل سطر.</p>\n<p>أما شهادة المطابقة فتقدم إفادة بدلاً من ذلك. فهي تقول إن المنتج أو الدفعة تستوفي متطلبات مذكورة، كرسم هندسي أو مواصفة أو معيار أو أمر شراء. وهي في الغالب لا تعرض أي نتائج. فيعرف القارئ أن الجهة المصدرة تعد البضاعة مطابقة، لكنه لا يعرف ماذا قيس، ولا من قاسه، ولا مدى قرب البضاعة من أي حد.</p>\n\n<h3>ما الذي تحمله شهادة التحليل</h3>\n<p>تعرّف شهادة التحليل المادة ودرجتها، والتشغيلة وتواريخها، والمصنّع والموقع الذي صنعها واختبرها، وكل اختبار في المواصفة المتفق عليها مع معياره ونتيجته، وإفراجاً مؤرخاً من وحدة الجودة. ولأنها مرتبطة بتشغيلة واحدة وتعرض أرقاماً حيث تعطي الاختبارات أرقاماً، فهي الوثيقة التي يستخدمها المشتري لمقارنة التشغيلات ورصد أي انحراف مع الوقت.</p>\n\n<h3>ما الذي تحمله شهادة المطابقة</h3>\n<p>تعرّف شهادة المطابقة المنتج، والدفعة أو الطلبية التي تغطيها، والمتطلب الذي تدعي استيفاءه، والشخص أو الجهة التي تقدم هذه الإفادة. والشهادة الجيدة تسمي المواصفة أو الرسم بدقة مع رقم المراجعة. أما الضعيفة فتكتفي بالقول إن البضاعة مطابقة للمتطلبات دون أن تقول أي متطلبات، فلا يبقى في يد المشتري إلا القليل.</p>\n\n<h2>متى تكفي شهادة المطابقة؟</h2>\n<p>شهادة المطابقة شائعة، وكثيراً ما تُقبل، حين يُصنع المنتج وفق تصميم ثابت وتقع الضوابط المهمة أثناء التصنيع لا في اختبار نهائي لكل دفعة. وكثير من المستهلكات الطبية ومكونات التعبئة والأجهزة الجاهزة يدخل في هذه الفئة. ففي المستهلك المعقم أحادي الاستخدام مثلاً، يأتي الضمان من عملية مُتحقق من صلاحيتها، وقد تشمل وثائق الدفعة سجلات العملية إلى جانب إفادة المطابقة.</p>\n<p>وحتى في هذه الحالة، لا تفيد شهادة المطابقة إلا بقدر النظام الذي يقف خلفها. فهي تحمل وزناً حين تعمل الجهة المصدرة ضمن نظام لإدارة الجودة قيّمه المشتري، وحين يكون المتطلب الذي تستشهد به دقيقاً. ومن دون ذلك، فهي توقيع على جملة.</p>\n<p>وفي الأجهزة الطبية، إعلان المطابقة وثيقة رسمية مستقلة بموجب اللائحة المعنية. فهو إفادة من المصنّع بأن الجهاز يستوفي المتطلبات التنظيمية لسوق معينة، وليس هو شهادة الدفعة. وينبغي أن يفصل المشتري بين الوثيقتين وألا يعد أياً منهما بديلاً عن الأخرى.</p>\n<!-- TODO-OWNER: verify which certificate the buyer's regulator and the agreed specification require for this product type and market before relying on a certificate of conformance -->\n\n<div class=\"callout\">\n<p><strong>شهادة التحليل تريك النتائج، وشهادة المطابقة تطلب منك أن تثق بها.</strong> وفي المادة الفعالة الدوائية أو السواغ، حيث يعتمد إفراجك أنت على نتائج التشغيلة، لا تحل شهادة المطابقة وحدها محل شهادة التحليل.</p>\n</div>\n\n<h2>لماذا لا تكفي شهادة المطابقة للمادة الفعالة أو السواغ؟</h2>\n<p>في المواد الفعالة الدوائية والسواغات، يتعين عادةً على وحدة الجودة لدى المشتري أن تقرر قبول كل تشغيلة. وهذا القرار يقوم على نتائج اختبارات تُقارن بمواصفة، وكثيراً ما يقوم كذلك على اختبار التعرف الذي يجريه المشتري بنفسه. والإفادة بأن المادة مطابقة لا تعطي وحدة الجودة شيئاً تقارنه. فهي لا تبين موقع التشغيلة من مدى المعايرة أو من معايير الشوائب، ولا تسمح برصد الاتجاه عبر التشغيلات.</p>\n<p>ولذلك حين يعرض مورّد مادة فعالة أو سواغ شهادة مطابقة فقط، فالرد الصحيح هو طلب شهادة التحليل الصادرة عن المصنّع لتلك التشغيلة. وإن عجز المورّد عن تقديمها، فهذا يخبرك بشيء عن صلته بالمصنّع، ومن الأفضل أن تعرفه قبل الطلبية لا بعدها.</p>\n\n<h2>هل يمكن لوثيقة واحدة أن تؤدي الوظيفتين؟</h2>\n<p>نعم. فكثير من شهادات التحليل ينتهي بإفادة أن التشغيلة تستوفي المواصفة المذكورة، وهي إفادة مطابقة تدعمها النتائج الواردة فوقها. وهذا الجمع هو أقوى الصيغ، لأن الادعاء والدليل في صفحة واحدة. والعكس لا يصح: فإضافة كلمة تحليل إلى عنوان وثيقة لا تعرض نتائج لا تجعلها شهادة تحليل.</p>\n<p>وبعض المورّدين يصدر الوثيقتين معاً، شهادة تحليل للمادة وشهادة مطابقة لأمر الشراء. وهذا مقبول، ما دامت أرقام التشغيلات متطابقة وتذكر كل وثيقة المصنّع والموقع نفسيهما.</p>\n\n<h2>كيف ينبغي أن يحدد المشتري ما يطلبه؟</h2>\n<p>أبسط وسيلة للحماية هي كتابة المطلوب قبل الطلب. فينبغي أن يذكر أمر الشراء أو المواصفة أو اتفاقية الجودة أي وثيقة يجب أن ترافق كل تشغيلة، ومن يصدرها، وماذا يجب أن تحتوي. فإن كانت شهادة تحليل من المصنّع الأصلي مطلوبة فقل ذلك صراحة. وإن كانت شهادة المطابقة مقبولة لصنف معين، فحدد المتطلب الذي يجب أن تستشهد به ورقم مراجعته. والمورّد الذي وافق على ذلك كتابةً يبقى أمامه مجال أضيق بكثير لإرسال الورقة الخطأ.</p>\n<p>وحين تصل البضاعة، يكون فحص الاستلام قصيراً. انظر إلى عنوان الوثيقة، ثم ابحث عن جدول النتائج. فالوثيقة التي تحمل جدولاً بالاختبارات ومعاييرها ونتائجها للتشغيلة المسماة هي شهادة تحليل، أياً كان اسمها. والوثيقة التي لا تحمل إلا إفادة واحدة بالمطابقة هي شهادة مطابقة، أياً كان اسمها. وإن وصلتك الثانية حيث كانت الأولى هي المطلوبة، فلا تُفرج عن التشغيلة قبل أن تصلك الوثيقة الصحيحة من المورّد، وسجّل ذلك في ملف المورّد حتى يكون جزءاً من تقييمه في المرة القادمة.</p>\n\n<p>لمحتويات الشهادة المكتملة، راجع <a href=\"/ar/insights-what-a-certificate-of-analysis-must-contain.html\">ما الذي يجب أن تحتويه شهادة التحليل</a>، وللفحوص التي تجريها عليها، راجع <a href=\"/ar/insights-how-to-check-a-certificate-of-analysis.html\">كيف تفحص شهادة التحليل</a>. أما علامات الأجهزة وإعلاناتها فمشروحة في <a href=\"/ar/insights-ce-fda-sfda-explained.html\">شرح CE وFDA وSFDA</a>، والمنتجات نفسها في صفحة <a href=\"/ar/medical-consumables.html\">المستهلكات الطبية</a>.</p>",
+  "faq": [
+   [
+    "هل شهادة الامتثال هي نفسها شهادة المطابقة؟",
+    "في أغلب الاستخدام التجاري، نعم. فالاسمان يصفان إفادة بأن البضاعة تستوفي متطلبات مذكورة، عادةً دون نتائج اختبار. والمهم ليس الاسم بل المحتوى: أي متطلب تستشهد به، وأي دفعة تغطي، ومن يوقّع. وفي الأجهزة الطبية، إعلان المطابقة وثيقة رسمية مستقلة لا ينبغي الخلط بينها وبين أي منهما."
+   ],
+   [
+    "هل يمكن أن تحل شهادة المطابقة محل شهادة التحليل للمادة الفعالة؟",
+    "ليس وحدها. فوحدة الجودة لدى المشتري تقرر عادةً قبول كل تشغيلة من المادة الفعالة أو السواغ بمقارنة نتائج الاختبارات بالمواصفة، وإفادة المطابقة لا تعطيها شيئاً تقارنه. فاطلب شهادة التحليل الصادرة عن المصنّع لتلك التشغيلة، وتعامل بحذر مع المورّد الذي لا يستطيع تقديمها."
+   ],
+   [
+    "ما الذي يجعل شهادة المطابقة جديرة بالاعتماد عليها؟",
+    "ثلاثة أمور: أن تستشهد بمتطلب محدد مع رقم مراجعته، وأن تعرّف الدفعة أو الطلبية التي تغطيها، وأن تصدر ضمن نظام لإدارة الجودة قيّمه المشتري. أما إفادة المطابقة التي لا تسمي أي متطلب، أو تصدر عن جهة لا يظهر لها نظام جودة، فلا تقدم إلا ضماناً ضئيلاً."
+   ],
+   [
+    "هل ينبغي طلب الوثيقتين للشحنة نفسها؟",
+    "أحياناً. فقد يصدر المورّد شهادة تحليل للمادة وشهادة مطابقة لأمر الشراء. وهذا مقبول حين تتطابق أرقام التشغيلات وتذكر الوثيقتان المصنّع والموقع نفسيهما. وحدد في أمر الشراء أو اتفاقية الجودة الوثائق التي يجب أن ترافق كل تشغيلة."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-what-a-certificate-of-analysis-must-contain.html",
+    "ما الذي يجب أن تحتويه شهادة التحليل",
+    "البنود التي تحملها الشهادة المكتملة."
+   ],
+   [
+    "/ar/insights-how-to-check-a-certificate-of-analysis.html",
+    "فحص شهادة التحليل",
+    "كيف تفحص شهادة المورّد قبل الشراء."
+   ],
+   [
+    "/ar/medical-consumables.html",
+    "المستهلكات الطبية",
+    "المستهلكات أحادية الاستخدام التي نوردها."
+   ]
+  ]
+ },
+ "card": {
+  "en": "One shows the batch results, the other only states that goods meet requirements: when a certificate of conformance is enough, and when it is not.",
+  "ar": "واحدة تعرض نتائج التشغيلة، والأخرى تكتفي بالإفادة بالمطابقة: متى تكفي شهادة المطابقة ومتى لا تكفي."
+ },
+ "card_title": {
+  "en": "Certificate of analysis or certificate of conformance",
+  "ar": "شهادة التحليل أم شهادة المطابقة"
+ },
+ "backlink_from": "insights-what-a-certificate-of-analysis-must-contain"
+}
