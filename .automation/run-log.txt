@@ -70,3 +70,4 @@
 2026-10-16 step5 wired into index/sitemap, backlink from insights-how-to-check-a-certificate-of-analysis, topics.md updated
 2026-10-16 step6 site-wide gates: only 6 known pre-existing failures remain
 2026-10-16 step7 published: insights-what-a-certificate-of-analysis-must-contain, en=1151 words, ar=916 words, commit 146653857101c478eabed6ada2e35f921a868a44
+2026-10-16 run started
