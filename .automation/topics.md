@@ -20,6 +20,9 @@ cloud writer's**, which has no network and must never guess at demand.
 
 | # | Slug | Badge | Working title (EN) | Target query | AEO question (the direct-answer H2) |
 |---|------|-------|--------------------|--------------|-------------------------------------|
+| C1 | `insights-how-to-check-a-certificate-of-analysis` | Documentation | How to check a supplier's certificate of analysis before you buy | how to check a certificate of analysis | How do you check a supplier's certificate of analysis before you buy? |
+| C2 | `insights-what-a-certificate-of-analysis-must-contain` | Documentation | What a certificate of analysis for an API or excipient must contain | certificate of analysis requirements | What must a certificate of analysis for an API or excipient contain? |
+| C3 | `insights-certificate-of-analysis-vs-conformance` | Documentation | Certificate of analysis or certificate of conformance: what each one proves | certificate of analysis vs certificate of conformance | What is the difference between a certificate of analysis and a certificate of conformance? |
 | 08 | `insights-device-technical-file` | Medical Devices | What a medical device technical file contains and what a buyer may ask to see | medical device technical file contents | What is in a medical device technical file and what can a buyer see? |
 | 09 | `insights-sterilisation-single-use-consumables` | Medical Consumables | Sterilisation methods for single use consumables and the evidence behind them | sterilisation methods single use medical consumables | How are single use medical consumables sterilised and validated? |
 | 10 | `insights-remote-supplier-audits` | Sourcing | What a remote supplier audit can establish, and what it cannot | remote supplier audit limitations | What can a remote supplier audit establish? |
@@ -27,6 +30,8 @@ cloud writer's**, which has no network and must never guess at demand.
 | 12 | `insights-change-control-supplier-changes` | Quality | When your supplier changes something, what reaches your filing | supplier change control pharmaceutical filing | When a supplier changes something, what reaches your regulatory filing? |
 | 13 | `insights-cold-chain-medical-shipments` | Logistics | Temperature sensitive shipments: the qualification a buyer should ask about | cold chain qualification medical shipments | What qualification should you ask for on a temperature sensitive shipment? |
 | 14 | `insights-packaging-labelling-pharma-imports` | Documentation | Packaging and labelling documents that customs and the regulator each want | pharmaceutical import packaging labelling documents | Which packaging and labelling documents do customs and the regulator each want? |
+
+Rows C1 to C3 were put first on 16 Oct 2026 at the owner's request: NJMC is now the front door for the PharmaTrust certificate check (njmcmedicsupp.com/certificate-check/), so certificate of analysis topics come first.
 
 ## Badges in use on the live site
 
