@@ -1,0 +1,108 @@
+{
+ "slug": "insights-device-technical-file",
+ "date": "2026-10-20",
+ "reference": "insights-api-impurity-profiles.html",
+ "en": {
+  "title": "Medical Device Technical File Contents: What Buyers Can See",
+  "description": "A medical device technical file holds the design, risk, test and clinical evidence for a device. Here is what it contains and which parts a buyer can ask to see.",
+  "h1": "What a medical device technical file contains and what a buyer may ask to see",
+  "summary": "The technical file is the manufacturer's evidence that a device is safe and works. A buyer will rarely see all of it, but should know which parts to ask for and why.",
+  "question": "What is in a medical device technical file and what can a buyer see?",
+  "answer": "A medical device technical file holds the device description, labelling and instructions for use, design and manufacturing information, the risk management file, verification and validation reports, the clinical evaluation and the post-market plan. A buyer rarely sees the whole file, but can ask for the declaration of conformity, certificates, labelling, and summaries of the key test evidence.",
+  "badge": "Medical Devices",
+  "published": "Published 20 October 2026",
+  "body": "<p>Ask a device supplier for the technical file and the answer is often a pause, followed by a short pack of certificates and a brochure. That pack may be all you need, or it may leave out the one document your regulator will ask for. Knowing what a technical file is, who it is written for and which parts a buyer can reasonably expect to see makes that conversation much shorter.</p>\n<p>This article describes general practice for medical devices and single use consumables. What a technical file must contain in detail, and how it is assessed, is set by the regulation of each market and by the risk class of the device. Check the current requirements for your own market and product type before relying on any summary, including this one.</p>\n\n<h2>What does a medical device technical file contain?</h2>\n<p>The technical file, called technical documentation in some frameworks and a design dossier or design history file in others, is the manufacturer's evidence that a device is safe and performs as intended. It is a living set of records, kept by the manufacturer and updated as the device, its standards and its market experience change. The headings vary between regulators, but the content is broadly the same.</p>\n\n<h3>Description and specification</h3>\n<p>The file opens by saying what the device is: its intended purpose, the patients and users it is meant for, its principle of operation, its variants and accessories, and the materials that touch the patient. A clear description matters because every later section is judged against it. A test report on a different variant, or a claim the description does not support, is a gap.</p>\n\n<h3>Labelling and instructions for use</h3>\n<p>The labels on the device and its packaging, and the instructions for use, are part of the file. They must match the intended purpose, carry the warnings the risk analysis calls for, and appear in the languages the destination market requires.</p>\n\n<h3>Design and manufacturing information</h3>\n<p>This section describes how the device was designed and how it is made, including the manufacturing sites, the critical suppliers and the controls applied during production. It is usually the most commercially sensitive part of the file.</p>\n\n<h3>Safety, risk and performance evidence</h3>\n<p>Here the manufacturer lists the safety and performance requirements that apply, the standards used to meet them and where the proof sits. The risk management file identifies hazards and shows how each one was reduced. Verification and validation reports follow: bench testing, biocompatibility, electrical safety and software validation where relevant, sterilisation validation for sterile products, and packaging and shelf life studies. A clinical evaluation then brings together the clinical data that supports the device's claims.</p>\n\n<h3>Post-market surveillance</h3>\n<p>Finally, the file sets out how the manufacturer collects and acts on information once the device is in use: complaints, field feedback, trend reviews and corrective actions. A file without a working post-market plan is incomplete, however good its test reports.</p>\n\n<h2>Why will a manufacturer not send the whole file?</h2>\n<p>The technical file is written for regulators and, where one is involved, for the conformity assessment body that reviews it. It contains drawings, process details, supplier names and test methods that a manufacturer treats as confidential. Refusing to send the full file to a buyer is normal and is not, on its own, a warning sign. Refusing to send anything at all, or offering only a brochure, is different.</p>\n\n<div class=\"callout\">\n<p><strong>You do not need the whole technical file. You need the parts that prove the device you are buying is the device that was assessed.</strong> That means the same model, the same manufacturer and the same manufacturing site on every document you receive.</p>\n</div>\n\n<h2>What can a buyer reasonably ask to see?</h2>\n<p>A reasonable request, which most serious manufacturers can meet without breaching confidentiality, covers the following:</p>\n<ul>\n<li>the declaration of conformity for the markets the manufacturer claims, naming the device and its models;</li>\n<li>any certificate issued by a conformity assessment body, with its scope, its validity and the sites it covers;</li>\n<li>the quality management system certificate for the manufacturing site;</li>\n<li>the labels and instructions for use, in the version that will ship;</li>\n<li>a list of the standards applied, with their editions;</li>\n<li>summaries or certificates of the key test reports, such as biocompatibility, sterilisation validation and shelf life;</li>\n<li>where your registration needs it, a summary of the clinical evaluation.</li>\n</ul>\n<p>If your own regulator needs more than this to register the product, the usual route is for the manufacturer to submit it directly, or to release it under a confidentiality agreement to the party handling the registration. Agree that route before you order, not after the goods have shipped.</p>\n<!-- TODO-OWNER: verify which parts of the technical documentation the buyer's destination regulator requires for registration of this device type and risk class -->\n\n<h2>How does the technical file relate to registration in your market?</h2>\n<p>Approval in one market does not register a device in another. The importing country's regulator usually wants its own application, and much of the evidence in that application comes from the technical file. A manufacturer who cannot release the right extracts to the right party can stop a registration, however compliant the device itself may be. Our separate article on <a href=\"/insights-sfda-medical-device-registration.html\">SFDA medical device registration</a> covers one market's process in more detail.</p>\n\n<h2>Does a simple consumable need a technical file too?</h2>\n<p>Yes. A low risk consumable such as a dressing, a syringe or an examination glove still needs technical documentation, even where the manufacturer can declare conformity without an outside body reviewing it. The file may be shorter, but the same logic applies: a description, labelling, risk management, the standards applied and the test evidence behind each claim. For sterile items, the sterilisation validation and the packaging studies carry most of the weight. A low risk class lowers the level of outside scrutiny. It does not lower the need for evidence, and a buyer can ask for the same summaries.</p>\n\n<h2>What are the warning signs in what a supplier sends?</h2>\n<p>A few patterns are worth stopping for. Documents that name a different manufacturer or a different site from the one on the certificate. Test reports for a model that is not the one quoted. A certificate whose scope does not include the device category you are buying, or whose validity has lapsed. A declaration of conformity that names no models at all. And a supplier who promises the documents after payment. A trading company may hold some of these papers on the manufacturer's behalf, but it should be able to say whose they are and obtain the rest.</p>\n\n<p>For what each regulatory mark does and does not mean, see <a href=\"/insights-ce-fda-sfda-explained.html\">CE, FDA and SFDA explained</a>. For telling a manufacturer from an intermediary, see <a href=\"/insights-manufacturer-or-trader.html\">manufacturer or trading company</a>, and for the equipment itself, <a href=\"/medical-equipment.html\">medical equipment</a>.</p>",
+  "faq": [
+   [
+    "Is a technical file the same as a declaration of conformity?",
+    "No. The technical file is the body of evidence a manufacturer keeps to show that a device is safe and performs as intended. The declaration of conformity is a short signed statement, based on that evidence, that the device meets the requirements of a given market. A buyer can usually obtain the declaration, while the full file stays with the manufacturer."
+   ],
+   [
+    "Can a trading company provide the technical file?",
+    "A trading company does not own the technical file; the manufacturer does. A capable trader can obtain the declaration of conformity, certificates, labelling and test summaries from the manufacturer, and can arrange for fuller extracts to reach the party handling registration. A trader who cannot say which manufacturer and site the documents belong to cannot support a registration."
+   ],
+   [
+    "What should match across the documents a supplier sends?",
+    "The device name and models, the manufacturer's legal name and the manufacturing site should be the same on the declaration of conformity, the certificates, the labels and the test reports. A certificate should also cover the device category in its scope and still be valid. Any mismatch is worth resolving before the order is placed."
+   ],
+   [
+    "Does a CE mark mean the technical file has been reviewed?",
+    "Not always. For higher risk devices, a conformity assessment body reviews the technical documentation before the mark is applied. For lower risk devices, the manufacturer can declare conformity itself, so no outside body may have read the file. Ask which route was used and, where a body was involved, for its certificate."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-ce-fda-sfda-explained.html",
+    "CE, FDA and SFDA explained",
+    "What each regulatory mark does and does not mean."
+   ],
+   [
+    "/insights-sfda-medical-device-registration.html",
+    "SFDA medical device registration",
+    "How registration in the Saudi market works."
+   ],
+   [
+    "/medical-equipment.html",
+    "Medical equipment",
+    "Medical devices and equipment we source."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "محتويات الملف الفني للجهاز الطبي: ما الذي يراه المشتري",
+  "description": "يضم الملف الفني للجهاز الطبي أدلة التصميم والمخاطر والاختبارات والتقييم السريري. وهذا ما يحتويه، والأجزاء التي يحق للمشتري أن يطلب رؤيتها قبل الشراء.",
+  "h1": "ما الذي يحتويه الملف الفني للجهاز الطبي وما الذي يحق للمشتري أن يطلب رؤيته",
+  "summary": "الملف الفني هو دليل المصنّع على أن الجهاز آمن ويؤدي وظيفته. ونادراً ما يرى المشتري الملف كاملاً، لكن عليه أن يعرف أي أجزائه يطلب ولماذا.",
+  "question": "ما الذي يحتويه الملف الفني للجهاز الطبي وما الذي يستطيع المشتري رؤيته؟",
+  "answer": "يضم الملف الفني للجهاز الطبي وصف الجهاز، والبطاقات التعريفية وتعليمات الاستخدام، ومعلومات التصميم والتصنيع، وملف إدارة المخاطر، وتقارير التحقق والمصادقة، والتقييم السريري، وخطة المراقبة بعد التسويق. ونادراً ما يرى المشتري الملف كاملاً، لكنه يستطيع أن يطلب إعلان المطابقة والشهادات والبطاقات التعريفية وملخصات أدلة الاختبار الرئيسية.",
+  "badge": "الأجهزة الطبية",
+  "published": "نُشر في 20 أكتوبر 2026",
+  "body": "<p>اطلب من مورّد الأجهزة الطبية الملف الفني، وكثيراً ما يكون الرد صمتاً قصيراً تتبعه حزمة صغيرة من الشهادات ونشرة تعريفية. وقد تكون هذه الحزمة كل ما تحتاجه، وقد ينقصها المستند الوحيد الذي ستطلبه الجهة التنظيمية لديك. ومعرفة ماهية الملف الفني، ولمن يُكتب، وأي أجزائه يحق للمشتري أن يتوقع رؤيتها، تختصر هذا الحوار كثيراً.</p>\n<p>يصف هذا المقال الممارسة العامة في الأجهزة الطبية والمستهلكات أحادية الاستخدام. أما ما يجب أن يحتويه الملف الفني بالتفصيل، وكيف يُقيَّم، فتحدده لائحة كل سوق وفئة خطورة الجهاز. فتحقق من المتطلبات الحالية لسوقك ونوع منتجك قبل الاعتماد على أي ملخص، بما في ذلك هذا الملخص.</p>\n\n<h2>ما الذي يحتويه الملف الفني للجهاز الطبي؟</h2>\n<p>الملف الفني، الذي يُسمى في بعض الأنظمة الوثائق الفنية وفي غيرها ملف التصميم أو سجل تاريخ التصميم، هو دليل المصنّع على أن الجهاز آمن ويؤدي ما صُمم له. وهو مجموعة حية من السجلات يحتفظ بها المصنّع ويحدّثها كلما تغير الجهاز أو المعايير التي يتبعها أو خبرته في السوق. وتختلف العناوين بين الجهات التنظيمية، لكن المحتوى متقارب إلى حد بعيد.</p>\n\n<h3>الوصف والمواصفات</h3>\n<p>يبدأ الملف بتعريف الجهاز: الغرض المقصود منه، والمرضى والمستخدمون الذين صُمم لهم، ومبدأ عمله، وطرازاته وملحقاته، والمواد التي تلامس المريض. ووضوح الوصف مهم لأن كل قسم لاحق يُقاس عليه. فتقرير اختبار يخص طرازاً آخر، أو ادعاء لا يدعمه الوصف، يُعد ثغرة.</p>\n\n<h3>البطاقات التعريفية وتعليمات الاستخدام</h3>\n<p>البطاقات الملصقة على الجهاز وعبوته، وتعليمات الاستخدام، جزء من الملف. ويجب أن تتوافق مع الغرض المقصود، وأن تحمل التحذيرات التي يستدعيها تحليل المخاطر، وأن تصدر باللغات التي تشترطها سوق الوجهة.</p>\n\n<h3>معلومات التصميم والتصنيع</h3>\n<p>يصف هذا القسم كيف صُمم الجهاز وكيف يُصنع، بما في ذلك مواقع التصنيع والموردون الحرجون والضوابط المطبقة أثناء الإنتاج. وهو عادةً أكثر أجزاء الملف حساسية من الناحية التجارية.</p>\n\n<h3>أدلة السلامة والمخاطر والأداء</h3>\n<p>هنا يذكر المصنّع متطلبات السلامة والأداء التي تنطبق على الجهاز، والمعايير المستخدمة لاستيفائها، وموضع الدليل على كل منها. ويحدد ملف إدارة المخاطر الأخطار ويبين كيف خُفّض كل منها. ثم تأتي تقارير التحقق والمصادقة: الاختبارات المخبرية، والتوافق الحيوي، والسلامة الكهربائية ومصادقة البرمجيات حيث تنطبق، ومصادقة التعقيم للمنتجات المعقمة، ودراسات التعبئة وفترة الصلاحية. ثم يجمع التقييم السريري البيانات السريرية التي تدعم ادعاءات الجهاز.</p>\n\n<h3>المراقبة بعد التسويق</h3>\n<p>وأخيراً يبين الملف كيف يجمع المصنّع المعلومات ويتصرف بناءً عليها بعد أن يدخل الجهاز الاستخدام: الشكاوى، والملاحظات الميدانية، ومراجعات الاتجاهات، والإجراءات التصحيحية. والملف الذي يخلو من خطة فعالة للمراقبة بعد التسويق ملف ناقص، مهما كانت جودة تقارير اختباراته.</p>\n\n<h2>لماذا لا يرسل المصنّع الملف كاملاً؟</h2>\n<p>يُكتب الملف الفني للجهات التنظيمية، وللجهة التي تقيّم المطابقة وتراجعه حين تكون طرفاً في العملية. وهو يحتوي على رسومات وتفاصيل عمليات وأسماء موردين وطرق اختبار يعدها المصنّع سرية. لذلك فإن امتناعه عن إرسال الملف كاملاً إلى المشتري أمر طبيعي، ولا يُعد في ذاته علامة تحذير. أما الامتناع عن إرسال أي شيء، أو الاكتفاء بنشرة تعريفية، فأمر مختلف.</p>\n\n<div class=\"callout\">\n<p><strong>لست بحاجة إلى الملف الفني كاملاً. أنت بحاجة إلى الأجزاء التي تثبت أن الجهاز الذي تشتريه هو نفسه الجهاز الذي جرى تقييمه.</strong> أي الطراز نفسه، والمصنّع نفسه، وموقع التصنيع نفسه في كل مستند يصلك.</p>\n</div>\n\n<h2>ما الذي يحق للمشتري أن يطلب رؤيته؟</h2>\n<p>الطلب المعقول، الذي يستطيع معظم المصنّعين الجادين تلبيته دون الإخلال بالسرية، يشمل ما يلي:</p>\n<ul>\n<li>إعلان المطابقة للأسواق التي يذكرها المصنّع، مع تسمية الجهاز وطرازاته؛</li>\n<li>أي شهادة صادرة عن جهة تقييم المطابقة، مع نطاقها وسريانها والمواقع التي تغطيها؛</li>\n<li>شهادة نظام إدارة الجودة لموقع التصنيع؛</li>\n<li>البطاقات التعريفية وتعليمات الاستخدام بالنسخة التي ستُشحن؛</li>\n<li>قائمة المعايير المطبقة مع إصداراتها؛</li>\n<li>ملخصات تقارير الاختبارات الرئيسية أو شهاداتها، مثل التوافق الحيوي ومصادقة التعقيم وفترة الصلاحية؛</li>\n<li>ملخص التقييم السريري، حين يتطلبه التسجيل لديك.</li>\n</ul>\n<p>وإذا احتاجت الجهة التنظيمية لديك إلى أكثر من ذلك لتسجيل المنتج، فالطريق المعتاد أن يقدمه المصنّع إليها مباشرة، أو أن يسلمه بموجب اتفاقية سرية إلى الطرف الذي يتولى التسجيل. واتفق على هذا الطريق قبل الطلب، لا بعد شحن البضاعة.</p>\n<!-- TODO-OWNER: verify which parts of the technical documentation the buyer's destination regulator requires for registration of this device type and risk class -->\n\n<h2>ما علاقة الملف الفني بالتسجيل في سوقك؟</h2>\n<p>الموافقة في سوق ما لا تسجل الجهاز في سوق أخرى. فالجهة التنظيمية في بلد الاستيراد تطلب عادةً طلباً خاصاً بها، ويأتي كثير من الأدلة في هذا الطلب من الملف الفني. ولهذا يهم الملف المشتري حتى لو لم يقرأه قط. فالمصنّع الذي لا يستطيع تسليم المقتطفات الصحيحة إلى الطرف الصحيح قد يوقف التسجيل، مهما كان الجهاز نفسه مطابقاً. ويتناول مقالنا عن <a href=\"/ar/insights-sfda-medical-device-registration.html\">تسجيل الأجهزة الطبية لدى الهيئة السعودية للغذاء والدواء</a> إجراءات سوق واحدة بتفصيل أكبر.</p>\n\n<h2>هل يحتاج المستهلك البسيط إلى ملف فني أيضاً؟</h2>\n<p>نعم. فالمستهلك منخفض الخطورة، كالضمادة أو المحقنة أو قفاز الفحص، يحتاج مع ذلك إلى وثائق فنية، حتى حين يستطيع المصنّع أن يعلن المطابقة دون أن تراجعها جهة خارجية. وقد يكون الملف أقصر، لكن المنطق نفسه ينطبق: وصف، وبطاقات تعريفية، وإدارة مخاطر، والمعايير المطبقة، وأدلة الاختبار وراء كل ادعاء. وفي المنتجات المعقمة، تحمل مصادقة التعقيم ودراسات التعبئة معظم الثقل. ففئة الخطورة المنخفضة تقلل مستوى التدقيق الخارجي، لكنها لا تقلل الحاجة إلى الدليل، ويستطيع المشتري أن يطلب الملخصات نفسها.</p>\n\n<h2>ما علامات التحذير فيما يرسله المورّد؟</h2>\n<p>ثمة أنماط تستحق التوقف عندها: مستندات تذكر مصنّعاً أو موقعاً غير المذكور في الشهادة، وتقارير اختبار لطراز غير الطراز المعروض في السعر، وشهادة لا يشمل نطاقها فئة الجهاز الذي تشتريه أو انتهى سريانها، وإعلان مطابقة لا يسمي أي طراز، ومورّد يعد بإرسال المستندات بعد الدفع. وقد تحتفظ الشركة التجارية ببعض هذه الأوراق نيابة عن المصنّع، لكن عليها أن تبين لمن تعود وأن تحصل على الباقي.</p>\n\n<p>لمعرفة ما تعنيه كل علامة تنظيمية وما لا تعنيه، راجع <a href=\"/ar/insights-ce-fda-sfda-explained.html\">شرح علامات CE وFDA وSFDA</a>. وللتمييز بين المصنّع والوسيط، راجع <a href=\"/ar/insights-manufacturer-or-trader.html\">المصنّع أم الشركة التجارية</a>، وللأجهزة نفسها راجع <a href=\"/ar/medical-equipment.html\">المعدات الطبية</a>.</p>",
+  "faq": [
+   [
+    "هل الملف الفني هو نفسه إعلان المطابقة؟",
+    "لا. فالملف الفني هو مجموعة الأدلة التي يحتفظ بها المصنّع ليثبت أن الجهاز آمن ويؤدي ما صُمم له. أما إعلان المطابقة فإفادة قصيرة موقّعة، مبنية على تلك الأدلة، بأن الجهاز يستوفي متطلبات سوق معينة. ويستطيع المشتري عادةً الحصول على الإعلان، بينما يبقى الملف الكامل لدى المصنّع."
+   ],
+   [
+    "هل تستطيع الشركة التجارية تقديم الملف الفني؟",
+    "الشركة التجارية لا تملك الملف الفني، بل يملكه المصنّع. لكن الوسيط القادر يستطيع أن يحصل من المصنّع على إعلان المطابقة والشهادات والبطاقات التعريفية وملخصات الاختبارات، وأن يرتب وصول مقتطفات أوسع إلى الطرف الذي يتولى التسجيل. أما الوسيط الذي لا يستطيع أن يبين لأي مصنّع وموقع تعود المستندات، فلا يستطيع دعم التسجيل."
+   ],
+   [
+    "ما الذي يجب أن يتطابق في المستندات التي يرسلها المورّد؟",
+    "يجب أن يتطابق اسم الجهاز وطرازاته، والاسم القانوني للمصنّع، وموقع التصنيع، في إعلان المطابقة والشهادات والبطاقات التعريفية وتقارير الاختبار. وينبغي أن يشمل نطاق الشهادة فئة الجهاز وأن تكون سارية. وأي اختلاف يستحق أن يُحسم قبل تقديم الطلب."
+   ],
+   [
+    "هل تعني علامة CE أن الملف الفني قد رُوجع؟",
+    "ليس دائماً. ففي الأجهزة الأعلى خطورة، تراجع جهة تقييم المطابقة الوثائق الفنية قبل وضع العلامة. أما في الأجهزة الأقل خطورة، فيستطيع المصنّع أن يعلن المطابقة بنفسه، فقد لا تكون أي جهة خارجية قد قرأت الملف. فاسأل عن المسار المتبع، واطلب شهادة الجهة حين تكون طرفاً فيه."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-ce-fda-sfda-explained.html",
+    "شرح علامات CE وFDA وSFDA",
+    "ما تعنيه كل علامة تنظيمية وما لا تعنيه."
+   ],
+   [
+    "/ar/insights-sfda-medical-device-registration.html",
+    "تسجيل الأجهزة لدى الهيئة السعودية",
+    "كيف يجري التسجيل في السوق السعودية."
+   ],
+   [
+    "/ar/medical-equipment.html",
+    "المعدات الطبية",
+    "الأجهزة والمعدات الطبية التي نوردها."
+   ]
+  ]
+ },
+ "card": {
+  "en": "Which records make up a device technical file, why a manufacturer will not send all of it, and which parts a buyer should ask to see.",
+  "ar": "السجلات التي يتكون منها الملف الفني للجهاز، ولماذا لا يرسله المصنّع كاملاً، والأجزاء التي ينبغي للمشتري أن يطلبها."
+ },
+ "card_title": {
+  "en": "What a medical device technical file contains",
+  "ar": "ما الذي يحتويه الملف الفني للجهاز الطبي"
+ },
+ "backlink_from": "insights-ce-fda-sfda-explained"
+}
