@@ -28,7 +28,6 @@ only be written well by quoting a number he cannot source, it is not ready.
 
 | # | Slug | Badge (EN) | Working title | The question it answers |
 |---|------|-----------|---------------|--------------------------|
-| 07 | `writing-reading-a-supplier-audit` | Sourcing | Reading a supplier audit report as a scientist rather than a buyer | What should you look for in a supplier audit? |
 | 08 | `writing-excipients-nobody-checks` | Quality | Excipients are the part of a formulation nobody checks | Why do excipients matter to medicine quality? |
 | 09 | `writing-yemen-pharmacy-shelf` | Markets | What actually reaches a pharmacy shelf in a market under strain | How do medicines reach markets with weak regulation? |
 | 10 | `writing-stability-data-means` | Documents | What stability data promises, and the conditions that void the promise | What does a shelf life actually guarantee? |
@@ -45,3 +44,4 @@ only be written well by quoting a number he cannot source, it is not ready.
 | `writing-buying-from-china` | 24 September 2026 |
 | `writing-generic-is-not-a-quality-grade` | 1 October 2026 |
 | `writing-why-i-left-the-bench` | 15 October 2026 |
+| `writing-reading-a-supplier-audit` | 22 October 2026 |

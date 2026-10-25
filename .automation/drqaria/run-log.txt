@@ -21,3 +21,7 @@
 2026-10-15 topic picked: writing-why-i-left-the-bench
 2026-10-15 draft written, build+gates passed for writing-why-i-left-the-bench
 2026-10-15 slug=writing-why-i-left-the-bench en_words=1232 ar_words=1001 sha=b239fefcbe29cc9d02a6951edf2974ff6ee73d24
+2026-10-22 run started
+2026-10-22 topic picked: writing-reading-a-supplier-audit
+2026-10-22 draft written, build+gates passed for writing-reading-a-supplier-audit
+2026-10-22 slug=writing-reading-a-supplier-audit en_words=1303 ar_words=1004 sha=d2a60f039b5691978c3bc02d3431ef9971de557a
