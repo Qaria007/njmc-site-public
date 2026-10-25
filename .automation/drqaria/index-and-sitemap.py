@@ -51,6 +51,7 @@ HEAD = """<!DOCTYPE html>
       <li><a href="{home}#business">{n_business}</a></li>
       <li><a href="{home}#research">{n_research}</a></li>
       <li><a href="{self_url}">{n_writing}</a></li>
+      <li><a href="{gifts_url}">{n_gifts}</a></li>
       <li><a href="{other_url}" class="lang-toggle">{n_lang}</a></li>
       <li><a href="{home}#contact" class="nav-cta">{n_contact}</a></li>
     </ul>
@@ -91,6 +92,7 @@ TEXT = {
         lang="en", rtl="", bodyrtl="", home="/", brand='Dr. <span>Qaria</span>',
         n_about="About", n_business="Business", n_research="Research",
         n_writing="Writing", n_lang="العربية", n_contact="Contact", n_home="Home",
+        n_gifts="Free gifts", gifts_url="/gifts/",
         self_url="/writing.html", other_url="/writing-ar.html",
         author="Dr. Majjid A. Qaria",
         title="Writing | Dr. Majjid A. Qaria, PhD",
@@ -107,6 +109,7 @@ TEXT = {
         brand='د. <span>قارية</span>',
         n_about="نبذة عني", n_business="الأعمال", n_research="الأبحاث",
         n_writing="مقالات", n_lang="English", n_contact="تواصل معي", n_home="الرئيسية",
+        n_gifts="هدايا مجانية", gifts_url="/gifts/ar/",
         self_url="/writing-ar.html", other_url="/writing.html",
         author="د. ماجد قارية",
         title="مقالات | د. ماجد أحمد قارية",
@@ -180,6 +183,11 @@ def write_sitemap(posts):
             (HOST + "/index-ar.html", today, "0.9"),
             (HOST + "/writing.html", today, "0.9"),
             (HOST + "/writing-ar.html", today, "0.8")]
+    # Free gifts section (static, built by gifts/build-gifts.py); keep in step with it.
+    for path in ("/gifts/", "/gifts/ar/", "/gifts/zh/",
+                 "/gifts/website/", "/gifts/website/ar/", "/gifts/website/zh/",
+                 "/gifts/first-message/", "/gifts/first-message/ar/", "/gifts/first-message/zh/"):
+        urls.append((HOST + path, "2026-10-21", "0.8"))
     for p in posts:
         urls.append((HOST + "/" + p["slug"] + ".html", p["date"], "0.8"))
         urls.append((HOST + "/" + p["slug"] + "-ar.html", p["date"], "0.7"))

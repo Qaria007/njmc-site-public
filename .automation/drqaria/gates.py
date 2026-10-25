@@ -134,7 +134,13 @@ def check(path):
         fail(path, "no canonical link")
     else:
         # The English homepage canonicalises to the bare host, by design.
-        want = HOST + "/" if name == "index.html" else HOST + "/" + name
+        rel = os.path.relpath(os.path.dirname(path), SITE).replace(os.sep, "/")
+        if name == "index.html":
+            # The English homepage canonicalises to the bare host, by design;
+            # a folder index (gifts/...) canonicalises to its folder URL.
+            want = HOST + "/" if rel == "." else HOST + "/" + rel + "/"
+        else:
+            want = HOST + "/" + name
         if canonical.group(1) != want:
             fail(path, f"canonical is {canonical.group(1)}, expected {want}")
 
