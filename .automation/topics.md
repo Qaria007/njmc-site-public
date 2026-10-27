@@ -20,7 +20,6 @@ cloud writer's**, which has no network and must never guess at demand.
 
 | # | Slug | Badge | Working title (EN) | Target query | AEO question (the direct-answer H2) |
 |---|------|-------|--------------------|--------------|-------------------------------------|
-| 09 | `insights-sterilisation-single-use-consumables` | Medical Consumables | Sterilisation methods for single use consumables and the evidence behind them | sterilisation methods single use medical consumables | How are single use medical consumables sterilised and validated? |
 | 10 | `insights-remote-supplier-audits` | Sourcing | What a remote supplier audit can establish, and what it cannot | remote supplier audit limitations | What can a remote supplier audit establish? |
 | 11 | `insights-free-sale-certificates-legalisation` | Documentation | Free sale certificates, legalisation and the paperwork that delays a shipment | free sale certificate legalisation medical import | What is a free sale certificate and when does it need legalising? |
 | 12 | `insights-change-control-supplier-changes` | Quality | When your supplier changes something, what reaches your filing | supplier change control pharmaceutical filing | When a supplier changes something, what reaches your regulatory filing? |
@@ -49,3 +48,4 @@ rather than inventing a new one.
 - `insights-what-a-certificate-of-analysis-must-contain`, published 16 October 2026; query `certificate of analysis requirements`; question "What must a certificate of analysis for an API or excipient contain?"
 - `insights-certificate-of-analysis-vs-conformance`, published 16 October 2026; query `certificate of analysis vs certificate of conformance`; question "What is the difference between a certificate of analysis and a certificate of conformance?"
 - `insights-device-technical-file`, published 20 October 2026; query `medical device technical file contents`; question "What is in a medical device technical file and what can a buyer see?"
+- `insights-sterilisation-single-use-consumables`, published 27 October 2026; query `sterilisation methods single use medical consumables`; question "How are single use medical consumables sterilised and validated?"
