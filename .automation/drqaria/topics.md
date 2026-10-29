@@ -28,7 +28,6 @@ only be written well by quoting a number he cannot source, it is not ready.
 
 | # | Slug | Badge (EN) | Working title | The question it answers |
 |---|------|-----------|---------------|--------------------------|
-| 08 | `writing-excipients-nobody-checks` | Quality | Excipients are the part of a formulation nobody checks | Why do excipients matter to medicine quality? |
 | 09 | `writing-yemen-pharmacy-shelf` | Markets | What actually reaches a pharmacy shelf in a market under strain | How do medicines reach markets with weak regulation? |
 | 10 | `writing-stability-data-means` | Documents | What stability data promises, and the conditions that void the promise | What does a shelf life actually guarantee? |
 | 11 | `writing-counterfeit-vs-substandard` | Quality | Counterfeit and substandard are different problems with different fixes | What is the difference between a counterfeit and a substandard medicine? |
@@ -45,3 +44,4 @@ only be written well by quoting a number he cannot source, it is not ready.
 | `writing-generic-is-not-a-quality-grade` | 1 October 2026 |
 | `writing-why-i-left-the-bench` | 15 October 2026 |
 | `writing-reading-a-supplier-audit` | 22 October 2026 |
+| `writing-excipients-nobody-checks` | 29 October 2026 |
