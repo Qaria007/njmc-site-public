@@ -86,3 +86,11 @@
 2026-10-20 step5 wired into index/sitemap, backlink from insights-ce-fda-sfda-explained, topics.md updated
 2026-10-20 step6 site-wide gates: only 6 known pre-existing failures remain
 2026-10-20 step7 published: insights-device-technical-file, en=1104 words, ar=864 words, commit 450301f7a199c25d186c401490e3dbb0c7627d1c
+2026-10-27 run started
+2026-10-27 step1 topic: insights-sterilisation-single-use-consumables
+2026-10-27 step2 draft written
+2026-10-27 step3 pages built
+2026-10-27 step4 gates passed on new pages (second attempt, AR description length)
+2026-10-27 step5 wired into index/sitemap, backlink from insights-device-technical-file, topics.md updated
+2026-10-27 step6 site-wide gates: only 6 known pre-existing failures remain
+2026-10-27 step7 published: insights-sterilisation-single-use-consumables, en=1099 words, ar=900 words, commit 6a0e5db6a344d232c10625fc7abf67986b5bacf1

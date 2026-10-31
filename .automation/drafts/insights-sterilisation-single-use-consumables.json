@@ -1,0 +1,108 @@
+{
+ "slug": "insights-sterilisation-single-use-consumables",
+ "date": "2026-10-27",
+ "reference": "insights-device-technical-file.html",
+ "en": {
+  "title": "Sterilisation Methods for Single Use Medical Consumables",
+  "description": "Single use medical consumables are sterilised by ethylene oxide, radiation or steam. How each process is validated and which records a buyer should ask to see.",
+  "h1": "Sterilisation methods for single use medical consumables and the evidence behind them",
+  "summary": "A sterile label is a claim about a validated process. This is how the main methods work, how they are validated, and which records show your batch went through them.",
+  "question": "How are single use medical consumables sterilised and validated?",
+  "answer": "Single use medical consumables are usually sterilised by ethylene oxide gas, gamma or electron beam irradiation, or steam, chosen to suit the materials and packaging. The manufacturer validates the process against the relevant standard, proves a defined sterility assurance level, and then monitors every batch through records such as dosimetry, biological indicators or cycle parameters.",
+  "badge": "Medical Consumables",
+  "published": "Published 27 October 2026",
+  "body": "<p>A box of sterile syringes or catheters carries a short line on its label naming how it was sterilised. Most buyers read past it, yet it points to one of the largest bodies of evidence behind the product, and to the records that show whether your batch was treated the way the product was validated.</p>\n<p>This article describes general practice. Which methods are accepted, which standards apply and what a regulator expects to see are set by each market and by the type and risk class of the product. Check the current requirements for your own market before relying on any summary, including this one.</p>\n\n<h2>How are single use medical consumables sterilised?</h2>\n<p>Single use consumables are almost always sterilised in their final packaging, at the end of manufacture, by a process chosen to suit the materials of the product and its pack. A small number of methods account for most of what is on the market.</p>\n\n<h3>Ethylene oxide</h3>\n<p>Ethylene oxide is a gas that kills microorganisms at moderate temperatures, which is why it suits heat sensitive plastics, complex assemblies and narrow channels such as catheters. The gas has to reach every surface through the packaging, so the pack must be breathable. After exposure the product needs aeration to remove residual gas and its by products, and the manufacturer must show that what remains is low enough to be safe for the patient.</p>\n<!-- TODO-OWNER: verify the current ethylene oxide residue requirements for the buyer's market and product contact category -->\n\n<h3>Radiation: gamma, electron beam and X-ray</h3>\n<p>Radiation sterilisation passes energy through the sealed product. Gamma penetrates deeply and suits dense cartons. Electron beam is fast but penetrates less, so it suits lighter products and smaller packs. Radiation leaves no chemical residue, but it can make some polymers brittle or discoloured over time, so material compatibility and ageing studies matter more here than with gas.</p>\n\n<h3>Steam and other methods</h3>\n<p>Steam under pressure is well understood and leaves no residue, but many single use plastics cannot tolerate it, so it is more common for metal instruments, textiles and solutions. Low temperature methods such as hydrogen peroxide serve particular products, each with its own validation logic.</p>\n\n<h2>How is a sterilisation process validated?</h2>\n<p>A product cannot be tested into sterility. A sample test says little about the units that were not tested, so the evidence must come from proving that the process works, every time, for that product in that pack.</p>\n<p>In broad terms, validation covers four things. First, the manufacturer shows that the product and its pack tolerate the process without losing function or safety. Second, the natural microbial load on the product before sterilisation, called bioburden, is measured, because the process is designed to overcome it. Third, the process is qualified: the equipment is shown to work as specified, and the product is shown to receive the intended treatment in every part of a realistic load. Fourth, the manufacturer demonstrates that the process reaches a defined sterility assurance level, which is the very small probability that any single unit is still not sterile.</p>\n<!-- TODO-OWNER: verify the sterility assurance level expected by the buyer's market for this product type -->\n<p>Each method is governed by its own international standard: for ethylene oxide, radiation and moist heat, these are the ISO 11135, ISO 11137 and ISO 17665 series respectively, and packaging for terminally sterilised products falls under the ISO 11607 series. Ask which edition the validation was performed against.</p>\n<!-- TODO-OWNER: verify which editions of these standards the buyer's destination regulator currently recognises -->\n\n<div class=\"callout\">\n<p><strong>A sterile label is a claim about a validated process, not about a test result on your batch.</strong> The useful question is whether your batch went through the same validated process, on the same site, in the same pack, and whether the routine records show it.</p>\n</div>\n\n<h2>What evidence proves that each batch was sterilised?</h2>\n<p>Once a process is validated, every batch is released against routine records showing it ran within its validated range. Those records depend on the method.</p>\n<ul>\n<li>For radiation, dosimeters placed in the load record the dose actually delivered, and release is based on those readings falling inside the validated range.</li>\n<li>For ethylene oxide, release is based on the recorded cycle parameters, and often on biological indicators placed in the load and then incubated to show that test organisms were killed.</li>\n<li>For steam, the cycle record of temperature, pressure and time, with any indicators used, plays the same role.</li>\n</ul>\n<p>A batch certificate or certificate of conformance for a sterile product should name the sterilisation method, the sterilisation lot or cycle reference, and the facility that carried it out. Our article on the <a href=\"/insights-certificate-of-analysis-vs-conformance.html\">certificate of analysis and certificate of conformance</a> explains what each kind of certificate can and cannot prove.</p>\n\n<h2>Why does the packaging matter as much as the process?</h2>\n<p>Sterility only lasts as long as the sterile barrier around the product stays intact. The pack must let the sterilant in where needed, survive the process, and then keep microorganisms out through transport, storage and handling until the point of use. Packaging validation, seal integrity testing, transport simulation and ageing studies are therefore part of the sterilisation evidence, and the printed shelf life rests on them. A crushed carton or a damaged pouch on arrival is a sterility question, not only a cosmetic one, as our article on <a href=\"/insights-incoming-goods-inspection.html\">incoming goods inspection</a> explains.</p>\n\n<h2>What should a buyer ask a supplier for?</h2>\n<p>The validation itself sits in the manufacturer's technical file and will not be released in full. A reasonable request includes:</p>\n<ul>\n<li>the sterilisation method and the standard and edition the process was validated against;</li>\n<li>the name and location of the sterilisation facility, which may be a contract sterilisation site rather than the factory itself;</li>\n<li>a summary or certificate of the validation, and the date of the most recent revalidation or periodic review;</li>\n<li>for ethylene oxide, confirmation that residue testing was performed and passed;</li>\n<li>the packaging validation summary and the basis for the stated shelf life;</li>\n<li>the routine release record or certificate for your batch.</li>\n</ul>\n\n<h2>What are the warning signs?</h2>\n<p>A few patterns are worth stopping for. A sterilisation certificate that names a different product family, pack configuration or facility from the one you are buying. A validation that predates a change of material, supplier or pack, with no record that the change was assessed. Batch certificates that state the product is sterile but give no sterilisation lot or method. Shelf life claims with no ageing study behind them. And a supplier who cannot say where the product was sterilised at all. None proves the product unsafe, but each is a gap your regulator will eventually ask about.</p>\n\n<p>For the range of single use products we source, see <a href=\"/medical-consumables.html\">medical consumables</a>. For the wider documentation pack behind a device, see <a href=\"/insights-device-technical-file.html\">what a medical device technical file contains</a>, and for checking a delivery on arrival, <a href=\"/insights-incoming-goods-inspection.html\">incoming goods inspection</a>.</p>",
+  "faq": [
+   [
+    "Is a sterility test on a finished batch enough to prove it is sterile?",
+    "No. A sterility test examines only a small sample, so it cannot show that every unit in a batch is sterile. Confidence comes from a validated process and from routine records showing the batch ran within that process. Some batches are released on those process records alone, without a final sterility test, where the method and the regulator allow it."
+   ],
+   [
+    "Which sterilisation method is best for single use plastics?",
+    "There is no single best method. Ethylene oxide suits heat sensitive plastics and complex assemblies but leaves residues that must be removed and tested. Radiation leaves no residue but can weaken or discolour some polymers over time. The right choice depends on the materials, the product design and the packaging, and is fixed during validation."
+   ],
+   [
+    "Does a change of sterilisation facility need a new validation?",
+    "Usually, yes. A validation applies to a specific process on specific equipment, so moving production to another sterilisation facility, or changing the product, its materials or its pack, normally calls for the change to be assessed and the process requalified or revalidated. Ask the supplier how such changes are handled and whether you will be told."
+   ],
+   [
+    "What should a sterile product's batch certificate show?",
+    "It should identify the product and batch, name the sterilisation method, give the sterilisation lot or cycle reference, and name the facility that carried it out. It should also state the expiry date that the packaging and ageing studies support. A certificate that simply says the product is sterile, with none of these details, is difficult to trace."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/medical-consumables.html",
+    "Medical consumables",
+    "Single use products and consumables we source."
+   ],
+   [
+    "/insights-device-technical-file.html",
+    "What a technical file contains",
+    "The documentation behind a medical device."
+   ],
+   [
+    "/insights-incoming-goods-inspection.html",
+    "Incoming goods inspection",
+    "What to check when a shipment arrives."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "طرق تعقيم المستهلكات الطبية أحادية الاستخدام",
+  "description": "تُعقَّم المستهلكات الطبية أحادية الاستخدام بأكسيد الإيثيلين أو الإشعاع أو البخار. هكذا تُصادَق كل عملية، وهذه السجلات التي ينبغي للمشتري أن يطلبها قبل الشراء.",
+  "h1": "طرق تعقيم المستهلكات الطبية أحادية الاستخدام والأدلة التي تقف وراءها",
+  "summary": "عبارة «معقم» على البطاقة ادعاء يخص عملية مصادَقاً عليها. وهذا شرح لعمل الطرق الرئيسية، وكيف تُصادَق، وأي السجلات تثبت أن دفعتك مرت بها.",
+  "question": "كيف تُعقَّم المستهلكات الطبية أحادية الاستخدام وكيف تُصادَق عملية تعقيمها؟",
+  "answer": "تُعقَّم المستهلكات الطبية أحادية الاستخدام عادةً بغاز أكسيد الإيثيلين، أو بأشعة غاما أو الحزمة الإلكترونية، أو بالبخار، بحسب ما يناسب المواد والعبوة. ويصادق المصنّع على العملية وفق المعيار المعني، ويثبت بلوغها مستوى محدداً لضمان التعقيم، ثم يراقب كل دفعة من خلال سجلات مثل قياس الجرعة أو المؤشرات الحيوية أو معاملات الدورة.",
+  "badge": "المستهلكات الطبية",
+  "published": "نُشر في 27 أكتوبر 2026",
+  "body": "<p>تحمل علبة المحاقن أو القثاطر المعقمة سطراً قصيراً على بطاقتها يذكر طريقة تعقيمها. ويمر معظم المشترين عليه دون توقف، مع أنه يشير إلى واحدة من أكبر مجموعات الأدلة وراء المنتج، وإلى السجلات التي تبين هل عولجت دفعتك بالطريقة نفسها التي صودق عليها المنتج.</p>\n<p>يصف هذا المقال الممارسة العامة. أما الطرق المقبولة، والمعايير المطبقة، وما تتوقع الجهة التنظيمية رؤيته، فتحددها كل سوق بحسب نوع المنتج وفئة خطورته. فتحقق من المتطلبات الحالية لسوقك قبل الاعتماد على أي ملخص، بما في ذلك هذا الملخص.</p>\n\n<h2>كيف تُعقَّم المستهلكات الطبية أحادية الاستخدام؟</h2>\n<p>تُعقَّم المستهلكات أحادية الاستخدام في الغالب داخل عبوتها النهائية، في نهاية التصنيع، بعملية تُختار بما يناسب مواد المنتج وعبوته. وعدد قليل من الطرق يغطي معظم ما في السوق.</p>\n\n<h3>أكسيد الإيثيلين</h3>\n<p>أكسيد الإيثيلين غاز يقتل الكائنات الدقيقة في درجات حرارة معتدلة، ولذلك يناسب البلاستيك الحساس للحرارة، والمنتجات المركبة، والقنوات الضيقة كما في القثاطر. ويجب أن يصل الغاز إلى كل سطح عبر العبوة، فلا بد أن تكون العبوة قابلة لنفاذ الغاز. وبعد التعريض يحتاج المنتج إلى تهوية لإزالة الغاز المتبقي ونواتجه، وعلى المصنّع أن يثبت أن ما تبقى منخفض بما يكفي ليكون آمناً على المريض.</p>\n<!-- TODO-OWNER: verify the current ethylene oxide residue requirements for the buyer's market and product contact category -->\n\n<h3>الإشعاع: أشعة غاما والحزمة الإلكترونية والأشعة السينية</h3>\n<p>يمرر التعقيم الإشعاعي الطاقة عبر المنتج المغلق. وتنفذ أشعة غاما إلى عمق كبير فتناسب الكراتين الكثيفة. أما الحزمة الإلكترونية فسريعة لكنها أقل نفاذاً، فتناسب المنتجات الأخف والعبوات الأصغر. ولا يترك الإشعاع بقايا كيميائية، لكنه قد يجعل بعض البوليمرات هشة أو متغيرة اللون مع الوقت، ولذلك تكتسب دراسات توافق المواد والتقادم هنا أهمية أكبر مما في التعقيم بالغاز.</p>\n\n<h3>البخار وطرق أخرى</h3>\n<p>التعقيم بالبخار تحت الضغط طريقة مفهومة جيداً ولا تترك بقايا، لكن كثيراً من أنواع البلاستيك أحادي الاستخدام لا يتحملها، فهي أكثر شيوعاً في الأدوات المعدنية والمنسوجات والمحاليل. وتُستخدم طرق منخفضة الحرارة، مثل بيروكسيد الهيدروجين، لمنتجات بعينها، ولكل منها منطقها الخاص في المصادقة.</p>\n\n<h2>كيف تُصادَق عملية التعقيم؟</h2>\n<p>لا يمكن إثبات تعقيم المنتج بالاختبار وحده. فاختبار عينة لا يقول الكثير عن الوحدات التي لم تُختبر، ولذلك يجب أن يأتي الدليل من إثبات أن العملية نفسها تنجح في كل مرة، لهذا المنتج وفي هذه العبوة.</p>\n<p>وبوجه عام، تغطي المصادقة أربعة أمور. أولاً، يثبت المصنّع أن المنتج وعبوته يتحملان العملية دون أن يفقدا وظيفتهما أو سلامتهما. ثانياً، يُقاس الحمل الميكروبي الطبيعي على المنتج قبل التعقيم، ويُسمى العبء الحيوي، لأن العملية مصممة للتغلب عليه. ثالثاً، تُؤهَّل العملية: فيُثبت أن المعدات تعمل كما هو محدد، وأن المنتج يتلقى المعالجة المقصودة في كل جزء من حمولة واقعية. رابعاً، يبرهن المصنّع على أن العملية تبلغ مستوى محدداً لضمان التعقيم، وهو الاحتمال الضئيل جداً أن تبقى أي وحدة منفردة غير معقمة.</p>\n<!-- TODO-OWNER: verify the sterility assurance level expected by the buyer's market for this product type -->\n<p>ولكل طريقة معيارها الدولي: فسلسلة ISO 11135 لأكسيد الإيثيلين، وسلسلة ISO 11137 للإشعاع، وسلسلة ISO 17665 للحرارة الرطبة، وتخضع عبوات المنتجات المعقمة نهائياً لسلسلة ISO 11607. فاسأل عن إصدار المعيار الذي أُجريت المصادقة بموجبه.</p>\n<!-- TODO-OWNER: verify which editions of these standards the buyer's destination regulator currently recognises -->\n\n<div class=\"callout\">\n<p><strong>عبارة «معقم» على البطاقة ادعاء يخص عملية جرت المصادقة عليها، لا نتيجة اختبار أُجري على دفعتك.</strong> والسؤال المفيد هو: هل مرت دفعتك بالعملية المصادَق عليها نفسها، في الموقع نفسه، وفي العبوة نفسها، وهل تثبت السجلات الروتينية ذلك؟</p>\n</div>\n\n<h2>ما الدليل على أن كل دفعة قد عُقمت؟</h2>\n<p>بعد المصادقة على العملية، تُفرج كل دفعة بناءً على سجلات روتينية تبين أنها جرت ضمن نطاقها المصادَق عليه. وتختلف هذه السجلات بحسب الطريقة.</p>\n<ul>\n<li>في الإشعاع، تسجل مقاييس الجرعة الموضوعة في الحمولة الجرعة التي وصلت فعلاً، ويُبنى الإفراج على وقوع قراءاتها داخل النطاق المصادَق عليه.</li>\n<li>في أكسيد الإيثيلين، يُبنى الإفراج على معاملات الدورة المسجلة، وكثيراً ما يُبنى أيضاً على مؤشرات حيوية توضع في الحمولة ثم تُحضن لإثبات أن الكائنات المستخدمة في الاختبار قد قُتلت.</li>\n<li>في البخار، يؤدي سجل الدورة من حرارة وضغط وزمن، مع أي مؤشرات مستخدمة، الدور نفسه.</li>\n</ul>\n<p>وينبغي أن تذكر شهادة الدفعة أو شهادة المطابقة لأي منتج معقم طريقة التعقيم، ورقم دفعة التعقيم أو مرجع الدورة، والمنشأة التي نفذته. ويشرح مقالنا عن <a href=\"/ar/insights-certificate-of-analysis-vs-conformance.html\">شهادة التحليل وشهادة المطابقة</a> ما يمكن لكل نوع من الشهادات أن يثبته وما لا يمكنه.</p>\n\n<h2>لماذا تهم العبوة بقدر ما تهم العملية؟</h2>\n<p>لا يدوم التعقيم إلا ما دام الحاجز المعقم حول المنتج سليماً. فعلى العبوة أن تسمح بدخول مادة التعقيم حيث يلزم، وأن تتحمل العملية، ثم أن تمنع دخول الكائنات الدقيقة خلال النقل والتخزين والمناولة حتى لحظة الاستخدام. ولذلك تُعد مصادقة التعبئة، واختبارات سلامة الختم، ومحاكاة النقل، ودراسات التقادم جزءاً من أدلة التعقيم، وعليها تقوم فترة الصلاحية المطبوعة. والكرتونة المسحوقة أو الكيس التالف عند الوصول مسألة تخص التعقيم، لا المظهر فقط، كما يوضح مقالنا عن <a href=\"/ar/insights-incoming-goods-inspection.html\">فحص البضائع الواردة</a>.</p>\n\n<h2>ما الذي ينبغي للمشتري أن يطلبه من المورّد؟</h2>\n<p>تقع المصادقة نفسها ضمن الملف الفني للمصنّع، ولن تُسلَّم كاملة. والطلب المعقول يشمل:</p>\n<ul>\n<li>طريقة التعقيم، والمعيار وإصداره اللذين صودقت العملية بموجبهما؛</li>\n<li>اسم منشأة التعقيم وموقعها، وقد تكون منشأة تعقيم متعاقدة لا المصنع نفسه؛</li>\n<li>ملخص المصادقة أو شهادتها، وتاريخ آخر إعادة مصادقة أو مراجعة دورية؛</li>\n<li>في أكسيد الإيثيلين، تأكيد أن اختبار البقايا أُجري واجتيز؛</li>\n<li>ملخص مصادقة التعبئة والأساس الذي بُنيت عليه فترة الصلاحية المعلنة؛</li>\n<li>سجل الإفراج الروتيني أو الشهادة الخاصة بدفعتك.</li>\n</ul>\n\n<h2>ما علامات التحذير؟</h2>\n<p>ثمة أنماط تستحق التوقف عندها: شهادة تعقيم تذكر عائلة منتجات أو شكل تعبئة أو منشأة غير التي تشتري منها، ومصادقة أقدم من تغيير في المادة أو المورّد أو العبوة دون سجل يبين أن التغيير قُيّم، وشهادات دفعات تقول إن المنتج معقم لكنها لا تذكر دفعة التعقيم ولا طريقته، وادعاءات فترة صلاحية لا تقف وراءها دراسة تقادم، ومورّد لا يستطيع أن يقول أين عُقم المنتج أصلاً. ولا يثبت أي من ذلك أن المنتج غير آمن، لكن كلاً منها ثغرة ستسأل عنها الجهة التنظيمية لديك عاجلاً أو آجلاً.</p>\n\n<p>لمجموعة المنتجات أحادية الاستخدام التي نوردها، راجع <a href=\"/ar/medical-consumables.html\">المستهلكات الطبية</a>. وللحزمة الأوسع من الوثائق وراء الجهاز، راجع <a href=\"/ar/insights-device-technical-file.html\">ما الذي يحتويه الملف الفني للجهاز الطبي</a>، ولفحص الشحنة عند وصولها، <a href=\"/ar/insights-incoming-goods-inspection.html\">فحص البضائع الواردة</a>.</p>",
+  "faq": [
+   [
+    "هل يكفي اختبار التعقيم على الدفعة النهائية لإثبات أنها معقمة؟",
+    "لا. فاختبار التعقيم يفحص عينة صغيرة فقط، ولا يستطيع أن يثبت أن كل وحدة في الدفعة معقمة. وتأتي الثقة من عملية مصادَق عليها ومن سجلات روتينية تبين أن الدفعة جرت ضمن تلك العملية. وتُفرج بعض الدفعات بناءً على سجلات العملية وحدها، دون اختبار تعقيم نهائي، حيث تسمح الطريقة والجهة التنظيمية بذلك."
+   ],
+   [
+    "ما أفضل طريقة لتعقيم المنتجات البلاستيكية أحادية الاستخدام؟",
+    "لا توجد طريقة واحدة هي الأفضل. فأكسيد الإيثيلين يناسب البلاستيك الحساس للحرارة والمنتجات المركبة، لكنه يترك بقايا يجب إزالتها واختبارها. والإشعاع لا يترك بقايا، لكنه قد يُضعف بعض البوليمرات أو يغير لونها مع الوقت. ويتوقف الاختيار الصحيح على المواد وتصميم المنتج والعبوة، ويُثبَّت أثناء المصادقة."
+   ],
+   [
+    "هل يتطلب تغيير منشأة التعقيم مصادقة جديدة؟",
+    "في العادة نعم. فالمصادقة تخص عملية محددة على معدات محددة، ولذلك فإن نقل التعقيم إلى منشأة أخرى، أو تغيير المنتج أو مواده أو عبوته، يستدعي عادةً تقييم التغيير وإعادة تأهيل العملية أو إعادة المصادقة عليها. فاسأل المورّد كيف يتعامل مع هذه التغييرات وهل سيُبلغك بها."
+   ],
+   [
+    "ما الذي ينبغي أن تبينه شهادة الدفعة لمنتج معقم؟",
+    "ينبغي أن تحدد المنتج والدفعة، وأن تذكر طريقة التعقيم، ورقم دفعة التعقيم أو مرجع الدورة، والمنشأة التي نفذته. وينبغي أن تذكر أيضاً تاريخ انتهاء الصلاحية الذي تدعمه دراسات التعبئة والتقادم. أما الشهادة التي تكتفي بالقول إن المنتج معقم دون أي من هذه التفاصيل، فيصعب تتبعها."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/medical-consumables.html",
+    "المستهلكات الطبية",
+    "المنتجات والمستهلكات أحادية الاستخدام التي نوردها."
+   ],
+   [
+    "/ar/insights-device-technical-file.html",
+    "ما يحتويه الملف الفني",
+    "الوثائق التي تقف وراء الجهاز الطبي."
+   ],
+   [
+    "/ar/insights-incoming-goods-inspection.html",
+    "فحص البضائع الواردة",
+    "ما ينبغي فحصه عند وصول الشحنة."
+   ]
+  ]
+ },
+ "card": {
+  "en": "How ethylene oxide, radiation and steam sterilisation work, how each is validated, and which records show that your batch went through the process.",
+  "ar": "كيف يعمل التعقيم بأكسيد الإيثيلين والإشعاع والبخار، وكيف تُصادَق كل طريقة، وأي السجلات تثبت أن دفعتك مرت بالعملية."
+ },
+ "card_title": {
+  "en": "Sterilisation methods for single use consumables",
+  "ar": "طرق تعقيم المستهلكات أحادية الاستخدام"
+ },
+ "backlink_from": "insights-device-technical-file"
+}
