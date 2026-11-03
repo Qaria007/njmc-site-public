@@ -102,3 +102,4 @@
 2026-11-03 step4 gates passed on new pages (first attempt)
 2026-11-03 step5 wired into index/sitemap, backlink from insights-manufacturer-or-trader, topics.md updated
 2026-11-03 step6 site-wide gates: only 6 known pre-existing failures remain
+2026-11-03 step7 published: insights-remote-supplier-audits, en=1088 words, ar=907 words, commit 851364f958ccbf3ab76cf986dcc23b671036acb0
