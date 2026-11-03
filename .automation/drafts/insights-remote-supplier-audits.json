@@ -1,0 +1,107 @@
+{
+ "slug": "insights-remote-supplier-audits",
+ "date": "2026-11-03",
+ "en": {
+  "title": "Remote Supplier Audit Limitations: What a Screen Can Show",
+  "description": "A remote supplier audit can test procedures, batch records and the people who run them. It cannot confirm the physical site or daily practice. Where the limits lie.",
+  "h1": "What a remote supplier audit can establish, and what it cannot",
+  "summary": "A video call can test a supplier's records and people well. It sees the site itself poorly. This is where the line falls, and how to plan around it.",
+  "question": "What can a remote supplier audit establish?",
+  "answer": "A remote supplier audit can establish whether a quality system exists on paper and whether staff can explain and retrieve it: procedures, batch records, deviations, change control, complaints and training files. It cannot reliably confirm the physical state of the site, how work is actually done on the floor, or whether the documents shown match daily practice.",
+  "badge": "Sourcing",
+  "published": "Published 3 November 2026",
+  "body": "<p>Remote supplier audits became routine when travel stopped, and many buyers have kept them because they are quicker to arrange and cheaper to run. A team logs into a video call, the supplier shares its screen, documents are requested and shown, and a camera is carried around the site. At the end there is a report, and often an approval.</p>\n<p>That report is worth having, but only if everyone who relies on it understands what kind of evidence sits behind it. A remote audit is a different instrument from an on site audit, with different strengths and real blind spots. This article describes general practice. Whether a remote audit is acceptable for a given supplier, and when an on site visit is expected, depends on your market, your product and your own quality system, so check the current guidance that applies to you.</p>\n<!-- TODO-OWNER: verify whether the buyer's regulator accepts remote audits for initial supplier qualification of this material type -->\n\n<h2>What can a remote supplier audit establish?</h2>\n<p>A remote audit is strongest wherever the evidence is a document. In a well run session an auditor can read procedures and see whether they are current, controlled and approved. They can pick batch records at random and follow one batch from receipt of raw materials to release. They can open the deviation log, choose entries and ask to see the investigation, the root cause and the corrective action. They can look at change control, complaints, recalls, supplier qualification files, training records and the most recent internal audits.</p>\n<p>This tests something that matters a great deal: whether the quality system exists as a working set of records, and whether the people responsible can find, explain and defend them. A supplier whose quality manager cannot retrieve a deviation from last quarter, or whose batch records cannot be produced on request, has told you something important, whether you are in the room or not.</p>\n<h3>Interviews still work</h3>\n<p>Much of auditing is conversation. Asking an operator to describe how they clean a line, or asking the head of quality control what happens when a result is out of specification, works almost as well on a call as in person. Hesitation, contradictions between people and answers read from a script are all visible on a screen.</p>\n\n<h2>What can a remote supplier audit not establish?</h2>\n<p>The limitations of a remote supplier audit come from one fact: the supplier controls what you see. The camera points where the supplier points it, documents arrive when the supplier chooses, and the walk round follows a route the supplier has planned.</p>\n<ul>\n<li><strong>The physical condition of the site.</strong> A camera flattens detail. Wear on surfaces, damaged seals, dust in corners, condensation and pest activity are easy to miss and easy to keep out of frame.</li>\n<li><strong>What happens when nobody is presenting.</strong> On site, an auditor can stop at an unplanned door, look into a warehouse bay, or watch a shift change. Remotely, almost everything is presented rather than discovered.</li>\n<li><strong>Whether the documents match practice.</strong> A record can be complete and still describe work that was done differently, or not at all. Comparing a logbook with the equipment beside it, at the same moment, is far harder through a screen.</li>\n<li><strong>Whether you are seeing the right site.</strong> A video tour shows a building. It does not by itself prove that it is the building named on the certificate, or that your material is made there.</li>\n<li><strong>Sensory and environmental cues.</strong> Smell, noise, temperature and the feel of a clean area tell an experienced auditor a lot, and none of them travel well.</li>\n</ul>\n\n<div class=\"callout\">\n<p><strong>A remote audit tests the records of a quality system well and the reality of a site poorly.</strong> Treat its conclusions as provisional for anything that depends on what the plant physically looks like or how work is actually done on the floor.</p>\n</div>\n\n<h2>When is a remote audit a reasonable choice?</h2>\n<p>Remote audits suit some situations better than others. They are most defensible for a supplier you already know well, with a clean history and an earlier on site audit to compare against, where the purpose is a periodic review rather than a first approval. They are also useful as a first screen before deciding whether a supplier is worth a visit, and as a focused follow up to check that corrective actions from an earlier audit were closed.</p>\n<p>They are weakest for a new supplier making a critical or high risk material, for a site with a history of problems, and for any case where the main question is whether the supplier really manufactures what it sells. On that last point, our article on <a href=\"/insights-manufacturer-or-trader.html\">telling a manufacturer from a trading company</a> sets out the checks that do not depend on a video tour.</p>\n\n<h2>How do you get more out of a remote audit?</h2>\n<p>A remote audit is only as good as its preparation. A few habits make a large difference.</p>\n<ul>\n<li>Send a document request in advance, then ask for several further records live, chosen during the session, so they cannot all be prepared beforehand.</li>\n<li>Ask for a live walk round with the camera held by someone you can direct, not a recorded video, and ask to see specific rooms, equipment identification plates and status labels.</li>\n<li>Pick one batch and trace it end to end, from raw material receipt through production, testing and release, checking that dates, equipment numbers and signatures agree.</li>\n<li>Compare what you see with what you already hold: the site address on the GMP certificate, the manufacturing address in the filing, and the details on the certificate of analysis.</li>\n<li>Record clearly in the report which areas were assessed remotely, which could not be assessed, and what would need an on site visit to close.</li>\n</ul>\n<p>Comparing documents across sources is often where remote audits find their most useful results. Our article on <a href=\"/insights-reading-a-gmp-certificate.html\">reading a GMP certificate</a> explains what that document does and does not prove.</p>\n\n<h2>What should the audit report say about its own limits?</h2>\n<p>An honest remote audit report states that it was remote, lists what was examined and how, and names the areas it could not cover. It should not read like an on site report with the word remote added to the title. If the approval rests partly on a remote audit, the supplier file should also say when and how the open points will be checked in person, and the <a href=\"/insights-quality-agreements-api-supply.html\">quality agreement</a> should give you the right to do so.</p>\n\n<p>For the wider checks behind choosing a supplier, see our articles on <a href=\"/insights-manufacturer-or-trader.html\">manufacturers and trading companies</a> and <a href=\"/insights-quality-agreements-api-supply.html\">quality agreements with API suppliers</a>, and for sourcing and compliance support, our <a href=\"/consultancy.html\">consultancy</a> page.</p>",
+  "faq": [
+   [
+    "Can a remote audit replace an on site audit for a new supplier?",
+    "Usually not on its own for a critical material. A remote audit tests documents and people well but cannot confirm the physical state of the site or how work is done in practice. Many buyers use it as a first screen or a periodic review, and keep an on site visit for first approval of high risk suppliers. Check what your own regulator expects."
+   ],
+   [
+    "How do you stop a supplier preparing every document in advance?",
+    "Send a document list beforehand, then ask for further records during the session, chosen live: a particular batch record, a specific deviation, the training file of the operator you just spoke to. Records requested on the spot, and traced across each other, are much harder to stage than a prepared pack."
+   ],
+   [
+    "What should a remote audit report record?",
+    "It should state that the audit was remote, how it was carried out, which records and areas were examined, and which areas could not be assessed. It should list findings as any audit report does, and name the points that need an on site visit to close, with a plan for when that will happen."
+   ],
+   [
+    "Is a recorded video tour of the factory useful evidence?",
+    "It has limited value. A recorded video shows only what the supplier chose to film, at a time it chose, and does not prove which site it shows. A live walk round, directed by the auditor and checked against equipment plates, room labels and the address on the certificates, is far more informative."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-manufacturer-or-trader.html",
+    "Manufacturer or trading company",
+    "How to tell who really makes what you buy."
+   ],
+   [
+    "/insights-reading-a-gmp-certificate.html",
+    "Reading a GMP certificate",
+    "What the certificate proves, and what it does not."
+   ],
+   [
+    "/consultancy.html",
+    "Consultancy",
+    "Sourcing and compliance support."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "حدود التدقيق عن بُعد على الموردين: ما الذي تُظهره الشاشة",
+  "description": "يختبر التدقيق عن بُعد على المورّد الإجراءات وسجلات الدفعات والأشخاص الذين يديرونها، لكنه لا يؤكد حالة الموقع ولا الممارسة اليومية. هنا تقع حدوده وكيف تخطط حولها.",
+  "h1": "ما الذي يمكن أن يثبته التدقيق عن بُعد على المورّد، وما الذي لا يستطيع إثباته",
+  "summary": "تختبر المكالمة المرئية سجلات المورّد وموظفيه جيداً، لكنها ترى الموقع نفسه رؤية ضعيفة. وهنا يقع الحد الفاصل، وهذه طريقة التخطيط حوله.",
+  "question": "ما الذي يمكن أن يثبته التدقيق عن بُعد على المورّد؟",
+  "answer": "يستطيع التدقيق عن بُعد على المورّد أن يثبت هل نظام الجودة موجود على الورق، وهل يستطيع الموظفون شرحه واستخراج سجلاته: الإجراءات، وسجلات الدفعات، والانحرافات، وضبط التغيير، والشكاوى، وملفات التدريب. لكنه لا يستطيع أن يؤكد بثقة الحالة المادية للموقع، ولا طريقة أداء العمل فعلاً في أرض الإنتاج، ولا هل تطابق الوثائق المعروضة الممارسة اليومية.",
+  "badge": "التوريد",
+  "published": "نُشر في 3 نوفمبر 2026",
+  "body": "<p>أصبحت التدقيقات عن بُعد على الموردين أمراً معتاداً حين توقف السفر، وواصل كثير من المشترين الاعتماد عليها لأنها أسرع في الترتيب وأقل كلفة في التنفيذ. يدخل الفريق في مكالمة مرئية، ويعرض المورّد شاشته، وتُطلب الوثائق وتُعرض، وتُحمل كاميرا للتجول في الموقع. وفي النهاية يصدر تقرير، وكثيراً ما تصدر معه موافقة.</p>\n<p>هذا التقرير مفيد، لكن بشرط أن يفهم كل من يعتمد عليه نوع الدليل الذي يقف وراءه. فالتدقيق عن بُعد أداة تختلف عن التدقيق في الموقع، لها نقاط قوة مختلفة ونقاط عمياء حقيقية. يصف هذا المقال الممارسة العامة. أما قبول التدقيق عن بُعد لمورّد بعينه، ومتى تُتوقع زيارة ميدانية، فيتوقفان على سوقك ومنتجك ونظام الجودة لديك، فتحقق من الإرشادات الحالية التي تنطبق عليك.</p>\n<!-- TODO-OWNER: verify whether the buyer's regulator accepts remote audits for initial supplier qualification of this material type -->\n\n<h2>ما الذي يمكن أن يثبته التدقيق عن بُعد على المورّد؟</h2>\n<p>يكون التدقيق عن بُعد في أقوى حالاته حيثما كان الدليل وثيقة. ففي جلسة جيدة الإدارة يستطيع المدقق أن يقرأ الإجراءات ويرى هل هي سارية ومضبوطة ومعتمدة. ويستطيع أن يختار سجلات دفعات عشوائياً ويتتبع دفعة واحدة من استلام المواد الخام حتى الإفراج عنها. ويستطيع أن يفتح سجل الانحرافات، فيختار منه حالات ويطلب رؤية التحقيق والسبب الجذري والإجراء التصحيحي. ويستطيع أن يطلع على ضبط التغيير والشكاوى وعمليات السحب وملفات تأهيل الموردين وسجلات التدريب وآخر التدقيقات الداخلية.</p>\n<p>وهذا يختبر أمراً بالغ الأهمية: هل نظام الجودة موجود فعلاً بوصفه مجموعة سجلات تعمل، وهل يستطيع المسؤولون عنه إيجادها وشرحها والدفاع عنها. فالمورّد الذي لا يستطيع مدير الجودة لديه استخراج انحراف من الربع الماضي، أو لا يقدر على إبراز سجلات دفعاته عند الطلب، قد أخبرك بشيء مهم، سواء كنت في الغرفة أم لم تكن.</p>\n<h3>المقابلات تبقى فعالة</h3>\n<p>جزء كبير من التدقيق حوار. فسؤال عامل عن طريقة تنظيف خط الإنتاج، أو سؤال رئيس مراقبة الجودة عما يحدث حين تخرج نتيجة عن المواصفة، ينجح في المكالمة تقريباً كما ينجح وجهاً لوجه. فالتردد، والتناقض بين الأشخاص، والإجابات المقروءة من نص مُعد، كلها تظهر على الشاشة.</p>\n\n<h2>ما الذي لا يستطيع التدقيق عن بُعد أن يثبته؟</h2>\n<p>تنبع حدود التدقيق عن بُعد من حقيقة واحدة: المورّد هو من يتحكم فيما تراه. فالكاميرا تتجه حيث يوجهها المورّد، والوثائق تصل حين يختار، والجولة تسير في مسار خطط له مسبقاً.</p>\n<ul>\n<li><strong>الحالة المادية للموقع.</strong> الكاميرا تُسطّح التفاصيل. فتآكل الأسطح، وتلف الحشوات، والغبار في الزوايا، والتكثف، وآثار الآفات، أمور يسهل أن تفوت المدقق ويسهل إبقاؤها خارج الإطار.</li>\n<li><strong>ما يجري حين لا يكون أحد في وضع العرض.</strong> في الموقع يستطيع المدقق أن يتوقف عند باب غير مدرج في الخطة، أو ينظر في ركن من المستودع، أو يشاهد تبديل الوردية. أما عن بُعد فكل شيء تقريباً يُعرض عليك ولا تكتشفه بنفسك.</li>\n<li><strong>هل تطابق الوثائق الممارسة الفعلية.</strong> قد يكون السجل مكتملاً ومع ذلك يصف عملاً جرى بطريقة مختلفة، أو لم يجرِ أصلاً. ومقارنة دفتر التشغيل بالمعدة التي بجانبه في اللحظة نفسها أصعب بكثير عبر الشاشة.</li>\n<li><strong>هل ترى الموقع الصحيح.</strong> الجولة المصورة تُظهر مبنى، لكنها وحدها لا تثبت أنه المبنى المذكور في الشهادة، ولا أن مادتك تُصنع فيه.</li>\n<li><strong>الإشارات الحسية والبيئية.</strong> الرائحة والضجيج والحرارة والإحساس العام بالمنطقة النظيفة تخبر المدقق الخبير بالكثير، ولا ينتقل شيء منها جيداً عبر الكاميرا.</li>\n</ul>\n\n<div class=\"callout\">\n<p><strong>يختبر التدقيق عن بُعد سجلات نظام الجودة جيداً، ويختبر واقع الموقع اختباراً ضعيفاً.</strong> فاعتبر استنتاجاته مؤقتة في كل ما يتوقف على الحالة المادية للمصنع أو على طريقة أداء العمل فعلاً في أرض الإنتاج.</p>\n</div>\n\n<h2>متى يكون التدقيق عن بُعد خياراً معقولاً؟</h2>\n<p>يناسب التدقيق عن بُعد بعض الحالات أكثر من غيرها. فهو أسهل تبريراً مع مورّد تعرفه جيداً، له سجل نظيف وتدقيق ميداني سابق يمكن المقارنة به، حين يكون الغرض مراجعة دورية لا موافقة أولى. وهو مفيد أيضاً بوصفه فرزاً أولياً قبل أن تقرر هل يستحق المورّد زيارة، ومتابعة مركزة للتأكد من إغلاق الإجراءات التصحيحية من تدقيق سابق.</p>\n<p>ويكون في أضعف حالاته مع مورّد جديد يصنع مادة حرجة أو عالية الخطورة، ومع موقع له تاريخ من المشكلات، وفي كل حالة يكون السؤال الرئيسي فيها هل يصنع المورّد فعلاً ما يبيعه. وفي هذه النقطة الأخيرة، يعرض مقالنا عن <a href=\"/ar/insights-manufacturer-or-trader.html\">التمييز بين المصنّع والشركة التجارية</a> الفحوص التي لا تعتمد على جولة مصورة.</p>\n\n<h2>كيف تحصل على فائدة أكبر من التدقيق عن بُعد؟</h2>\n<p>لا يكون التدقيق عن بُعد أفضل من التحضير الذي سبقه. وبعض العادات تصنع فرقاً كبيراً. فالمدقق الذي يدخل الجلسة بخطة واضحة، ويعرف مسبقاً أي السجلات يريد رؤيتها وأي الأسئلة يريد طرحها، يخرج بأدلة أكثر بكثير من مدقق ينتظر ما يُعرض عليه.</p>\n<ul>\n<li>أرسل قائمة بالوثائق المطلوبة مسبقاً، ثم اطلب سجلات إضافية أثناء الجلسة تختارها في حينها، حتى لا يمكن تجهيزها كلها سلفاً.</li>\n<li>اطلب جولة مباشرة يحمل فيها الكاميرا شخص تستطيع توجيهه، لا مقطعاً مسجلاً، واطلب رؤية غرف بعينها، ولوحات تعريف المعدات، وبطاقات الحالة.</li>\n<li>اختر دفعة واحدة وتتبعها من بدايتها إلى نهايتها، من استلام المادة الخام مروراً بالإنتاج والاختبار حتى الإفراج، وتحقق من اتساق التواريخ وأرقام المعدات والتواقيع.</li>\n<li>قارن ما تراه بما لديك أصلاً: عنوان الموقع في شهادة GMP، وعنوان التصنيع في الملف التسجيلي، والبيانات الواردة في شهادة التحليل.</li>\n<li>سجّل بوضوح في التقرير أي المجالات قُيّمت عن بُعد، وأيها تعذر تقييمه، وما الذي يحتاج إلى زيارة ميدانية لإغلاقه.</li>\n</ul>\n<p>وكثيراً ما تأتي أنفع نتائج التدقيق عن بُعد من مقارنة الوثائق بين مصادرها المختلفة. ويشرح مقالنا عن <a href=\"/ar/insights-reading-a-gmp-certificate.html\">قراءة شهادة GMP</a> ما تثبته هذه الوثيقة وما لا تثبته.</p>\n\n<h2>ماذا ينبغي أن يقول تقرير التدقيق عن حدوده؟</h2>\n<p>التقرير الأمين لتدقيق عن بُعد يذكر أنه جرى عن بُعد، ويعدد ما فُحص وكيف فُحص، ويسمي المجالات التي لم يستطع تغطيتها. ولا ينبغي أن يُكتب كأنه تقرير ميداني أُضيفت إلى عنوانه كلمة عن بُعد. وإذا كانت الموافقة تستند جزئياً إلى تدقيق عن بُعد، فينبغي أن يذكر ملف المورّد أيضاً متى وكيف ستُفحص النقاط المفتوحة حضورياً، وأن تمنحك <a href=\"/ar/insights-quality-agreements-api-supply.html\">اتفاقية الجودة</a> الحق في ذلك.</p>\n\n<p>وللاطلاع على الفحوص الأوسع وراء اختيار المورّد، راجع مقالينا عن <a href=\"/ar/insights-manufacturer-or-trader.html\">المصنّعين والشركات التجارية</a> و<a href=\"/ar/insights-quality-agreements-api-supply.html\">اتفاقيات الجودة مع موردي المواد الفعالة</a>، وللدعم في التوريد والامتثال، صفحة <a href=\"/ar/consultancy.html\">الاستشارات</a>.</p>",
+  "faq": [
+   [
+    "هل يمكن أن يحل التدقيق عن بُعد محل التدقيق الميداني لمورّد جديد؟",
+    "في العادة لا، وحده، حين تكون المادة حرجة. فالتدقيق عن بُعد يختبر الوثائق والأشخاص جيداً، لكنه لا يؤكد الحالة المادية للموقع ولا طريقة أداء العمل في الواقع. ويستخدمه كثير من المشترين فرزاً أولياً أو مراجعة دورية، ويحتفظون بالزيارة الميدانية للموافقة الأولى على الموردين عالي الخطورة. فتحقق مما تتوقعه الجهة التنظيمية لديك."
+   ],
+   [
+    "كيف تمنع المورّد من تجهيز كل الوثائق مسبقاً؟",
+    "أرسل قائمة بالوثائق قبل الجلسة، ثم اطلب سجلات إضافية أثناءها تختارها في حينها: سجل دفعة بعينها، أو انحرافاً محدداً، أو ملف تدريب العامل الذي تحدثت معه للتو. فالسجلات المطلوبة في اللحظة نفسها، والمتتبعة بعضها مقابل بعض، أصعب كثيراً في الترتيب المسبق من ملف مُعد سلفاً."
+   ],
+   [
+    "ماذا ينبغي أن يسجل تقرير التدقيق عن بُعد؟",
+    "ينبغي أن يذكر أن التدقيق جرى عن بُعد، وكيف نُفذ، وأي السجلات والمجالات فُحصت، وأيها تعذر تقييمه. وينبغي أن يعدد الملاحظات كما يفعل أي تقرير تدقيق، وأن يسمي النقاط التي تحتاج إلى زيارة ميدانية لإغلاقها، مع خطة لموعد ذلك."
+   ],
+   [
+    "هل الجولة المصورة المسجلة في المصنع دليل مفيد؟",
+    "قيمتها محدودة. فالمقطع المسجل يُظهر فقط ما اختار المورّد تصويره، في وقت اختاره، ولا يثبت أي موقع يُظهره. أما الجولة المباشرة التي يوجهها المدقق، وتُطابَق مع لوحات المعدات وبطاقات الغرف والعنوان الوارد في الشهادات، فتقدم معلومات أكثر بكثير."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-manufacturer-or-trader.html",
+    "مصنّع أم شركة تجارية",
+    "كيف تعرف من يصنع فعلاً ما تشتريه."
+   ],
+   [
+    "/ar/insights-reading-a-gmp-certificate.html",
+    "قراءة شهادة GMP",
+    "ما تثبته الشهادة وما لا تثبته."
+   ],
+   [
+    "/ar/consultancy.html",
+    "الاستشارات",
+    "دعم التوريد والامتثال."
+   ]
+  ]
+ },
+ "card": {
+  "en": "What a video call audit can test well, where its blind spots lie, and how to plan a remote audit and its report around them.",
+  "ar": "ما الذي يختبره التدقيق عبر المكالمة المرئية جيداً، وأين تقع نقاطه العمياء، وكيف تخطط للتدقيق عن بُعد وتقريره مع مراعاتها."
+ },
+ "card_title": {
+  "en": "What a remote supplier audit can establish",
+  "ar": "ما الذي يثبته التدقيق عن بُعد على المورّد"
+ },
+ "backlink_from": "insights-manufacturer-or-trader"
+}

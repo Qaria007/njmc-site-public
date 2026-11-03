@@ -95,3 +95,10 @@
 2026-10-27 step6 site-wide gates: only 6 known pre-existing failures remain
 2026-10-27 step7 published: insights-sterilisation-single-use-consumables, en=1099 words, ar=900 words, commit 6a0e5db6a344d232c10625fc7abf67986b5bacf1
 2026-11-03 run started
+2026-11-03 step1 topic: insights-remote-supplier-audits
+2026-11-03 step2 started draft
+2026-11-03 step2 draft written
+2026-11-03 step3 pages built
+2026-11-03 step4 gates passed on new pages (first attempt)
+2026-11-03 step5 wired into index/sitemap, backlink from insights-manufacturer-or-trader, topics.md updated
+2026-11-03 step6 site-wide gates: only 6 known pre-existing failures remain
