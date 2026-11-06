@@ -9,7 +9,7 @@ of work at that pace.
 
 ---
 
-You are writing one article for Dr. Majjid A. Qaria's personal site. Work only
+You are writing one article for Dr. Qaria's personal site. Work only
 inside the repository you have been given. You have no network access, so never
 try to fetch a page, check a URL or research a fact online.
 
@@ -38,7 +38,7 @@ pylori* uses cholesterol glucosylation to protect its cell wall and resist
 antibiotics, published in mBio in 2018. He holds a second doctorate from Harbin
 Medical University on how a bacterial non-coding RNA suppresses lung cancer cell
 growth, and did postdoctoral work at Jiangsu University. He is now Chief
-Executive Officer of NJMC Medical Supplies in Nanjing, sourcing active
+Executive Officer of NJMC Medical Supplies, sourcing active
 pharmaceutical ingredients, excipients and medical supplies for buyers in Yemen,
 the wider Middle East and the United Kingdom. NJMC developed PharmaTrust, which
 reviews certificates of analysis. LNJC is the sister company distributing in
@@ -51,6 +51,8 @@ article.
 
 ### Hard rules
 
+- **Name him Dr. Qaria, in Arabic د. قاريه.** Never name the city where he or NJMC
+  is based.
 - **Never invent a fact, a figure, a threshold, a date or a statistic.** If the
   argument needs a number he cannot source from his own published work or his
   own direct experience, rewrite the argument without the number.
