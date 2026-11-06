@@ -1,0 +1,64 @@
+{
+ "slug": "writing-who-permission-to-cite",
+ "date": "2026-11-07",
+ "badge_en": "Documents",
+ "badge_ar": "وثائق",
+ "en": {
+  "title": "I Asked WHO for Permission to Cite Its Data. It Answered.",
+  "description": "WHO allowed PharmaTrust to cite selected numerical data. What I asked, what WHO asked back, and what the permission does not mean.",
+  "h1": "I asked WHO for permission to cite its data. It answered.",
+  "standfirst": "When I first wrote, I did not expect a reply. On 29 October 2026 the final answer came. Here is what I asked, what WHO asked me back, and what the permission does not mean.",
+  "question": "What did WHO allow PharmaTrust to do?",
+  "answer": "WHO's Permissions Team said PharmaTrust may cite selected numerical specification data, with attribution. The source is The International Pharmacopoeia. That is permission to cite data. WHO does not endorse PharmaTrust, NJMC or me, is not affiliated with us, and its logo may not be used.",
+  "published": "Published 7 November 2026",
+  "faq_heading": "Frequently asked questions",
+  "body": "<p>A scientist running a small company writes to the World Health Organization and asks to use its data. When I first wrote, I did not expect an answer. On 29 October 2026 the WHO Permissions Team replied that the use I had described may proceed, and can be handled as citation of selected data.</p>\n<h2>Why I asked</h2>\n<p>I have repeatedly seen buyers accept raw materials and finished medicines on documents they had no means of checking. Many do not hold a copy of the standard the certificate names. The International Pharmacopoeia concentrates on medicines that matter in low and middle income countries. That is why I asked for this book.</p>\n<h2>My first request was too broad</h2>\n<p>I asked for numerical limits across the essential medicines. In September WHO asked me which content I meant, how much of it, how it would be shown, and whether users would be sent back to the source. Those questions were fair, and they made me think properly about what the tool needs.</p>\n<p>I narrowed the request to 30 monographs and numbers only: test name, method reference, limit and unit. No monograph text is held, and nobody can browse, search or download the limits. They appear only for the tests on the customer's own certificate.</p>\n<h2>What changes in the report</h2>\n<p>The limits are used only when The International Pharmacopoeia is the sole standard a certificate claims, and the product matches one of the 30 monographs by name. The report then shows the reported result beside the cited limit, names the monograph and edition, and states that The International Pharmacopoeia remains the authoritative standard and that the analysis does not replace it.</p>\n<p>A qualified person still makes the decision, and the report may not catch every problem.</p>\n<h2>What the permission does not mean</h2>\n<p>It is permission to cite data. WHO does not endorse PharmaTrust, NJMC or me, and is not affiliated with us. The WHO logo is not used anywhere in this work. I am writing this because the answer mattered to me and because the exact wording matters, so I would rather state the limits myself.</p>\n<p>Source: The International Pharmacopoeia, Thirteenth Edition, 2025, World Health Organization.</p>",
+  "faq": [
+   [
+    "What did WHO allow PharmaTrust to do?",
+    "WHO's Permissions Team said PharmaTrust may cite selected numerical specification data, with attribution. The source is The International Pharmacopoeia. That is permission to cite data. WHO does not endorse PharmaTrust, NJMC or me, is not affiliated with us, and its logo may not be used."
+   ],
+   [
+    "Does WHO endorse PharmaTrust?",
+    "No. WHO does not endorse PharmaTrust or NJMC and is not affiliated with them. The permission covers citing selected data with attribution, and nothing more."
+   ],
+   [
+    "Which data is covered?",
+    "Selected numerical data from 30 monographs of The International Pharmacopoeia, Thirteenth Edition, 2025: test name, method reference, limit and unit. Monograph text is not included."
+   ],
+   [
+    "Does the report replace a qualified person?",
+    "No. A qualified person makes the decision. The report may not catch every problem, and The International Pharmacopoeia remains the authoritative standard."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "طلبت من منظمة الصحة العالمية إذنًا بالاستشهاد ببياناتها، فأجابت",
+  "description": "سمحت منظمة الصحة العالمية لـ PharmaTrust بالاستشهاد ببيانات رقمية مختارة. ماذا طلبت، وماذا سألتني المنظمة، وما الذي لا يعنيه هذا الإذن.",
+  "h1": "طلبت من منظمة الصحة العالمية إذنًا بالاستشهاد ببياناتها، فأجابت",
+  "standfirst": "حين كتبت أول مرة لم أكن أتوقع ردًا. وفي 29 أكتوبر 2026 وصل الرد النهائي. هذا ما طلبته، وما سألتني عنه المنظمة، وما الذي لا يعنيه هذا الإذن.",
+  "question": "ما الذي سمحت به منظمة الصحة العالمية لـ PharmaTrust؟",
+  "answer": "قال فريق الأذونات في منظمة الصحة العالمية إن PharmaTrust يمكنه الاستشهاد ببيانات رقمية مختارة من المواصفات مع نسبتها إلى مصدرها. والمصدر هو The International Pharmacopoeia. هذا إذن بالاستشهاد بالبيانات فقط. فالمنظمة لا تؤيد PharmaTrust ولا NJMC ولا تؤيدني، ولا ترتبط بنا، ولا يجوز استخدام شعارها.",
+  "published": "نُشر في 7 نوفمبر 2026",
+  "faq_heading": "أسئلة شائعة",
+  "body": "<p>عالم يدير شركة صغيرة يكتب إلى منظمة الصحة العالمية ويطلب استخدام بياناتها. حين كتبت أول مرة لم أكن أتوقع ردًا. وفي 29 أكتوبر 2026 أجاب فريق الأذونات في المنظمة بأنه يمكن المضي في الاستخدام الذي وصفته، وأنه يُعامل بوصفه استشهادًا ببيانات مختارة.</p>\n<h2>لماذا طلبت الإذن</h2>\n<p>رأيت مرارًا مشترين يقبلون مواد خام وأدوية جاهزة بناءً على وثائق لا يملكون وسيلة لفحصها. وكثير منهم لا يملك نسخة من المرجع الذي تذكره الشهادة. ويركز مرجع The International Pharmacopoeia على أدوية مهمة في البلدان منخفضة ومتوسطة الدخل. لهذا طلبت هذا المرجع.</p>\n<h2>كان طلبي الأول واسعًا أكثر مما ينبغي</h2>\n<p>طلبت الحدود الرقمية لقائمة الأدوية الأساسية. وفي سبتمبر سألتني المنظمة: أي محتوى أقصد، وما حجمه، وكيف سيُعرض، وهل سيُعاد المستخدمون إلى المصدر. كانت أسئلة منصفة، وجعلتني أفكر جيدًا فيما تحتاج إليه الأداة فعلًا.</p>\n<p>فقلّصت الطلب إلى 30 مادة، بالأرقام فقط: اسم الاختبار، ومرجع الطريقة، والحد، والوحدة. لا يُحفظ نص المرجع، ولا يستطيع أحد تصفح الحدود أو البحث فيها أو تنزيلها. ولا تظهر إلا للاختبارات المذكورة في شهادة العميل نفسه.</p>\n<h2>ما الذي يتغير في التقرير</h2>\n<p>تُستخدم هذه الحدود فقط عندما يكون The International Pharmacopoeia هو المرجع الوحيد الذي تذكره الشهادة، وعندما يطابق اسم المنتج إحدى المواد الثلاثين. عندها يعرض التقرير النتيجة المذكورة بجانب الحد المستشهد به، ويذكر المادة والطبعة، وينص على أن The International Pharmacopoeia يبقى المرجع الأصلي وأن التحليل لا يحل محله.</p>\n<p>ويبقى القرار لشخص مؤهل، وقد لا يكشف التقرير كل مشكلة.</p>\n<h2>ما الذي لا يعنيه هذا الإذن</h2>\n<p>إنه إذن بالاستشهاد بالبيانات. فمنظمة الصحة العالمية لا تؤيد PharmaTrust ولا NJMC ولا تؤيدني، ولا ترتبط بنا. ولا يُستخدم شعار المنظمة في أي جزء من هذا العمل. أكتب هذا لأن الرد كان مهمًا لي ولأن دقة العبارة مهمة، فأفضل أن أوضح حدوده بنفسي.</p>\n<p>المصدر: The International Pharmacopoeia, Thirteenth Edition, 2025, World Health Organization.</p>",
+  "faq": [
+   [
+    "ما الذي سمحت به منظمة الصحة العالمية لـ PharmaTrust؟",
+    "قال فريق الأذونات في منظمة الصحة العالمية إن PharmaTrust يمكنه الاستشهاد ببيانات رقمية مختارة من المواصفات مع نسبتها إلى مصدرها. والمصدر هو The International Pharmacopoeia. هذا إذن بالاستشهاد بالبيانات فقط. فالمنظمة لا تؤيد PharmaTrust ولا NJMC ولا تؤيدني، ولا ترتبط بنا، ولا يجوز استخدام شعارها."
+   ],
+   [
+    "هل تؤيد منظمة الصحة العالمية PharmaTrust؟",
+    "لا. فالمنظمة لا تؤيد PharmaTrust ولا NJMC ولا ترتبط بهما. ويشمل الإذن الاستشهاد ببيانات مختارة مع نسبتها إلى مصدرها، ولا شيء غير ذلك."
+   ],
+   [
+    "ما البيانات التي يشملها الإذن؟",
+    "بيانات رقمية مختارة من 30 مادة في The International Pharmacopoeia، الطبعة الثالثة عشرة، 2025: اسم الاختبار، ومرجع الطريقة، والحد، والوحدة. ولا يشمل نص المرجع."
+   ],
+   [
+    "هل يحل التقرير محل الشخص المؤهل؟",
+    "لا. فالقرار لشخص مؤهل، وقد لا يكشف التقرير كل مشكلة، ويبقى The International Pharmacopoeia هو المرجع الأصلي."
+   ]
+  ]
+ }
+}

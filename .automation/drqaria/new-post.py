@@ -44,8 +44,8 @@ SITE = os.path.join(ROOT, "drqaria")
 BASE = "https://drqaria.njmcmedicsupp.com"
 
 PERSON = {
-    "en": {"name": "Dr. Majjid A. Qaria", "url": BASE + "/"},
-    "ar": {"name": "د. ماجد أحمد قارية", "url": BASE + "/index-ar.html"},
+    "en": {"name": "Dr. Qaria", "url": BASE + "/"},
+    "ar": {"name": "د. قاريه", "url": BASE + "/index-ar.html"},
 }
 WORDS_PER_MINUTE = 200
 
