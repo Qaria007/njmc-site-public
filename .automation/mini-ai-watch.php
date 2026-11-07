@@ -42,12 +42,14 @@ foreach ($checks as $name => $url) {
 file_put_contents($stateFile, json_encode($state));
 
 $test = in_array('--test', $argv ?? [], true);
+$marker = dirname(__DIR__, 2) . '/mini-ai-watch-mailtest-2';
+if (!is_file($marker)) { touch($marker); $test = true; } // one test after a change of mail settings
 if ($down || $back || $test || $first) {
     $subject = $down ? 'Server alert: not answering: ' . implode(', ', $down)
         : ($back ? 'Server alert: back: ' . implode(', ', $back) : 'Mini AI outside watcher: ' . ($first ? 'started' : 'test message'));
     $body = "Dr. Qaria Mini AI outside watcher, checked from outside the main server.\n\n" . implode("\n", $lines)
         . "\n\nIf the main server is down, see the recovery guide in the Claude drive: Dr Qaria Mini AI > 03 Recovery guide.\n";
-    $sent = mail($to, $subject, $body, "From: $to\r\nContent-Type: text/plain; charset=UTF-8\r\n");
+    $sent = mail($to, $subject, $body, "Content-Type: text/plain; charset=UTF-8\r\n"); // Hostinger's own sender
     echo ($sent ? 'mail handed over: ' : 'MAIL FAILED: ') . $subject . "\n";
 }
 echo implode("\n", $lines) . "\n";
