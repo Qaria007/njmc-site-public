@@ -71,7 +71,7 @@ BRANDS = [
     dict(name="PharmaTrust", site="pharmatrust.tech", url="https://pharmatrust.tech",
          email="info@pharmatrust.tech", wa_num=None, wa_url=None),
     dict(name="AI Employees", site="phmnai.com", url="https://phmnai.com",
-         email="contact@phmnai.com", wa_num="+86 188 6087 6679", wa_url="https://wa.me/message/SOT7YTN6PXCMK1"),
+         email="contact@phmnai.com", wa_num=None, wa_url=None),  # 188 = AI Employees only, never on a medical site (owner 11 Nov 2026)
 ]
 
 # -------------------------------------------------------------------- index
