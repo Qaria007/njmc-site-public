@@ -28,7 +28,6 @@ only be written well by quoting a number he cannot source, it is not ready.
 
 | # | Slug | Badge (EN) | Working title | The question it answers |
 |---|------|-----------|---------------|--------------------------|
-| 10 | `writing-stability-data-means` | Documents | What stability data promises, and the conditions that void the promise | What does a shelf life actually guarantee? |
 | 11 | `writing-counterfeit-vs-substandard` | Quality | Counterfeit and substandard are different problems with different fixes | What is the difference between a counterfeit and a substandard medicine? |
 | 12 | `writing-science-of-trust` | Practice | Why I do not trust a number whose derivation I cannot see | How do you decide whether to trust a test result? |
 
@@ -45,3 +44,4 @@ only be written well by quoting a number he cannot source, it is not ready.
 | `writing-reading-a-supplier-audit` | 22 October 2026 |
 | `writing-excipients-nobody-checks` | 29 October 2026 |
 | `writing-yemen-pharmacy-shelf` | 5 November 2026 |
+| `writing-stability-data-means` | 12 November 2026 |
