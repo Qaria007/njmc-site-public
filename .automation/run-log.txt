@@ -112,3 +112,4 @@
 2026-11-27 step4 gates passed on new pages (first attempt)
 2026-11-27 step5 wired into index/sitemap, backlink from insights-incoming-goods-inspection, topics.md updated
 2026-11-27 step6 site-wide gates: only 6 known pre-existing failures remain
+2026-11-27 step7 published: insights-lot-records-receiving-materials, en=1106 words, ar=935 words, commit 62dca4e21a17837a972b9ab6ff50278a900025df
