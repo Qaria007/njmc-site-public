@@ -1,0 +1,108 @@
+{
+ "slug": "insights-lot-records-receiving-materials",
+ "date": "2026-11-27",
+ "reference": "insights-incoming-goods-inspection.html",
+ "card": {
+  "en": "The receipt record is where every traceability question starts. The entries each lot of API or excipient needs at the door, from the internal lot number to the status history.",
+  "ar": "سجل الاستلام هو نقطة بداية كل سؤال عن التتبع. البيانات التي تحتاجها كل تشغيلة من المواد الفعالة أو السواغات عند الباب، من الرقم الداخلي حتى سجل الحالة."
+ },
+ "card_title": {
+  "en": "What to record for each lot at receipt",
+  "ar": "ما تسجله لكل تشغيلة عند الاستلام"
+ },
+ "en": {
+  "title": "Receiving APIs and Excipients: Lot Number Documentation",
+  "description": "When APIs and excipients arrive, each lot needs a receipt record: an internal lot number, the manufacturer batch and site, quantity, containers, dates and status.",
+  "h1": "What to record for each lot when APIs and excipients arrive",
+  "summary": "The receipt record written at the door is where every later traceability question starts. These are the entries each lot needs, and why each one matters.",
+  "question": "What should be recorded for each lot when APIs and excipients are received?",
+  "answer": "Each received lot should be recorded with its own internal lot number, the material name and code, the manufacturer's batch number and site, the supplier, the date received, the quantity and number of containers, the stated retest or expiry date, the document references, its quarantine status, and who received it.",
+  "badge": "Quality",
+  "published": "Published 27 November 2026",
+  "body": "<p>When a delivery of APIs or excipients is accepted into a warehouse, the receipt record written that day becomes the starting point for every later question about that material. Which drum went into which batch, which supplier lot a complaint traces back to, whether a recall reaches your stock: each answer begins with the line someone wrote at the receiving bay. A record that is vague at receipt cannot be made precise later.</p>\n<p>The checks made at the door are a separate subject, covered in our note on <a href=\"/insights-incoming-goods-inspection.html\">incoming goods inspection</a>. This note is about the record itself: which entries each lot needs, and why each one earns its place. The exact content your quality system must hold comes from the guideline for your market and product type, so confirm the current requirement before writing a procedure.</p>\n<!-- TODO-OWNER: verify the receipt record content and the record retention expectations set by the buyer's regulator for this product type -->\n\n<h2>What should be recorded for each lot when APIs and excipients are received?</h2>\n<p>Think of the record in four groups: what the material is, where it came from, what physically arrived, and what has happened to it since. Each group answers a different question, and a gap in any one of them leaves a question that nobody can answer later.</p>\n\n<h3>What the material is</h3>\n<p>Record the material name as your own specification states it, your internal material code, and the grade. A product name on a drum can be shared by several grades, and the internal code is what ties the receipt to the specification and the approved supplier list.</p>\n\n<h3>Where it came from</h3>\n<p>Record the supplier you bought from and, separately, the manufacturer and the manufacturing site. When the material passes through a trader, these are different parties, and the record must say so. Our note on <a href=\"/insights-manufacturer-or-trader.html\">telling a manufacturer from a trading company</a> explains why the site is the detail that matters. Record the manufacturer's batch number exactly as printed, and the supplier's batch number too if the supplier has relabelled or repacked.</p>\n\n<h3>What physically arrived</h3>\n<p>Record the date of receipt, the quantity received, the number of containers, and the container type. Give each container its own identifier so that any one of them can be traced on its own. Record the retest or expiry date as stated on the documents, noting which of the two it is; our note on <a href=\"/insights-retest-date-and-expiry.html\">retest dates and expiry dates</a> sets out the difference. Record the storage condition the label requires, so the location chosen can be checked against it.</p>\n\n<h3>The documents that travelled with it</h3>\n<p>Record a reference to each document received for the lot: the certificate of analysis, the packing list, the invoice, the transport document and any temperature record. A reference is more useful than a tick box, because it lets a reviewer find the exact copy that was relied on, rather than a later version the supplier may send.</p>\n\n<div class=\"callout\">\n<p><strong>Give every receipt its own internal lot number.</strong> The manufacturer's batch number identifies what was made; your internal number identifies what you received, on a given day, in a given delivery. Two deliveries of the same manufacturer batch are two receipts, and only an internal number keeps them apart in stock, in sampling and in every batch record that later draws on them.</p>\n</div>\n\n<h2>Why is your own lot number needed when the batch number already exists?</h2>\n<p>The manufacturer's batch number is not yours to control. Two suppliers can use similar formats, a trader may split one manufacturer batch across several customers, and the same batch can reach you in two shipments months apart, having been stored differently in between. Your internal lot number is the one key that is unique inside your own system. Every label, sample, test result and issue to production should carry it, with the manufacturer's batch number alongside as the link back to the source.</p>\n<p>Where one delivery holds several manufacturer batches, each becomes its own receipt with its own internal number. Merging them under one entry because they arrived on one pallet loses the ability to trace a problem to a single batch later.</p>\n\n<h2>What happens to the record after the day of receipt?</h2>\n<p>The receipt record is not finished when the goods are put away. It should carry the status of the lot and every change to that status: quarantine at booking in, the sample references when samples are taken, the release or rejection decision, the date of that decision and who made it. A lot placed on hold should show that too.</p>\n<p>Issues to production close the loop. Each issue should record the internal lot number, the container, the quantity and the batch it went into. That link is what lets you answer, within hours rather than days, which finished batches contain material from a supplier lot that has just been questioned.</p>\n\n<h3>Discrepancies belong in the record</h3>\n<p>Anything that did not match at receipt is noted against the lot itself, with a reference to the deviation or complaint it opened. A receipt record that looks clean because the problems were handled by message elsewhere gives a false picture to the next reviewer.</p>\n\n<h2>Who should write and sign the receipt record?</h2>\n<p>The person who received the goods records what was received, and the record shows who that was and when. Entries are made at the time, not reconstructed at the end of a shift. Corrections leave the original entry readable, with the reason, the date and the name of the person correcting it. In an electronic system the same expectations apply through access control and an audit trail; the screen should not allow an entry to be overwritten without a trace.</p>\n<p>The quality unit then reviews the record before release. It is faster when the record was designed for it: one entry per lot, and fixed fields rather than free text.</p>\n\n<h2>What should you agree with the supplier so the record can be complete?</h2>\n<p>Many gaps in a receipt record start upstream. If the supplier does not state the manufacturing site, or sends a certificate without the batch number on the label, the receiving clerk has nothing to copy. Agree in advance that each container label shows the material name, grade, manufacturer batch number, manufacturer name and the dates, and that the documents for every batch travel with the goods or arrive ahead of them. Those terms sit naturally in <a href=\"/insights-quality-agreements-api-supply.html\">a quality agreement with an API supplier</a>.</p>\n\n<p>Batch documents, container labels and the traceability between them are part of what we check before material is offered, through our <a href=\"/drug-apis.html\">API sourcing work</a> and our <a href=\"/excipients.html\">excipient supply</a>. If you are setting up or reviewing a receiving procedure, our <a href=\"/consultancy.html\">consultancy service</a> can review the record against the documents your suppliers actually send.</p>",
+  "faq": [
+   [
+    "Should the internal lot number replace the manufacturer's batch number on labels?",
+    "No. The internal lot number should appear on every label, sample and issue record, but the manufacturer's batch number stays alongside it. The internal number keeps receipts apart inside your system; the manufacturer's number is the link back to the source when you raise a complaint or respond to a recall."
+   ],
+   [
+    "What if the supplier is a trader and the manufacturer is not named?",
+    "Record that gap rather than filling it with the supplier's name. A receipt record that names only the trader cannot show which site made the material, and the quality unit should treat the missing manufacturer and site details as a discrepancy to resolve with the supplier before release."
+   ],
+   [
+    "Can one receipt record cover several batches in the same delivery?",
+    "It is better not to. Each manufacturer batch should become its own receipt with its own internal lot number, even when several arrive on one pallet. A single entry for mixed batches makes it impossible to trace a later problem, a test result or a recall to the batch it belongs to."
+   ],
+   [
+    "Is an electronic receipt record acceptable instead of paper?",
+    "Generally yes, provided the system controls who can make entries, keeps an audit trail of every change, and prevents an entry being overwritten without a trace. Check the current data integrity expectations of your own regulator, and validate the system for the use you make of it."
+   ]
+  ],
+  "faq_heading": "Frequently asked questions",
+  "related": [
+   [
+    "/insights-incoming-goods-inspection.html",
+    "Incoming goods inspection",
+    "The checks to make when a delivery arrives."
+   ],
+   [
+    "/insights-retest-date-and-expiry.html",
+    "Retest date or expiry date",
+    "Which date you are looking at, and what it means."
+   ],
+   [
+    "/consultancy.html",
+    "Consultancy",
+    "Sourcing and compliance support."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "استلام المواد الفعالة والسواغات: توثيق رقم التشغيلة",
+  "description": "عند وصول المواد الفعالة والسواغات تحتاج كل تشغيلة إلى سجل استلام: رقم داخلي، وتشغيلة المصنّع وموقعه، والكمية، والعبوات، والتواريخ، والمستندات، وحالة الحجر.",
+  "h1": "ما الذي تسجله لكل تشغيلة عند وصول المواد الفعالة والسواغات",
+  "summary": "سجل الاستلام المكتوب عند الباب هو المكان الذي يبدأ منه كل سؤال لاحق عن التتبع. هذه هي البيانات التي تحتاجها كل تشغيلة، ولماذا يهم كل بند منها.",
+  "question": "ما الذي ينبغي تسجيله لكل تشغيلة عند استلام المواد الفعالة والسواغات؟",
+  "answer": "ينبغي أن تُسجَّل كل تشغيلة مستلمة برقم تشغيلة داخلي خاص بها، مع اسم المادة ورمزها، ورقم تشغيلة المصنّع وموقع التصنيع، والمورّد، وتاريخ الاستلام، والكمية وعدد العبوات، وتاريخ إعادة الاختبار أو انتهاء الصلاحية كما ورد في المستندات، ومراجع المستندات المرافقة، وحالة الحجر، واسم الشخص الذي استلمها.",
+  "badge": "الجودة",
+  "published": "نُشر في 27 نوفمبر 2026",
+  "body": "<p>حين تُقبل شحنة من المواد الفعالة أو السواغات في المستودع، يصبح سجل الاستلام المكتوب في ذلك اليوم نقطة البداية لكل سؤال لاحق عن هذه المادة. أي برميل دخل في أي دفعة إنتاج، وإلى أي تشغيلة من المورّد ترجع شكوى ما، وهل يطال سحبٌ للمنتج مخزونك: كل إجابة من هذه تبدأ من السطر الذي كتبه أحدهم عند رصيف الاستلام. والسجل الغامض يوم الاستلام لا يمكن جعله دقيقاً فيما بعد.</p>\n<p>أما الفحوص التي تُجرى عند الباب فموضوع منفصل، تناولناه في مقالنا عن <a href=\"/ar/insights-incoming-goods-inspection.html\">فحص البضائع الواردة</a>. وهذا المقال عن السجل نفسه: ما البيانات التي تحتاجها كل تشغيلة، ولماذا يستحق كل بند مكانه. والممارسة العامة الموصوفة هنا واسعة الانطباق، لكن المحتوى الدقيق الذي يجب أن يحمله نظام الجودة لديك يأتي من الإرشادات المطبقة في سوقك ولنوع منتجك، فتحقق من المتطلب الحالي قبل أن تكتب إجراءً أو تراجعه.</p>\n<!-- TODO-OWNER: verify the receipt record content and the record retention expectations set by the buyer's regulator for this product type -->\n\n<h2>ما الذي ينبغي تسجيله لكل تشغيلة عند استلام المواد الفعالة والسواغات؟</h2>\n<p>فكّر في السجل على أنه أربع مجموعات: ما هي المادة، ومن أين جاءت، وما الذي وصل فعلاً، وما الذي جرى لها منذ ذلك الحين. كل مجموعة تجيب عن سؤال مختلف، وأي نقص في واحدة منها يترك سؤالاً لن يستطيع أحد الإجابة عنه لاحقاً.</p>\n\n<h3>ما هي المادة</h3>\n<p>سجّل اسم المادة كما تذكره مواصفتك الداخلية، ورمز المادة الداخلي لديك، والدرجة. فالاسم التجاري على البرميل قد تشترك فيه عدة درجات، والرمز الداخلي هو ما يربط الاستلام بالمواصفة وبقائمة الموردين المعتمدين. والاكتفاء بالاسم التجاري يفتح الباب لتطبيق مواصفة خاطئة عند الإفراج.</p>\n\n<h3>من أين جاءت</h3>\n<p>سجّل المورّد الذي اشتريت منه، وسجّل بشكل منفصل المصنّع وموقع التصنيع. فحين تمر المادة عبر شركة تجارية يكون هؤلاء أطرافاً مختلفة، ويجب أن يقول السجل ذلك صراحة. ويشرح مقالنا عن <a href=\"/ar/insights-manufacturer-or-trader.html\">التمييز بين المصنّع والشركة التجارية</a> لماذا يكون الموقع هو التفصيل الحاسم. وسجّل رقم تشغيلة المصنّع كما هو مطبوع تماماً، وسجّل رقم تشغيلة المورّد أيضاً إن كان قد أعاد التوسيم أو التعبئة.</p>\n\n<h3>ما الذي وصل فعلاً</h3>\n<p>سجّل تاريخ الاستلام، والكمية المستلمة، وعدد العبوات، ونوع العبوة. وامنح كل عبوة معرّفاً خاصاً بها حتى يمكن تتبع أي واحدة منها وحدها. وسجّل تاريخ إعادة الاختبار أو تاريخ انتهاء الصلاحية كما تذكره المستندات، مع بيان أيهما هو، ويوضح مقالنا عن <a href=\"/ar/insights-retest-date-and-expiry.html\">تاريخ إعادة الاختبار وتاريخ انتهاء الصلاحية</a> الفرق بينهما. وسجّل ظروف التخزين التي يطلبها الملصق، حتى يمكن التحقق من مطابقة الموقع المختار لها.</p>\n\n<h3>المستندات التي رافقت الشحنة</h3>\n<p>سجّل مرجعاً لكل مستند استُلم مع التشغيلة: شهادة التحليل، وقائمة التعبئة، والفاتورة، ومستند النقل، وأي سجل لدرجة الحرارة. والمرجع أنفع من علامة في خانة، لأنه يتيح للمراجع أن يجد النسخة نفسها التي اعتُمد عليها، لا نسخة لاحقة قد يرسلها المورّد.</p>\n\n<div class=\"callout\">\n<p><strong>امنح كل استلام رقم تشغيلة داخلياً خاصاً به.</strong> رقم تشغيلة المصنّع يعرّف ما صُنع، أما رقمك الداخلي فيعرّف ما استلمته أنت، في يوم معين، ضمن شحنة معينة. فشحنتان من تشغيلة المصنّع نفسها هما استلامان، والرقم الداخلي وحده يبقيهما منفصلين في المخزون وفي أخذ العينات وفي كل سجل دفعة إنتاج يعتمد عليهما لاحقاً.</p>\n</div>\n\n<h2>لماذا تحتاج إلى رقم تشغيلة خاص بك ما دام رقم التشغيلة موجوداً؟</h2>\n<p>رقم تشغيلة المصنّع ليس تحت سيطرتك. فقد يستخدم موردان صيغاً متشابهة، وقد تقسم شركة تجارية تشغيلة مصنّع واحدة بين عدة عملاء، وقد تصلك التشغيلة نفسها في شحنتين يفصل بينهما شهور، وقد خُزنت بطريقة مختلفة في الفترة بينهما. ورقمك الداخلي هو المفتاح الوحيد الفريد داخل نظامك. وينبغي أن يحمله كل ملصق وكل عينة وكل نتيجة اختبار وكل صرف إلى الإنتاج، مع رقم تشغيلة المصنّع بجانبه بوصفه الصلة بالمصدر.</p>\n<p>وحين تضم شحنة واحدة عدة تشغيلات من المصنّع، تصبح كل واحدة منها استلاماً مستقلاً برقم داخلي مستقل. ودمجها تحت قيد واحد لأنها وصلت على منصة واحدة يُفقدك القدرة على تتبع مشكلة إلى تشغيلة بعينها لاحقاً.</p>\n\n<h2>ماذا يحدث للسجل بعد يوم الاستلام؟</h2>\n<p>لا ينتهي سجل الاستلام حين توضع البضاعة في مكانها. فينبغي أن يحمل حالة التشغيلة وكل تغيير يطرأ عليها: الحجر عند الإدخال، ومراجع العينات حين تؤخذ، وقرار الإفراج أو الرفض، وتاريخ ذلك القرار ومن اتخذه. والتشغيلة التي توضع قيد الإيقاف، أو تُنقل إلى ظروف تخزين مختلفة، ينبغي أن يظهر ذلك في سجلها أيضاً.</p>\n<p>وصرف المادة إلى الإنتاج يغلق الحلقة. فكل صرف ينبغي أن يسجل رقم التشغيلة الداخلي، والعبوة، والكمية، ودفعة الإنتاج التي دخلت فيها. وهذه الصلة هي ما يتيح لك أن تجيب خلال ساعات لا أيام عن سؤال: أي الدفعات النهائية تحتوي على مادة من تشغيلة مورّد وُضعت للتو موضع تساؤل.</p>\n\n<h3>مكان الفروقات هو السجل</h3>\n<p>كل ما لم يطابق عند الاستلام يُدوَّن على التشغيلة نفسها، مع مرجع للانحراف أو الشكوى التي فُتحت بسببه. فسجل الاستلام الذي يبدو نظيفاً لأن المشكلات عولجت برسائل في مكان آخر يعطي المراجع التالي صورة مضللة.</p>\n\n<h2>من ينبغي أن يكتب سجل الاستلام ويوقّعه؟</h2>\n<p>الشخص الذي استلم البضاعة يسجل ما استُلم، ويُظهر السجل من هو ومتى سجّل. وتُكتب القيود في وقتها، لا أن يعاد بناؤها في نهاية الوردية. والتصحيحات تُبقي القيد الأصلي مقروءاً، مع سبب التصحيح وتاريخه واسم من صححه. وفي النظام الإلكتروني تنطبق التوقعات نفسها عبر ضبط صلاحيات الدخول ومسار التدقيق، فلا ينبغي أن تسمح الشاشة بالكتابة فوق قيد دون أثر.</p>\n<p>ثم تراجع وحدة الجودة السجل قبل الإفراج. وتكون هذه المراجعة أسهل وأسرع حين يكون السجل مصمماً لها: قيد واحد لكل تشغيلة، وحقول محددة بدل النص الحر حيثما أمكن، ومراجع للمستندات تفتح المستندات نفسها.</p>\n\n<h2>على ماذا تتفق مع المورّد حتى يكتمل السجل؟</h2>\n<p>كثير من النواقص في سجل الاستلام يبدأ قبل وصول الشحنة. فإن لم يذكر المورّد موقع التصنيع، أو أرسل شهادة لا يظهر رقم تشغيلتها على الملصق، فلن يجد موظف الاستلام ما ينقله. فاتفق مسبقاً على أن يحمل ملصق كل عبوة اسم المادة ودرجتها ورقم تشغيلة المصنّع واسم المصنّع والتواريخ، وأن تصل مستندات كل تشغيلة مع البضاعة أو قبلها. وهذه الشروط موضعها الطبيعي <a href=\"/ar/insights-quality-agreements-api-supply.html\">اتفاقية الجودة مع مورّد المادة الفعالة</a>.</p>\n\n<p>مستندات التشغيلة، وملصقات العبوات، وإمكانية التتبع بينهما، جزء مما نفحصه قبل عرض أي مادة، من خلال <a href=\"/ar/drug-apis.html\">عملنا في توريد المواد الفعالة</a> و<a href=\"/ar/excipients.html\">توريد السواغات</a>. وإن كنت تضع إجراءً للاستلام أو تراجعه، فيمكن <a href=\"/ar/consultancy.html\">لخدمة الاستشارات</a> أن تراجع السجل مقابل المستندات التي يرسلها مورّدوك فعلاً.</p>",
+  "faq": [
+   [
+    "هل يحل رقم التشغيلة الداخلي محل رقم تشغيلة المصنّع على الملصقات؟",
+    "لا. ينبغي أن يظهر الرقم الداخلي على كل ملصق وعينة وسجل صرف، لكن رقم تشغيلة المصنّع يبقى بجانبه. فالرقم الداخلي يفصل بين الاستلامات داخل نظامك، أما رقم المصنّع فهو الصلة بالمصدر حين تقدم شكوى أو تستجيب لسحب منتج."
+   ],
+   [
+    "ماذا لو كان المورّد شركة تجارية ولم يُذكر اسم المصنّع؟",
+    "سجّل هذا النقص بدل أن تملأه باسم المورّد. فسجل الاستلام الذي لا يذكر إلا الشركة التجارية لا يستطيع أن يبين أي موقع صنع المادة، وينبغي أن تعامل وحدة الجودة غياب بيانات المصنّع والموقع على أنه فرق يجب حله مع المورّد قبل الإفراج."
+   ],
+   [
+    "هل يمكن أن يغطي سجل استلام واحد عدة تشغيلات في الشحنة نفسها؟",
+    "الأفضل ألا يحدث ذلك. فكل تشغيلة من المصنّع ينبغي أن تصبح استلاماً مستقلاً برقم داخلي مستقل، حتى لو وصلت عدة تشغيلات على منصة واحدة. والقيد الواحد لتشغيلات مختلطة يجعل من المستحيل تتبع مشكلة لاحقة أو نتيجة اختبار أو سحب منتج إلى التشغيلة التي تخصها."
+   ],
+   [
+    "هل يُقبل سجل الاستلام الإلكتروني بدل الورقي؟",
+    "في العادة نعم، بشرط أن يضبط النظام من يحق له إدخال القيود، وأن يحتفظ بمسار تدقيق لكل تغيير، وأن يمنع الكتابة فوق أي قيد دون أثر. فتحقق من توقعات سلامة البيانات الحالية لدى الجهة التنظيمية في سوقك، وتحقق من صلاحية النظام للاستخدام الذي تستخدمه فيه."
+   ]
+  ],
+  "faq_heading": "أسئلة متكررة",
+  "related": [
+   [
+    "/ar/insights-incoming-goods-inspection.html",
+    "فحص البضائع الواردة",
+    "الفحوص التي تُجرى عند وصول الشحنة."
+   ],
+   [
+    "/ar/insights-retest-date-and-expiry.html",
+    "تاريخ إعادة الاختبار أم تاريخ الانتهاء",
+    "أي التاريخين أمامك، وماذا يعني."
+   ],
+   [
+    "/ar/consultancy.html",
+    "الاستشارات",
+    "دعم التوريد والامتثال."
+   ]
+  ]
+ },
+ "backlink_from": "insights-incoming-goods-inspection"
+}

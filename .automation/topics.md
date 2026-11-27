@@ -20,7 +20,6 @@ cloud writer's**, which has no network and must never guess at demand.
 
 | # | Slug | Badge | Working title (EN) | Target query | AEO question (the direct-answer H2) |
 |---|------|-------|--------------------|--------------|-------------------------------------|
-| 18 | `insights-lot-records-receiving-materials` | Quality | What to record for each lot when APIs and excipients arrive | receiving api excipients lot number documentation | What should be recorded for each lot when APIs and excipients are received? |
 | 11 | `insights-free-sale-certificates-legalisation` | Documentation | Free sale certificates, legalisation and the paperwork that delays a shipment | free sale certificate legalisation medical import | What is a free sale certificate and when does it need legalising? |
 | 12 | `insights-change-control-supplier-changes` | Quality | When your supplier changes something, what reaches your filing | supplier change control pharmaceutical filing | When a supplier changes something, what reaches your regulatory filing? |
 | 13 | `insights-cold-chain-medical-shipments` | Logistics | Temperature sensitive shipments: the qualification a buyer should ask about | cold chain qualification medical shipments | What qualification should you ask for on a temperature sensitive shipment? |
@@ -70,3 +69,4 @@ rather than inventing a new one.
 - `insights-hospitals-sourcing-from-china`, published 27 November 2026 (written by hand in the SEO/GEO session, owner approved 27 Nov); query `healthcare institutions sourcing china suppliers`; question "How can a hospital source from Chinese suppliers and control the risk?"
 - `insights-qualifying-excipient-suppliers`, published 27 November 2026 (same session); query `excipient sourcing supplier qualification`; question "How do you qualify an excipient supplier before the first order?"
 - `insights-verify-medical-supplier-china`, published 27 November 2026 (same session); query `how to verify medical supplier china`; question "How do you verify a medical supplier in China before paying?"
+- `insights-lot-records-receiving-materials`, published 27 November 2026; query `receiving api excipients lot number documentation`; question "What should be recorded for each lot when APIs and excipients are received?"

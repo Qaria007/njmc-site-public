@@ -105,3 +105,10 @@
 2026-11-03 step7 published: insights-remote-supplier-audits, en=1088 words, ar=907 words, commit 851364f958ccbf3ab76cf986dcc23b671036acb0
 2026-11-27 manual run (Claude Code on the Mac, SEO/GEO session): 3 articles written from queue rows 16, 17, 19 (Search Console data 15 Oct to 25 Nov); gates passed; wired into index/sitemap with backlinks. Note: no weekly runs logged after 2026-11-03.
 2026-11-27 run started
+2026-11-27 step1 topic: insights-lot-records-receiving-materials (row 18)
+2026-11-27 step1 done; step2 drafting
+2026-11-27 step2 draft written
+2026-11-27 step3 pages built
+2026-11-27 step4 gates passed on new pages (first attempt)
+2026-11-27 step5 wired into index/sitemap, backlink from insights-incoming-goods-inspection, topics.md updated
+2026-11-27 step6 site-wide gates: only 6 known pre-existing failures remain
